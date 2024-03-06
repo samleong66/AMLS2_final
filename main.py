@@ -8,10 +8,8 @@ import tensorflow as tf
 weights_dir = 'models/weights/srgan'
 weights_file = lambda filename: os.path.join(weights_dir, filename)
 
-config = tf.compat.v1.ConfigProto()
-config.gpu_options.per_process_gpu_memory_fraction = 0.6
-config.gpu_options.allow_growth=True
-sess = tf.compat.v1.Session(config=config)
+gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
+tf.config.experimental.set_memory_growth(gpus[0], True)
 
 os.makedirs(weights_dir, exist_ok=True)
 
@@ -30,7 +28,7 @@ if __name__ == "__main__":
     pre_trainer = SrganGeneratorTrainer(model=generator(), checkpoint_dir=f'.ckpt/pre_generator')
     pre_trainer.train(train_dataset,
                   valid_dataset.take(10),
-                  steps=1000000, 
+                  steps=10000,
                   evaluate_every=1000, 
                   save_best_only=False)
 
@@ -41,7 +39,7 @@ if __name__ == "__main__":
     gan_generator.load_weights(weights_file('pre_generator.h5'))
 
     gan_trainer = SrganTrainer(generator=gan_generator, discriminator=discriminator())
-    loss_result = gan_trainer.train(train_dataset, steps=200000)  
+    loss_result = gan_trainer.train(train_dataset, steps=20000)
 
     gan_trainer.generator.save_weights(weights_file('gan_generator.h5'))
     gan_trainer.discriminator.save_weights(weights_file('gan_discriminator.h5'))

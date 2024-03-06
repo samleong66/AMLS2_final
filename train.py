@@ -8,6 +8,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.optimizers.schedules import PiecewiseConstantDecay
 
 import model
+from data_preprocessing import evaluate
 
 class Trainer:
     def __init__(self,
@@ -83,7 +84,7 @@ class Trainer:
         return loss_value
 
     def evaluate(self, dataset):
-        return model.evaluate(self.checkpoint.model, dataset)
+        return evaluate(self.checkpoint.model, dataset)
 
     def restore(self):
         if self.checkpoint_manager.latest_checkpoint:
