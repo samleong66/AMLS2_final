@@ -1,6 +1,7 @@
 from tensorflow.keras.layers import Add, BatchNormalization, Conv2D, Dense, Flatten, Input, LeakyReLU, PReLU, Lambda
 from tensorflow.keras.models import Model
 from tensorflow.keras.applications.vgg19 import VGG19
+from data_preprocessing import laplacian_sharpen
 import tensorflow as tf
 
 from data_preprocessing import denormalize_m11, normalize_m11, pixel_shuffle, normalize_01

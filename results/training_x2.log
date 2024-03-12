@@ -915,3 +915,7 @@
 2024-03-12 12:42:06,377 - 99/100, SSIM: 0.776521825165939
 2024-03-12 12:42:07,733 - 100/100, SSIM: 0.5703120563459162
 2024-03-12 12:42:46,978 - SSIM in unknown_x2_valid_dataset: 0.6627863554904161
+2024-03-12 21:53:02,567 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2024-03-12 21:53:29,714 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2024-03-12 21:54:08,984 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2024-03-12 21:54:57,903 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).

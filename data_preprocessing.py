@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 import logging
 from skimage.metrics import structural_similarity
-import random
+import cv2
 
 DIV2K_RGB_MEAN = np.array([0.4488, 0.4371, 0.4040]) * 255
 
@@ -108,22 +108,17 @@ def pixel_shuffle(scale):
 
 
 def ssim(hr, sr):
-    # size = 100
-    # h, w = hr.shape[1:3]
-    # if h < size or w < size:
-    #     print("Error: Image dimensions are smaller than crop size")
-    #     return
-    # max_x = w - size
-    # max_y = h - size
-    # start_x = random.randint(0, max_x)
-    # start_y = random.randint(0, max_y)
-    # results = []
-    # for i in range(10):
-    #     hr_c, sr_c = hr[:, start_y:start_y+size, start_x:start_x+size, :][0].numpy(), sr[:, start_y:start_y+size, start_x:start_x+size, :][0].numpy()
-    #     result = structural_similarity(im1=hr_c, im2=sr_c, win_size=3, multichannel=True, data_range=(hr_c.max() - hr_c.min()))
-    #     if result != np.nan:
-    #         results.append(result)
-    #
-    # return np.mean(np.array(results))
+    return structural_similarity(im1=hr[0].numpy(), im2=sr[0].numpy(), win_size=3, multichannel=True,
+                                 data_range=(hr.numpy().max() - hr.numpy().min()))
 
-    return structural_similarity(im1=hr[0].numpy(), im2=sr[0].numpy(), win_size=3, multichannel=True, data_range=(hr.numpy().max() - hr.numpy().min()))
+
+def laplacian_sharpen(img):
+    if type(img) != np.ndarray:
+        img = np.asarray(img)
+
+    # gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+    laplacian = cv2.Laplacian(img, cv2.CV_64F)
+    laplacian = np.uint8(np.absolute(laplacian-255))
+    result = cv2.add(img, laplacian)
+
+    return tf.convert_to_tensor(result)

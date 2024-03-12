@@ -29,33 +29,36 @@ if __name__ == "__main__":
     logging.basicConfig(filename=f'results/training_x{DOWNSCALE}.log', level=logging.INFO,
                         format='%(asctime)s - %(message)s')
 
-    train = load_data.DIV2K(scale=DOWNSCALE, downgrade=DOWNSCALE_WAY, subset='train')
-    valid = load_data.DIV2K(scale=DOWNSCALE, downgrade=DOWNSCALE_WAY, subset='valid')
-    train_dataset = train.dataset(batch_size=8, random_transform=True)
-    valid_dataset = valid.dataset(batch_size=1, random_transform=False, repeat_count=1)
+    '''''''''
+    Evaluation
+    '''''''''
+    # valid = load_data.DIV2K(scale=DOWNSCALE, downgrade=DOWNSCALE_WAY, subset='valid')
+    # valid_dataset = valid.dataset(batch_size=1, random_transform=False, repeat_count=1)
+    #
+    # gan_generator = generator()
+    # gan_generator.load_weights(weights_file(f'gan_generator_x{DOWNSCALE}.h5'))
+    #
+    # psnr_valid = evaluate(gan_generator, valid_dataset, 'psnr')
+    # print(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {psnr_valid}")
+    # logging.info(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {psnr_valid}")
+    #
+    # ssim_valid = evaluate(gan_generator, valid_dataset, 'ssim')
+    # print(f"SSIM in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {ssim_valid}")
+    # logging.info(f"SSIM in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {ssim_valid}")
 
-    gan_generator = generator()
-    gan_generator.load_weights(weights_file(f'gan_generator_x{DOWNSCALE}.h5'))
-    # psnr_train = evaluate(gan_generator ,train_dataset)
-    # print(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_train_dataset: {psnr_train}")
-    # logging.info(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_train_dataset: {psnr_train}")
-
-    psnr_valid = evaluate(gan_generator, valid_dataset, 'psnr')
-    print(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {psnr_valid}")
-    logging.info(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {psnr_valid}")
-
-    ssim_valid = evaluate(gan_generator, valid_dataset, 'ssim')
-    print(f"SSIM in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {ssim_valid}")
-    logging.info(f"SSIM in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {ssim_valid}")
-
+    '''''''''
+    plot comparison
+    '''''''''
     # try:
     #     fig = compare_and_plot(DOWNSCALE, DOWNSCALE_WAY, generator(), generator())
     #     fig.savefig(comparison_file(f'comparison_{DOWNSCALE_WAY}_x{DOWNSCALE}.png'))
     # except Exception as e:
     #     print(e)
 
-    # logging.basicConfig(filename=f'results/training_x{DOWNSCALE}.log', level=logging.INFO, format='%(asctime)s - %(message)s')
-    #
+
+    '''''''''
+    training
+    '''''''''
     # train = load_data.DIV2K(scale=DOWNSCALE, downgrade=DOWNSCALE_WAY, subset='train')
     # valid = load_data.DIV2K(scale=DOWNSCALE, downgrade=DOWNSCALE_WAY, subset='valid')
     # train_dataset = train.dataset(batch_size=8, random_transform=True)
