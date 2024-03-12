@@ -1,9 +1,15 @@
 import tensorflow as tf
 import numpy as np
+import logging
+from skimage.metrics import structural_similarity
+import random
 
 DIV2K_RGB_MEAN = np.array([0.4488, 0.4371, 0.4040]) * 255
 
-def random_crop(lr_img, hr_img, hr_crop_size=96, scale=2):
+from config import HR_SIZE, DOWNSCALE
+
+
+def random_crop(lr_img, hr_img, hr_crop_size=HR_SIZE, scale=DOWNSCALE):
     lr_crop_size = hr_crop_size // scale
     lr_img_shape = tf.shape(lr_img)[:2]
 
@@ -45,13 +51,29 @@ def resolve(model, lr_batch):
     return sr_batch
 
 
-def evaluate(model, dataset):
-    psnr_values = []
-    for lr, hr in dataset:
-        sr = resolve(model, lr)
-        psnr_value = psnr(hr, sr)[0]
-        psnr_values.append(psnr_value)
-    return tf.reduce_mean(psnr_values)
+def evaluate(model, dataset, metric):
+    if metric == 'psnr':
+        psnr_values = []
+        dataset_num = len(dataset)
+        i = 1
+        for lr, hr in dataset:
+            sr = resolve(model, lr)
+            psnr_value = psnr(hr, sr)[0]
+            logging.info(f"{i}/{dataset_num}, PSNR: {psnr_value}")
+            i += 1
+            psnr_values.append(psnr_value)
+        return tf.reduce_mean(psnr_values)
+    elif metric == 'ssim':
+        ssim_values = []
+        dataset_num = len(dataset)
+        i = 1
+        for lr, hr in dataset:
+            sr = resolve(model, lr)
+            ssim_value = ssim(hr, sr)
+            logging.info(f"{i}/{dataset_num}, SSIM: {ssim_value}")
+            i += 1
+            ssim_values.append(ssim_value)
+        return tf.reduce_mean(ssim_values)
 
 
 def normalize(x, rgb_mean=DIV2K_RGB_MEAN):
@@ -83,3 +105,25 @@ def psnr(x1, x2):
 
 def pixel_shuffle(scale):
     return lambda x: tf.nn.depth_to_space(x, scale)
+
+
+def ssim(hr, sr):
+    # size = 100
+    # h, w = hr.shape[1:3]
+    # if h < size or w < size:
+    #     print("Error: Image dimensions are smaller than crop size")
+    #     return
+    # max_x = w - size
+    # max_y = h - size
+    # start_x = random.randint(0, max_x)
+    # start_y = random.randint(0, max_y)
+    # results = []
+    # for i in range(10):
+    #     hr_c, sr_c = hr[:, start_y:start_y+size, start_x:start_x+size, :][0].numpy(), sr[:, start_y:start_y+size, start_x:start_x+size, :][0].numpy()
+    #     result = structural_similarity(im1=hr_c, im2=sr_c, win_size=3, multichannel=True, data_range=(hr_c.max() - hr_c.min()))
+    #     if result != np.nan:
+    #         results.append(result)
+    #
+    # return np.mean(np.array(results))
+
+    return structural_similarity(im1=hr[0].numpy(), im2=sr[0].numpy(), win_size=3, multichannel=True, data_range=(hr.numpy().max() - hr.numpy().min()))

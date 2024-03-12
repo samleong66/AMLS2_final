@@ -1,0 +1,917 @@
+50/20000, perceptual loss = 0.0384, discriminator loss = 1.9674
+100/20000, perceptual loss = 0.0380, discriminator loss = 1.3474
+150/20000, perceptual loss = 0.0356, discriminator loss = 1.3602
+200/20000, perceptual loss = 0.0339, discriminator loss = 1.1879
+250/20000, perceptual loss = 0.0312, discriminator loss = 0.9071
+300/20000, perceptual loss = 0.0374, discriminator loss = 0.9048
+350/20000, perceptual loss = 0.0373, discriminator loss = 0.3727
+400/20000, perceptual loss = 0.0389, discriminator loss = 0.3240
+450/20000, perceptual loss = 0.0448, discriminator loss = 0.4179
+500/20000, perceptual loss = 0.0391, discriminator loss = 0.7590
+550/20000, perceptual loss = 0.0403, discriminator loss = 0.4351
+600/20000, perceptual loss = 0.0427, discriminator loss = 0.2037
+650/20000, perceptual loss = 0.0381, discriminator loss = 0.5788
+700/20000, perceptual loss = 0.0384, discriminator loss = 0.4309
+750/20000, perceptual loss = 0.0393, discriminator loss = 0.3914
+800/20000, perceptual loss = 0.0407, discriminator loss = 0.6500
+850/20000, perceptual loss = 0.0359, discriminator loss = 0.7470
+900/20000, perceptual loss = 0.0411, discriminator loss = 0.2274
+950/20000, perceptual loss = 0.0406, discriminator loss = 0.6207
+1000/20000, perceptual loss = 0.0393, discriminator loss = 0.4735
+1050/20000, perceptual loss = 0.0396, discriminator loss = 0.3537
+1100/20000, perceptual loss = 0.0387, discriminator loss = 0.5437
+1150/20000, perceptual loss = 0.0364, discriminator loss = 0.8138
+1200/20000, perceptual loss = 0.0364, discriminator loss = 0.3324
+1250/20000, perceptual loss = 0.0402, discriminator loss = 0.5816
+1300/20000, perceptual loss = 0.0388, discriminator loss = 0.8194
+1350/20000, perceptual loss = 0.0401, discriminator loss = 0.6644
+1400/20000, perceptual loss = 0.0365, discriminator loss = 0.6596
+1450/20000, perceptual loss = 0.0389, discriminator loss = 0.6572
+1500/20000, perceptual loss = 0.0418, discriminator loss = 0.6633
+1550/20000, perceptual loss = 0.0403, discriminator loss = 0.5263
+1600/20000, perceptual loss = 0.0378, discriminator loss = 0.7736
+1650/20000, perceptual loss = 0.0387, discriminator loss = 0.5601
+1700/20000, perceptual loss = 0.0388, discriminator loss = 0.6414
+1750/20000, perceptual loss = 0.0356, discriminator loss = 0.6273
+1800/20000, perceptual loss = 0.0364, discriminator loss = 0.4775
+1850/20000, perceptual loss = 0.0405, discriminator loss = 0.5245
+1900/20000, perceptual loss = 0.0397, discriminator loss = 0.7663
+1950/20000, perceptual loss = 0.0359, discriminator loss = 0.8789
+2000/20000, perceptual loss = 0.0363, discriminator loss = 0.7506
+2050/20000, perceptual loss = 0.0366, discriminator loss = 0.6459
+2100/20000, perceptual loss = 0.0395, discriminator loss = 0.7498
+2150/20000, perceptual loss = 0.0391, discriminator loss = 0.5551
+2200/20000, perceptual loss = 0.0355, discriminator loss = 0.5165
+2250/20000, perceptual loss = 0.0387, discriminator loss = 0.8054
+2300/20000, perceptual loss = 0.0353, discriminator loss = 0.5605
+2350/20000, perceptual loss = 0.0376, discriminator loss = 0.6658
+2400/20000, perceptual loss = 0.0337, discriminator loss = 0.6533
+2450/20000, perceptual loss = 0.0361, discriminator loss = 0.7138
+2500/20000, perceptual loss = 0.0359, discriminator loss = 0.6563
+2550/20000, perceptual loss = 0.0368, discriminator loss = 0.6010
+2600/20000, perceptual loss = 0.0362, discriminator loss = 0.9625
+2650/20000, perceptual loss = 0.0350, discriminator loss = 0.6116
+2700/20000, perceptual loss = 0.0320, discriminator loss = 0.6329
+2750/20000, perceptual loss = 0.0357, discriminator loss = 0.8299
+2800/20000, perceptual loss = 0.0335, discriminator loss = 0.6450
+2850/20000, perceptual loss = 0.0337, discriminator loss = 0.7248
+2900/20000, perceptual loss = 0.0321, discriminator loss = 0.7508
+2950/20000, perceptual loss = 0.0349, discriminator loss = 0.7158
+3000/20000, perceptual loss = 0.0324, discriminator loss = 0.5974
+3050/20000, perceptual loss = 0.0334, discriminator loss = 0.6606
+3100/20000, perceptual loss = 0.0346, discriminator loss = 0.7333
+3150/20000, perceptual loss = 0.0338, discriminator loss = 0.8407
+3200/20000, perceptual loss = 0.0324, discriminator loss = 0.4588
+3250/20000, perceptual loss = 0.0355, discriminator loss = 0.8840
+3300/20000, perceptual loss = 0.0320, discriminator loss = 0.8251
+3350/20000, perceptual loss = 0.0341, discriminator loss = 0.5450
+3400/20000, perceptual loss = 0.0330, discriminator loss = 0.5798
+3450/20000, perceptual loss = 0.0332, discriminator loss = 0.7005
+3500/20000, perceptual loss = 0.0371, discriminator loss = 0.5587
+3550/20000, perceptual loss = 0.0334, discriminator loss = 0.5155
+3600/20000, perceptual loss = 0.0325, discriminator loss = 0.7123
+3650/20000, perceptual loss = 0.0331, discriminator loss = 0.9065
+3700/20000, perceptual loss = 0.0301, discriminator loss = 0.7194
+3750/20000, perceptual loss = 0.0343, discriminator loss = 0.4927
+3800/20000, perceptual loss = 0.0340, discriminator loss = 1.0145
+3850/20000, perceptual loss = 0.0327, discriminator loss = 0.5311
+3900/20000, perceptual loss = 0.0352, discriminator loss = 0.5607
+3950/20000, perceptual loss = 0.0326, discriminator loss = 0.6018
+4000/20000, perceptual loss = 0.0299, discriminator loss = 0.7171
+4050/20000, perceptual loss = 0.0315, discriminator loss = 0.5660
+4100/20000, perceptual loss = 0.0319, discriminator loss = 0.5508
+4150/20000, perceptual loss = 0.0346, discriminator loss = 0.6120
+4200/20000, perceptual loss = 0.0333, discriminator loss = 0.7015
+4250/20000, perceptual loss = 0.0307, discriminator loss = 0.6430
+4300/20000, perceptual loss = 0.0310, discriminator loss = 0.6864
+4350/20000, perceptual loss = 0.0313, discriminator loss = 0.6356
+4400/20000, perceptual loss = 0.0310, discriminator loss = 0.6642
+4450/20000, perceptual loss = 0.0330, discriminator loss = 0.8286
+4500/20000, perceptual loss = 0.0292, discriminator loss = 0.4325
+4550/20000, perceptual loss = 0.0302, discriminator loss = 0.5091
+4600/20000, perceptual loss = 0.0307, discriminator loss = 0.8286
+4650/20000, perceptual loss = 0.0314, discriminator loss = 0.5838
+4700/20000, perceptual loss = 0.0306, discriminator loss = 0.4518
+4750/20000, perceptual loss = 0.0331, discriminator loss = 0.5815
+4800/20000, perceptual loss = 0.0324, discriminator loss = 0.7389
+4850/20000, perceptual loss = 0.0313, discriminator loss = 0.8034
+4900/20000, perceptual loss = 0.0295, discriminator loss = 0.5557
+4950/20000, perceptual loss = 0.0318, discriminator loss = 0.6971
+5000/20000, perceptual loss = 0.0299, discriminator loss = 0.9142
+5050/20000, perceptual loss = 0.0295, discriminator loss = 0.4977
+5100/20000, perceptual loss = 0.0301, discriminator loss = 0.6403
+5150/20000, perceptual loss = 0.0309, discriminator loss = 0.5660
+5200/20000, perceptual loss = 0.0301, discriminator loss = 0.7710
+5250/20000, perceptual loss = 0.0302, discriminator loss = 0.9176
+5300/20000, perceptual loss = 0.0290, discriminator loss = 0.5243
+5350/20000, perceptual loss = 0.0299, discriminator loss = 0.5436
+5400/20000, perceptual loss = 0.0300, discriminator loss = 0.7336
+5450/20000, perceptual loss = 0.0324, discriminator loss = 0.3717
+5500/20000, perceptual loss = 0.0309, discriminator loss = 0.9204
+5550/20000, perceptual loss = 0.0310, discriminator loss = 0.8603
+5600/20000, perceptual loss = 0.0285, discriminator loss = 0.5551
+5650/20000, perceptual loss = 0.0296, discriminator loss = 0.5853
+5700/20000, perceptual loss = 0.0305, discriminator loss = 0.5808
+5750/20000, perceptual loss = 0.0312, discriminator loss = 0.6963
+5800/20000, perceptual loss = 0.0321, discriminator loss = 0.7274
+5850/20000, perceptual loss = 0.0301, discriminator loss = 0.8286
+5900/20000, perceptual loss = 0.0300, discriminator loss = 0.5164
+5950/20000, perceptual loss = 0.0300, discriminator loss = 1.0080
+6000/20000, perceptual loss = 0.0293, discriminator loss = 0.5117
+6050/20000, perceptual loss = 0.0289, discriminator loss = 0.5830
+6100/20000, perceptual loss = 0.0291, discriminator loss = 0.6640
+6150/20000, perceptual loss = 0.0287, discriminator loss = 0.7037
+6200/20000, perceptual loss = 0.0293, discriminator loss = 0.6110
+6250/20000, perceptual loss = 0.0321, discriminator loss = 0.7915
+6300/20000, perceptual loss = 0.0338, discriminator loss = 0.6648
+6350/20000, perceptual loss = 0.0301, discriminator loss = 0.4825
+6400/20000, perceptual loss = 0.0306, discriminator loss = 0.6683
+6450/20000, perceptual loss = 0.0289, discriminator loss = 0.6156
+6500/20000, perceptual loss = 0.0284, discriminator loss = 0.5590
+6550/20000, perceptual loss = 0.0301, discriminator loss = 0.7412
+6600/20000, perceptual loss = 0.0304, discriminator loss = 0.6023
+6650/20000, perceptual loss = 0.0308, discriminator loss = 0.6053
+6700/20000, perceptual loss = 0.0298, discriminator loss = 0.6076
+6750/20000, perceptual loss = 0.0294, discriminator loss = 0.6919
+6800/20000, perceptual loss = 0.0296, discriminator loss = 0.5705
+6850/20000, perceptual loss = 0.0300, discriminator loss = 0.7131
+6900/20000, perceptual loss = 0.0303, discriminator loss = 0.5439
+6950/20000, perceptual loss = 0.0311, discriminator loss = 0.7152
+7000/20000, perceptual loss = 0.0295, discriminator loss = 0.7260
+7050/20000, perceptual loss = 0.0274, discriminator loss = 0.6385
+7100/20000, perceptual loss = 0.0292, discriminator loss = 0.7783
+7150/20000, perceptual loss = 0.0300, discriminator loss = 0.7542
+7200/20000, perceptual loss = 0.0283, discriminator loss = 0.5867
+7250/20000, perceptual loss = 0.0290, discriminator loss = 0.7414
+7300/20000, perceptual loss = 0.0308, discriminator loss = 0.6818
+7350/20000, perceptual loss = 0.0284, discriminator loss = 0.8355
+7400/20000, perceptual loss = 0.0269, discriminator loss = 0.6859
+7450/20000, perceptual loss = 0.0286, discriminator loss = 0.8178
+7500/20000, perceptual loss = 0.0263, discriminator loss = 0.3730
+7550/20000, perceptual loss = 0.0283, discriminator loss = 0.8229
+7600/20000, perceptual loss = 0.0275, discriminator loss = 0.5236
+7650/20000, perceptual loss = 0.0282, discriminator loss = 0.7225
+7700/20000, perceptual loss = 0.0283, discriminator loss = 0.5449
+7750/20000, perceptual loss = 0.0284, discriminator loss = 0.5722
+7800/20000, perceptual loss = 0.0283, discriminator loss = 0.6287
+7850/20000, perceptual loss = 0.0304, discriminator loss = 0.6537
+7900/20000, perceptual loss = 0.0290, discriminator loss = 0.6698
+7950/20000, perceptual loss = 0.0286, discriminator loss = 0.5546
+8000/20000, perceptual loss = 0.0279, discriminator loss = 0.8157
+8050/20000, perceptual loss = 0.0288, discriminator loss = 0.6899
+8100/20000, perceptual loss = 0.0264, discriminator loss = 0.5989
+8150/20000, perceptual loss = 0.0271, discriminator loss = 0.6622
+8200/20000, perceptual loss = 0.0262, discriminator loss = 0.6450
+8250/20000, perceptual loss = 0.0296, discriminator loss = 0.5932
+8300/20000, perceptual loss = 0.0291, discriminator loss = 0.7132
+8350/20000, perceptual loss = 0.0269, discriminator loss = 0.7565
+8400/20000, perceptual loss = 0.0290, discriminator loss = 0.6106
+8450/20000, perceptual loss = 0.0284, discriminator loss = 0.7046
+8500/20000, perceptual loss = 0.0260, discriminator loss = 0.5178
+8550/20000, perceptual loss = 0.0280, discriminator loss = 0.7706
+8600/20000, perceptual loss = 0.0269, discriminator loss = 0.8146
+8650/20000, perceptual loss = 0.0268, discriminator loss = 0.7485
+8700/20000, perceptual loss = 0.0266, discriminator loss = 0.6071
+8750/20000, perceptual loss = 0.0277, discriminator loss = 0.6894
+8800/20000, perceptual loss = 0.0271, discriminator loss = 0.5417
+8850/20000, perceptual loss = 0.0276, discriminator loss = 0.6403
+8900/20000, perceptual loss = 0.0263, discriminator loss = 0.6214
+8950/20000, perceptual loss = 0.0275, discriminator loss = 0.6946
+9000/20000, perceptual loss = 0.0281, discriminator loss = 0.5122
+9050/20000, perceptual loss = 0.0285, discriminator loss = 0.7985
+9100/20000, perceptual loss = 0.0457, discriminator loss = 0.2787
+9150/20000, perceptual loss = 0.0455, discriminator loss = 0.3901
+9200/20000, perceptual loss = 0.0405, discriminator loss = 0.2283
+9250/20000, perceptual loss = 0.0416, discriminator loss = 0.8322
+9300/20000, perceptual loss = 0.0414, discriminator loss = 0.3712
+9350/20000, perceptual loss = 0.0376, discriminator loss = 0.6751
+9400/20000, perceptual loss = 0.0399, discriminator loss = 0.5123
+9450/20000, perceptual loss = 0.0353, discriminator loss = 0.3905
+9500/20000, perceptual loss = 0.0331, discriminator loss = 0.4340
+9550/20000, perceptual loss = 0.0329, discriminator loss = 0.4679
+9600/20000, perceptual loss = 0.0351, discriminator loss = 0.4619
+9650/20000, perceptual loss = 0.0309, discriminator loss = 0.4257
+9700/20000, perceptual loss = 0.0298, discriminator loss = 0.3821
+9750/20000, perceptual loss = 0.0309, discriminator loss = 0.6562
+9800/20000, perceptual loss = 0.0279, discriminator loss = 0.5795
+9850/20000, perceptual loss = 0.0306, discriminator loss = 0.4835
+9900/20000, perceptual loss = 0.0289, discriminator loss = 0.6521
+9950/20000, perceptual loss = 0.0285, discriminator loss = 0.4761
+10000/20000, perceptual loss = 0.0281, discriminator loss = 0.7842
+10050/20000, perceptual loss = 0.0263, discriminator loss = 0.5617
+10100/20000, perceptual loss = 0.0272, discriminator loss = 0.5972
+10150/20000, perceptual loss = 0.0275, discriminator loss = 0.5090
+10200/20000, perceptual loss = 0.0279, discriminator loss = 0.6555
+10250/20000, perceptual loss = 0.0280, discriminator loss = 0.4081
+10300/20000, perceptual loss = 0.0275, discriminator loss = 0.6822
+10350/20000, perceptual loss = 0.0283, discriminator loss = 0.6274
+10400/20000, perceptual loss = 0.0272, discriminator loss = 0.5219
+10450/20000, perceptual loss = 0.0274, discriminator loss = 0.6543
+10500/20000, perceptual loss = 0.0271, discriminator loss = 0.5390
+10550/20000, perceptual loss = 0.0265, discriminator loss = 0.6639
+10600/20000, perceptual loss = 0.0264, discriminator loss = 0.4260
+10650/20000, perceptual loss = 0.0264, discriminator loss = 0.6638
+10700/20000, perceptual loss = 0.0256, discriminator loss = 0.7363
+10750/20000, perceptual loss = 0.0259, discriminator loss = 0.4091
+10800/20000, perceptual loss = 0.0261, discriminator loss = 0.5690
+10850/20000, perceptual loss = 0.0268, discriminator loss = 0.5668
+10900/20000, perceptual loss = 0.0270, discriminator loss = 0.6265
+10950/20000, perceptual loss = 0.0260, discriminator loss = 0.6229
+11000/20000, perceptual loss = 0.0265, discriminator loss = 0.5381
+11050/20000, perceptual loss = 0.0261, discriminator loss = 0.4973
+11100/20000, perceptual loss = 0.0293, discriminator loss = 0.4467
+11150/20000, perceptual loss = 0.0376, discriminator loss = 0.4151
+11200/20000, perceptual loss = 0.0315, discriminator loss = 0.4250
+11250/20000, perceptual loss = 0.0300, discriminator loss = 0.4762
+11300/20000, perceptual loss = 0.0279, discriminator loss = 0.5467
+11350/20000, perceptual loss = 0.0301, discriminator loss = 0.6612
+11400/20000, perceptual loss = 0.0291, discriminator loss = 0.4637
+11450/20000, perceptual loss = 0.0291, discriminator loss = 0.8934
+11500/20000, perceptual loss = 0.0267, discriminator loss = 0.6908
+11550/20000, perceptual loss = 0.0271, discriminator loss = 0.3890
+11600/20000, perceptual loss = 0.0258, discriminator loss = 0.4930
+11650/20000, perceptual loss = 0.0254, discriminator loss = 0.5123
+11700/20000, perceptual loss = 0.0271, discriminator loss = 1.0010
+11750/20000, perceptual loss = 0.0253, discriminator loss = 0.5299
+11800/20000, perceptual loss = 0.0252, discriminator loss = 0.5003
+11850/20000, perceptual loss = 0.0280, discriminator loss = 0.3450
+11900/20000, perceptual loss = 0.0251, discriminator loss = 0.6176
+11950/20000, perceptual loss = 0.0267, discriminator loss = 0.6990
+12000/20000, perceptual loss = 0.0275, discriminator loss = 0.3201
+12050/20000, perceptual loss = 0.0269, discriminator loss = 0.6179
+12100/20000, perceptual loss = 0.0265, discriminator loss = 0.3301
+12150/20000, perceptual loss = 0.0253, discriminator loss = 0.6496
+12200/20000, perceptual loss = 0.0260, discriminator loss = 0.5272
+12250/20000, perceptual loss = 0.0256, discriminator loss = 0.4600
+12300/20000, perceptual loss = 0.0263, discriminator loss = 0.3321
+12350/20000, perceptual loss = 0.0273, discriminator loss = 0.5388
+12400/20000, perceptual loss = 0.0260, discriminator loss = 0.6525
+12450/20000, perceptual loss = 0.0251, discriminator loss = 0.5799
+12500/20000, perceptual loss = 0.0256, discriminator loss = 0.4525
+12550/20000, perceptual loss = 0.0261, discriminator loss = 0.3715
+12600/20000, perceptual loss = 0.0263, discriminator loss = 0.5856
+12650/20000, perceptual loss = 0.0250, discriminator loss = 0.6369
+12700/20000, perceptual loss = 0.0260, discriminator loss = 0.5593
+12750/20000, perceptual loss = 0.0256, discriminator loss = 0.4405
+12800/20000, perceptual loss = 0.0253, discriminator loss = 0.3871
+12850/20000, perceptual loss = 0.0270, discriminator loss = 0.4323
+12900/20000, perceptual loss = 0.0252, discriminator loss = 0.5125
+12950/20000, perceptual loss = 0.0264, discriminator loss = 0.4960
+13000/20000, perceptual loss = 0.0250, discriminator loss = 0.5218
+13050/20000, perceptual loss = 0.0269, discriminator loss = 0.5970
+13100/20000, perceptual loss = 0.0268, discriminator loss = 0.5588
+13150/20000, perceptual loss = 0.0269, discriminator loss = 0.4131
+13200/20000, perceptual loss = 0.0257, discriminator loss = 0.4107
+13250/20000, perceptual loss = 0.0253, discriminator loss = 0.4416
+13300/20000, perceptual loss = 0.0254, discriminator loss = 0.5824
+13350/20000, perceptual loss = 0.0280, discriminator loss = 0.6915
+13400/20000, perceptual loss = 0.0254, discriminator loss = 0.4132
+13450/20000, perceptual loss = 0.0255, discriminator loss = 0.5408
+13500/20000, perceptual loss = 0.0272, discriminator loss = 0.5679
+13550/20000, perceptual loss = 0.0268, discriminator loss = 0.6202
+13600/20000, perceptual loss = 0.0255, discriminator loss = 0.4753
+13650/20000, perceptual loss = 0.0256, discriminator loss = 0.6720
+13700/20000, perceptual loss = 0.0254, discriminator loss = 0.6835
+13750/20000, perceptual loss = 0.0260, discriminator loss = 0.5557
+13800/20000, perceptual loss = 0.0263, discriminator loss = 0.6430
+13850/20000, perceptual loss = 0.0234, discriminator loss = 0.3678
+13900/20000, perceptual loss = 0.0264, discriminator loss = 0.4440
+13950/20000, perceptual loss = 0.0255, discriminator loss = 0.4930
+14000/20000, perceptual loss = 0.0263, discriminator loss = 0.4549
+14050/20000, perceptual loss = 0.0269, discriminator loss = 0.5020
+14100/20000, perceptual loss = 0.0253, discriminator loss = 0.7253
+14150/20000, perceptual loss = 0.0249, discriminator loss = 0.5919
+14200/20000, perceptual loss = 0.0250, discriminator loss = 0.5238
+14250/20000, perceptual loss = 0.0242, discriminator loss = 0.7342
+14300/20000, perceptual loss = 0.0251, discriminator loss = 0.6541
+14350/20000, perceptual loss = 0.0230, discriminator loss = 0.6387
+14400/20000, perceptual loss = 0.0245, discriminator loss = 0.6880
+14450/20000, perceptual loss = 0.0245, discriminator loss = 0.3331
+14500/20000, perceptual loss = 0.0256, discriminator loss = 0.3892
+14550/20000, perceptual loss = 0.0266, discriminator loss = 0.3981
+14600/20000, perceptual loss = 0.0244, discriminator loss = 0.5340
+14650/20000, perceptual loss = 0.0246, discriminator loss = 0.5296
+14700/20000, perceptual loss = 0.0268, discriminator loss = 0.6882
+14750/20000, perceptual loss = 0.0253, discriminator loss = 0.5814
+14800/20000, perceptual loss = 0.0228, discriminator loss = 0.5911
+14850/20000, perceptual loss = 0.0235, discriminator loss = 0.5683
+14900/20000, perceptual loss = 0.0248, discriminator loss = 0.5060
+14950/20000, perceptual loss = 0.0256, discriminator loss = 0.3647
+15000/20000, perceptual loss = 0.0250, discriminator loss = 0.7335
+15050/20000, perceptual loss = 0.0249, discriminator loss = 0.3989
+15100/20000, perceptual loss = 0.0247, discriminator loss = 0.6734
+15150/20000, perceptual loss = 0.0240, discriminator loss = 0.7311
+15200/20000, perceptual loss = 0.0245, discriminator loss = 0.5093
+15250/20000, perceptual loss = 0.0247, discriminator loss = 0.4947
+15300/20000, perceptual loss = 0.0244, discriminator loss = 0.7557
+15350/20000, perceptual loss = 0.0237, discriminator loss = 0.6496
+15400/20000, perceptual loss = 0.0255, discriminator loss = 0.5172
+15450/20000, perceptual loss = 0.0242, discriminator loss = 0.4540
+15500/20000, perceptual loss = 0.0247, discriminator loss = 0.5033
+15550/20000, perceptual loss = 0.0248, discriminator loss = 0.7144
+15600/20000, perceptual loss = 0.0238, discriminator loss = 0.5863
+15650/20000, perceptual loss = 0.0244, discriminator loss = 0.4487
+15700/20000, perceptual loss = 0.0264, discriminator loss = 0.4749
+15750/20000, perceptual loss = 0.0254, discriminator loss = 0.5444
+15800/20000, perceptual loss = 0.0244, discriminator loss = 0.7015
+15850/20000, perceptual loss = 0.0252, discriminator loss = 0.5668
+15900/20000, perceptual loss = 0.0256, discriminator loss = 0.5016
+15950/20000, perceptual loss = 0.0239, discriminator loss = 0.4666
+16000/20000, perceptual loss = 0.0255, discriminator loss = 0.4423
+16050/20000, perceptual loss = 0.0258, discriminator loss = 0.3977
+16100/20000, perceptual loss = 0.0247, discriminator loss = 0.7001
+16150/20000, perceptual loss = 0.0256, discriminator loss = 0.7127
+16200/20000, perceptual loss = 0.0234, discriminator loss = 0.7940
+16250/20000, perceptual loss = 0.0247, discriminator loss = 0.6467
+16300/20000, perceptual loss = 0.0245, discriminator loss = 0.5925
+16350/20000, perceptual loss = 0.0247, discriminator loss = 0.4745
+16400/20000, perceptual loss = 0.0243, discriminator loss = 0.4799
+16450/20000, perceptual loss = 0.0249, discriminator loss = 0.5347
+16500/20000, perceptual loss = 0.0241, discriminator loss = 0.6786
+16550/20000, perceptual loss = 0.0237, discriminator loss = 0.5840
+16600/20000, perceptual loss = 0.0233, discriminator loss = 0.7076
+16650/20000, perceptual loss = 0.0242, discriminator loss = 0.4003
+16700/20000, perceptual loss = 0.0251, discriminator loss = 0.5565
+16750/20000, perceptual loss = 0.0245, discriminator loss = 0.4122
+16800/20000, perceptual loss = 0.0276, discriminator loss = 0.4444
+16850/20000, perceptual loss = 0.0262, discriminator loss = 0.5210
+16900/20000, perceptual loss = 0.0255, discriminator loss = 0.5832
+16950/20000, perceptual loss = 0.0250, discriminator loss = 0.5892
+17000/20000, perceptual loss = 0.0258, discriminator loss = 0.4980
+17050/20000, perceptual loss = 0.0282, discriminator loss = 0.5540
+17100/20000, perceptual loss = 0.0255, discriminator loss = 0.6847
+17150/20000, perceptual loss = 0.0243, discriminator loss = 0.5082
+17200/20000, perceptual loss = 0.0240, discriminator loss = 0.6092
+17250/20000, perceptual loss = 0.0243, discriminator loss = 0.4842
+17300/20000, perceptual loss = 0.0249, discriminator loss = 0.6812
+17350/20000, perceptual loss = 0.0248, discriminator loss = 0.5168
+17400/20000, perceptual loss = 0.0230, discriminator loss = 0.6744
+17450/20000, perceptual loss = 0.0232, discriminator loss = 0.4633
+17500/20000, perceptual loss = 0.0237, discriminator loss = 0.6679
+17550/20000, perceptual loss = 0.0244, discriminator loss = 0.4449
+17600/20000, perceptual loss = 0.0242, discriminator loss = 0.6539
+17650/20000, perceptual loss = 0.0240, discriminator loss = 0.7633
+17700/20000, perceptual loss = 0.0233, discriminator loss = 0.6449
+17750/20000, perceptual loss = 0.0239, discriminator loss = 0.4865
+17800/20000, perceptual loss = 0.0231, discriminator loss = 0.7258
+17850/20000, perceptual loss = 0.0235, discriminator loss = 0.5064
+17900/20000, perceptual loss = 0.0229, discriminator loss = 0.4435
+17950/20000, perceptual loss = 0.0246, discriminator loss = 0.6725
+18000/20000, perceptual loss = 0.0231, discriminator loss = 0.6094
+18050/20000, perceptual loss = 0.0235, discriminator loss = 0.4958
+18100/20000, perceptual loss = 0.0250, discriminator loss = 0.5932
+18150/20000, perceptual loss = 0.0242, discriminator loss = 0.6755
+18200/20000, perceptual loss = 0.0221, discriminator loss = 0.4787
+18250/20000, perceptual loss = 0.0232, discriminator loss = 0.5459
+18300/20000, perceptual loss = 0.0243, discriminator loss = 0.5979
+18350/20000, perceptual loss = 0.0235, discriminator loss = 0.6647
+18400/20000, perceptual loss = 0.0245, discriminator loss = 0.5935
+18450/20000, perceptual loss = 0.0229, discriminator loss = 0.7175
+18500/20000, perceptual loss = 0.0233, discriminator loss = 0.6423
+18550/20000, perceptual loss = 0.0232, discriminator loss = 0.5772
+18600/20000, perceptual loss = 0.0228, discriminator loss = 0.6337
+18650/20000, perceptual loss = 0.0237, discriminator loss = 0.4143
+18700/20000, perceptual loss = 0.0230, discriminator loss = 0.5837
+18750/20000, perceptual loss = 0.0236, discriminator loss = 0.7456
+18800/20000, perceptual loss = 0.0229, discriminator loss = 0.4508
+18850/20000, perceptual loss = 0.0237, discriminator loss = 0.6490
+18900/20000, perceptual loss = 0.0226, discriminator loss = 0.6311
+18950/20000, perceptual loss = 0.0237, discriminator loss = 0.5648
+19000/20000, perceptual loss = 0.0252, discriminator loss = 0.6949
+19050/20000, perceptual loss = 0.0227, discriminator loss = 0.5446
+19100/20000, perceptual loss = 0.0242, discriminator loss = 0.4285
+19150/20000, perceptual loss = 0.0241, discriminator loss = 1.0725
+19200/20000, perceptual loss = 0.0220, discriminator loss = 0.6381
+19250/20000, perceptual loss = 0.0242, discriminator loss = 0.4418
+19300/20000, perceptual loss = 0.0227, discriminator loss = 0.4772
+19350/20000, perceptual loss = 0.0247, discriminator loss = 0.5478
+19400/20000, perceptual loss = 0.0244, discriminator loss = 0.7138
+19450/20000, perceptual loss = 0.0233, discriminator loss = 0.3459
+19500/20000, perceptual loss = 0.0229, discriminator loss = 0.5345
+19550/20000, perceptual loss = 0.0299, discriminator loss = 0.5354
+19600/20000, perceptual loss = 0.0317, discriminator loss = 0.5355
+19650/20000, perceptual loss = 0.0298, discriminator loss = 0.7515
+19700/20000, perceptual loss = 0.0258, discriminator loss = 0.4859
+19750/20000, perceptual loss = 0.0234, discriminator loss = 0.5513
+19800/20000, perceptual loss = 0.0249, discriminator loss = 0.3004
+19850/20000, perceptual loss = 0.0235, discriminator loss = 0.4477
+19900/20000, perceptual loss = 0.0249, discriminator loss = 0.7096
+19950/20000, perceptual loss = 0.0228, discriminator loss = 0.5586
+20000/20000, perceptual loss = 0.0244, discriminator loss = 0.5720
+
+
+3000/10000: loss = 131.376, PSNR = 30.094074 (301.26s)
+4000/10000: loss = 121.270, PSNR = 30.013708 (292.30s)
+5000/10000: loss = 110.066, PSNR = 30.377758 (291.13s)
+6000/10000: loss = 103.504, PSNR = 31.352081 (290.55s)
+7000/10000: loss = 98.313, PSNR = 31.682825 (288.02s)
+8000/10000: loss = 94.765, PSNR = 30.721531 (289.52s)
+9000/10000: loss = 92.602, PSNR = 31.190556 (292.64s)
+10000/10000: loss = 89.243, PSNR = 32.360550 (292.91s)
+
+
+2024-03-12 12:28:33,177 - 1/100, PSNR: 31.21148681640625
+2024-03-12 12:28:33,783 - 2/100, PSNR: 33.23945617675781
+2024-03-12 12:28:36,950 - 3/100, PSNR: 35.33170700073242
+2024-03-12 12:28:39,421 - 4/100, PSNR: 27.876955032348633
+2024-03-12 12:28:40,102 - 5/100, PSNR: 29.62322425842285
+2024-03-12 12:28:40,710 - 6/100, PSNR: 29.3304443359375
+2024-03-12 12:28:43,043 - 7/100, PSNR: 20.163196563720703
+2024-03-12 12:28:43,648 - 8/100, PSNR: 25.156538009643555
+2024-03-12 12:28:44,249 - 9/100, PSNR: 35.413570404052734
+2024-03-12 12:28:44,922 - 10/100, PSNR: 28.956932067871094
+2024-03-12 12:28:45,527 - 11/100, PSNR: 29.596847534179688
+2024-03-12 12:28:46,210 - 12/100, PSNR: 28.041851043701172
+2024-03-12 12:28:49,249 - 13/100, PSNR: 30.822738647460938
+2024-03-12 12:28:49,861 - 14/100, PSNR: 28.789073944091797
+2024-03-12 12:28:50,466 - 15/100, PSNR: 33.2488899230957
+2024-03-12 12:28:51,068 - 16/100, PSNR: 30.027942657470703
+2024-03-12 12:28:51,742 - 17/100, PSNR: 32.460025787353516
+2024-03-12 12:28:52,417 - 18/100, PSNR: 28.966646194458008
+2024-03-12 12:28:53,023 - 19/100, PSNR: 28.912038803100586
+2024-03-12 12:28:53,629 - 20/100, PSNR: 25.145709991455078
+2024-03-12 12:28:54,239 - 21/100, PSNR: 31.256559371948242
+2024-03-12 12:28:57,546 - 22/100, PSNR: 31.976844787597656
+2024-03-12 12:29:00,213 - 23/100, PSNR: 25.95294189453125
+2024-03-12 12:29:00,818 - 24/100, PSNR: 28.601970672607422
+2024-03-12 12:29:01,422 - 25/100, PSNR: 28.637155532836914
+2024-03-12 12:29:02,104 - 26/100, PSNR: 24.170612335205078
+2024-03-12 12:29:02,778 - 27/100, PSNR: 32.89842224121094
+2024-03-12 12:29:03,381 - 28/100, PSNR: 22.93914222717285
+2024-03-12 12:29:03,990 - 29/100, PSNR: 25.47943115234375
+2024-03-12 12:29:05,698 - 30/100, PSNR: 24.656354904174805
+2024-03-12 12:29:06,301 - 31/100, PSNR: 30.674028396606445
+2024-03-12 12:29:06,910 - 32/100, PSNR: 30.701997756958008
+2024-03-12 12:29:10,107 - 33/100, PSNR: 31.90496253967285
+2024-03-12 12:29:10,713 - 34/100, PSNR: 23.302021026611328
+2024-03-12 12:29:14,056 - 35/100, PSNR: 22.87866973876953
+2024-03-12 12:29:14,734 - 36/100, PSNR: 25.308349609375
+2024-03-12 12:29:15,337 - 37/100, PSNR: 28.22901725769043
+2024-03-12 12:29:15,946 - 38/100, PSNR: 34.492919921875
+2024-03-12 12:29:16,552 - 39/100, PSNR: 29.096769332885742
+2024-03-12 12:29:17,156 - 40/100, PSNR: 29.747966766357422
+2024-03-12 12:29:17,764 - 41/100, PSNR: 30.25930404663086
+2024-03-12 12:29:18,370 - 42/100, PSNR: 29.289701461791992
+2024-03-12 12:29:18,971 - 43/100, PSNR: 37.73769760131836
+2024-03-12 12:29:21,788 - 44/100, PSNR: 27.340776443481445
+2024-03-12 12:29:22,392 - 45/100, PSNR: 24.681354522705078
+2024-03-12 12:29:25,227 - 46/100, PSNR: 26.121992111206055
+2024-03-12 12:29:25,834 - 47/100, PSNR: 28.378877639770508
+2024-03-12 12:29:26,512 - 48/100, PSNR: 27.38158416748047
+2024-03-12 12:29:27,113 - 49/100, PSNR: 24.275819778442383
+2024-03-12 12:29:27,718 - 50/100, PSNR: 28.564044952392578
+2024-03-12 12:29:30,505 - 51/100, PSNR: 28.679841995239258
+2024-03-12 12:29:32,907 - 52/100, PSNR: 29.201467514038086
+2024-03-12 12:29:33,514 - 53/100, PSNR: 34.356292724609375
+2024-03-12 12:29:35,732 - 54/100, PSNR: 25.470703125
+2024-03-12 12:29:39,939 - 55/100, PSNR: 29.18581771850586
+2024-03-12 12:29:40,546 - 56/100, PSNR: 25.65960693359375
+2024-03-12 12:29:43,476 - 57/100, PSNR: 31.11162567138672
+2024-03-12 12:29:44,083 - 58/100, PSNR: 29.25684928894043
+2024-03-12 12:29:44,688 - 59/100, PSNR: 26.225292205810547
+2024-03-12 12:29:45,371 - 60/100, PSNR: 20.764789581298828
+2024-03-12 12:29:45,977 - 61/100, PSNR: 24.16204071044922
+2024-03-12 12:29:46,585 - 62/100, PSNR: 31.50149154663086
+2024-03-12 12:29:49,689 - 63/100, PSNR: 31.227657318115234
+2024-03-12 12:29:50,293 - 64/100, PSNR: 30.048376083374023
+2024-03-12 12:29:50,972 - 65/100, PSNR: 26.933923721313477
+2024-03-12 12:29:51,580 - 66/100, PSNR: 24.432159423828125
+2024-03-12 12:29:52,198 - 67/100, PSNR: 30.093303680419922
+2024-03-12 12:29:52,805 - 68/100, PSNR: 31.67198371887207
+2024-03-12 12:29:53,415 - 69/100, PSNR: 25.245580673217773
+2024-03-12 12:29:56,673 - 70/100, PSNR: 31.69710350036621
+2024-03-12 12:29:57,279 - 71/100, PSNR: 33.14789962768555
+2024-03-12 12:29:57,879 - 72/100, PSNR: 24.398883819580078
+2024-03-12 12:29:58,479 - 73/100, PSNR: 24.565134048461914
+2024-03-12 12:29:59,082 - 74/100, PSNR: 29.092138290405273
+2024-03-12 12:29:59,760 - 75/100, PSNR: 25.36595344543457
+2024-03-12 12:30:00,369 - 76/100, PSNR: 21.64964485168457
+2024-03-12 12:30:00,880 - 77/100, PSNR: 39.01313018798828
+2024-03-12 12:30:04,470 - 78/100, PSNR: 33.413368225097656
+2024-03-12 12:30:08,334 - 79/100, PSNR: 28.553380966186523
+2024-03-12 12:30:08,938 - 80/100, PSNR: 33.32068634033203
+2024-03-12 12:30:11,548 - 81/100, PSNR: 26.568239212036133
+2024-03-12 12:30:12,154 - 82/100, PSNR: 33.122474670410156
+2024-03-12 12:30:15,006 - 83/100, PSNR: 28.5585994720459
+2024-03-12 12:30:15,610 - 84/100, PSNR: 26.852426528930664
+2024-03-12 12:30:16,209 - 85/100, PSNR: 22.460786819458008
+2024-03-12 12:30:16,810 - 86/100, PSNR: 34.01689910888672
+2024-03-12 12:30:17,413 - 87/100, PSNR: 24.581300735473633
+2024-03-12 12:30:18,021 - 88/100, PSNR: 29.611806869506836
+2024-03-12 12:30:18,631 - 89/100, PSNR: 30.89910316467285
+2024-03-12 12:30:19,242 - 90/100, PSNR: 24.54690933227539
+2024-03-12 12:30:22,680 - 91/100, PSNR: 27.046537399291992
+2024-03-12 12:30:23,253 - 92/100, PSNR: 30.068775177001953
+2024-03-12 12:30:23,859 - 93/100, PSNR: 30.853364944458008
+2024-03-12 12:30:24,468 - 94/100, PSNR: 29.14762306213379
+2024-03-12 12:30:25,033 - 95/100, PSNR: 20.367998123168945
+2024-03-12 12:30:25,636 - 96/100, PSNR: 28.942108154296875
+2024-03-12 12:30:26,244 - 97/100, PSNR: 22.859500885009766
+2024-03-12 12:30:26,847 - 98/100, PSNR: 32.112152099609375
+2024-03-12 12:30:27,451 - 99/100, PSNR: 31.90860939025879
+2024-03-12 12:30:27,958 - 100/100, PSNR: 28.39809799194336
+2024-03-12 12:30:27,961 - PSNR in bicubic_x2_valid_dataset: 28.616220474243164
+2024-03-12 12:30:28,593 - 1/100, SSIM: 0.6969849697726059
+2024-03-12 12:30:29,211 - 2/100, SSIM: 0.8316906160123624
+2024-03-12 12:30:29,899 - 3/100, SSIM: 0.9339731916881625
+2024-03-12 12:30:30,444 - 4/100, SSIM: 0.6991804921190123
+2024-03-12 12:30:31,134 - 5/100, SSIM: 0.8187597278094053
+2024-03-12 12:30:31,754 - 6/100, SSIM: 0.9313176524901859
+2024-03-12 12:30:32,272 - 7/100, SSIM: 0.3820426915693714
+2024-03-12 12:30:32,887 - 8/100, SSIM: 0.4022601739430186
+2024-03-12 12:30:33,506 - 9/100, SSIM: 0.9391655856085805
+2024-03-12 12:30:34,197 - 10/100, SSIM: 0.6264170338192054
+2024-03-12 12:30:34,812 - 11/100, SSIM: 0.6408929767148355
+2024-03-12 12:30:35,508 - 12/100, SSIM: 0.7986279746033417
+2024-03-12 12:30:36,169 - 13/100, SSIM: 0.49141215273320354
+2024-03-12 12:30:36,785 - 14/100, SSIM: 0.5888016651073825
+2024-03-12 12:30:37,408 - 15/100, SSIM: 0.8396816327681597
+2024-03-12 12:30:38,032 - 16/100, SSIM: 0.6998844412614897
+2024-03-12 12:30:38,724 - 17/100, SSIM: 0.7868759761555635
+2024-03-12 12:30:39,422 - 18/100, SSIM: 0.5962056498286661
+2024-03-12 12:30:40,045 - 19/100, SSIM: 0.9368306452602061
+2024-03-12 12:30:40,659 - 20/100, SSIM: 0.8642920762743385
+2024-03-12 12:30:41,285 - 21/100, SSIM: 0.7555928771244182
+2024-03-12 12:30:42,008 - 22/100, SSIM: 0.8661526949583551
+2024-03-12 12:30:42,596 - 23/100, SSIM: 0.801841714249855
+2024-03-12 12:30:43,213 - 24/100, SSIM: 0.8358156993615866
+2024-03-12 12:30:43,833 - 25/100, SSIM: 0.5792404915946054
+2024-03-12 12:30:44,526 - 26/100, SSIM: 0.7505182260673732
+2024-03-12 12:30:45,222 - 27/100, SSIM: 0.6142158628516122
+2024-03-12 12:30:45,843 - 28/100, SSIM: 0.7078226796496044
+2024-03-12 12:30:46,461 - 29/100, SSIM: 0.6307331721072897
+2024-03-12 12:30:46,848 - 30/100, SSIM: 0.5296910960115182
+2024-03-12 12:30:47,465 - 31/100, SSIM: 0.858953582275503
+2024-03-12 12:30:48,081 - 32/100, SSIM: 0.9254310926307532
+2024-03-12 12:30:48,780 - 33/100, SSIM: 0.7538184096637819
+2024-03-12 12:30:49,399 - 34/100, SSIM: 0.5734125765743381
+2024-03-12 12:30:50,133 - 35/100, SSIM: 0.5949934652201747
+2024-03-12 12:30:50,824 - 36/100, SSIM: 0.6850154904794195
+2024-03-12 12:30:51,441 - 37/100, SSIM: 0.8667678606898797
+2024-03-12 12:30:52,062 - 38/100, SSIM: 0.2264402341226787
+2024-03-12 12:30:52,681 - 39/100, SSIM: 0.6275156824548931
+2024-03-12 12:30:53,302 - 40/100, SSIM: 0.6828142026878303
+2024-03-12 12:30:53,928 - 41/100, SSIM: 0.806472686634901
+2024-03-12 12:30:54,551 - 42/100, SSIM: 0.8679710091046307
+2024-03-12 12:30:55,167 - 43/100, SSIM: nan
+2024-03-12 12:30:55,795 - 44/100, SSIM: 0.95077847839862
+2024-03-12 12:30:56,415 - 45/100, SSIM: 0.0949373238465557
+2024-03-12 12:30:57,041 - 46/100, SSIM: 0.6496649961892963
+2024-03-12 12:30:57,659 - 47/100, SSIM: 0.7784503196540573
+2024-03-12 12:30:58,355 - 48/100, SSIM: 0.46162718100337347
+2024-03-12 12:30:58,979 - 49/100, SSIM: 0.8220241721607848
+2024-03-12 12:30:59,599 - 50/100, SSIM: 0.811450100179805
+2024-03-12 12:31:00,209 - 51/100, SSIM: 0.7174075413868959
+2024-03-12 12:31:00,734 - 52/100, SSIM: 0.5535232727482751
+2024-03-12 12:31:01,353 - 53/100, SSIM: 0.4616903642669955
+2024-03-12 12:31:01,847 - 54/100, SSIM: 0.5770050218288646
+2024-03-12 12:31:02,782 - 55/100, SSIM: 0.6507138733691328
+2024-03-12 12:31:03,419 - 56/100, SSIM: 0.5039338521141393
+2024-03-12 12:31:04,075 - 57/100, SSIM: 0.2480793978585151
+2024-03-12 12:31:04,690 - 58/100, SSIM: 0.5908859793624506
+2024-03-12 12:31:05,314 - 59/100, SSIM: 0.6926204699584149
+2024-03-12 12:31:06,002 - 60/100, SSIM: 0.7800083433959755
+2024-03-12 12:31:06,620 - 61/100, SSIM: 0.7665980408933225
+2024-03-12 12:31:07,239 - 62/100, SSIM: 0.7900191405099433
+2024-03-12 12:31:07,930 - 63/100, SSIM: 0.4430997715914561
+2024-03-12 12:31:08,553 - 64/100, SSIM: 0.56417198090817
+2024-03-12 12:31:09,243 - 65/100, SSIM: 0.5725554273792709
+2024-03-12 12:31:09,862 - 66/100, SSIM: 0.4627315946877399
+2024-03-12 12:31:10,494 - 67/100, SSIM: 0.8456432744128574
+2024-03-12 12:31:11,145 - 68/100, SSIM: 0.2665782415898953
+2024-03-12 12:31:11,766 - 69/100, SSIM: 0.5666507601492323
+2024-03-12 12:31:12,478 - 70/100, SSIM: 0.858196576283021
+2024-03-12 12:31:13,097 - 71/100, SSIM: 0.874119549447312
+2024-03-12 12:31:13,711 - 72/100, SSIM: 0.8049427052014849
+2024-03-12 12:31:14,329 - 73/100, SSIM: 0.7340520048808604
+2024-03-12 12:31:14,947 - 74/100, SSIM: 0.5797721029172084
+2024-03-12 12:31:15,641 - 75/100, SSIM: 0.7212164416253818
+2024-03-12 12:31:16,263 - 76/100, SSIM: 0.45788698472798445
+2024-03-12 12:31:16,786 - 77/100, SSIM: 0.9466606110558254
+2024-03-12 12:31:17,570 - 78/100, SSIM: 0.8401745149104498
+2024-03-12 12:31:18,408 - 79/100, SSIM: 0.8549832754490975
+2024-03-12 12:31:19,027 - 80/100, SSIM: 0.5350858910931706
+2024-03-12 12:31:19,602 - 81/100, SSIM: 0.744108906967422
+2024-03-12 12:31:20,222 - 82/100, SSIM: 0.6629845817668658
+2024-03-12 12:31:20,855 - 83/100, SSIM: 0.6683789365442276
+2024-03-12 12:31:21,486 - 84/100, SSIM: 0.5650558882616846
+2024-03-12 12:31:22,110 - 85/100, SSIM: 0.4680844286500488
+2024-03-12 12:31:22,749 - 86/100, SSIM: 0.31958512134556655
+2024-03-12 12:31:23,365 - 87/100, SSIM: 0.9362707660797053
+2024-03-12 12:31:23,984 - 88/100, SSIM: 0.9352643875988044
+2024-03-12 12:31:24,621 - 89/100, SSIM: 0.7848259560532862
+2024-03-12 12:31:25,276 - 90/100, SSIM: 0.5084069457626088
+2024-03-12 12:31:26,036 - 91/100, SSIM: 0.8994286699929785
+2024-03-12 12:31:26,635 - 92/100, SSIM: 0.8103271156396007
+2024-03-12 12:31:27,251 - 93/100, SSIM: 0.6629828554241233
+2024-03-12 12:31:27,870 - 94/100, SSIM: 0.8552794881151975
+2024-03-12 12:31:28,465 - 95/100, SSIM: 0.7191055404267709
+2024-03-12 12:31:29,087 - 96/100, SSIM: 0.22934626341610637
+2024-03-12 12:31:29,712 - 97/100, SSIM: 0.6575666716141759
+2024-03-12 12:31:30,338 - 98/100, SSIM: 0.8516747479817232
+2024-03-12 12:31:30,955 - 99/100, SSIM: 0.9466333871410099
+2024-03-12 12:31:31,484 - 100/100, SSIM: 0.8216289168625952
+2024-03-12 12:31:31,487 - SSIM in bicubic_x2_valid_dataset: nan
+2024-03-12 12:33:53,725 - 1/100, SSIM: 0.8683869936503253
+2024-03-12 12:33:55,004 - 2/100, SSIM: 0.8331723432518183
+2024-03-12 12:33:58,947 - 3/100, SSIM: 0.9631553396660687
+2024-03-12 12:34:02,039 - 4/100, SSIM: 0.7622317959621864
+2024-03-12 12:34:03,476 - 5/100, SSIM: 0.7374802142012902
+2024-03-12 12:34:04,741 - 6/100, SSIM: 0.8227832423284235
+2024-03-12 12:34:07,641 - 7/100, SSIM: 0.47953657900080326
+2024-03-12 12:34:08,920 - 8/100, SSIM: 0.7527375187270441
+2024-03-12 12:34:10,182 - 9/100, SSIM: 0.9112185700440217
+2024-03-12 12:34:11,615 - 10/100, SSIM: 0.8157601123780699
+2024-03-12 12:34:12,888 - 11/100, SSIM: 0.7654020115015915
+2024-03-12 12:34:14,333 - 12/100, SSIM: 0.7874220024852939
+2024-03-12 12:34:18,108 - 13/100, SSIM: 0.8076756100849605
+2024-03-12 12:34:19,389 - 14/100, SSIM: 0.8819584839771043
+2024-03-12 12:34:20,661 - 15/100, SSIM: 0.8885453840098023
+2024-03-12 12:34:21,924 - 16/100, SSIM: 0.8051705374378507
+2024-03-12 12:34:23,371 - 17/100, SSIM: 0.861831378708589
+2024-03-12 12:34:24,834 - 18/100, SSIM: 0.8783617286104143
+2024-03-12 12:34:26,101 - 19/100, SSIM: 0.8461519111909389
+2024-03-12 12:34:27,361 - 20/100, SSIM: 0.8013343825124162
+2024-03-12 12:34:28,636 - 21/100, SSIM: 0.8030762823457748
+2024-03-12 12:34:32,723 - 22/100, SSIM: 0.8771823424020341
+2024-03-12 12:34:36,028 - 23/100, SSIM: 0.7502276629586525
+2024-03-12 12:34:37,304 - 24/100, SSIM: 0.8561270001420357
+2024-03-12 12:34:38,567 - 25/100, SSIM: 0.8006056931547577
+2024-03-12 12:34:40,026 - 26/100, SSIM: 0.7481679756349816
+2024-03-12 12:34:41,476 - 27/100, SSIM: 0.8514607802481496
+2024-03-12 12:34:42,736 - 28/100, SSIM: 0.6302185029678314
+2024-03-12 12:34:44,006 - 29/100, SSIM: 0.4585834653637731
+2024-03-12 12:34:46,107 - 30/100, SSIM: 0.7127480443198025
+2024-03-12 12:34:47,378 - 31/100, SSIM: 0.8715467303131063
+2024-03-12 12:34:48,670 - 32/100, SSIM: 0.8729907977874065
+2024-03-12 12:34:52,609 - 33/100, SSIM: 0.861465385158357
+2024-03-12 12:34:53,866 - 34/100, SSIM: 0.7699156479821939
+2024-03-12 12:34:58,051 - 35/100, SSIM: 0.5755898057544686
+2024-03-12 12:34:59,480 - 36/100, SSIM: 0.7858618070952685
+2024-03-12 12:35:00,748 - 37/100, SSIM: 0.8463075745917313
+2024-03-12 12:35:02,009 - 38/100, SSIM: 0.8629582926861898
+2024-03-12 12:35:03,268 - 39/100, SSIM: 0.47610257392203814
+2024-03-12 12:35:04,532 - 40/100, SSIM: 0.8114528606362771
+2024-03-12 12:35:05,795 - 41/100, SSIM: 0.8601331110118596
+2024-03-12 12:35:07,059 - 42/100, SSIM: 0.8515230417684977
+2024-03-12 12:35:08,326 - 43/100, SSIM: 0.9529017911425428
+2024-03-12 12:35:11,848 - 44/100, SSIM: 0.9730455809930035
+2024-03-12 12:35:13,110 - 45/100, SSIM: 0.7475176260867405
+2024-03-12 12:35:16,606 - 46/100, SSIM: 0.7150001190256668
+2024-03-12 12:35:17,906 - 47/100, SSIM: 0.8030175657413849
+2024-03-12 12:35:19,344 - 48/100, SSIM: 0.6451636847876481
+2024-03-12 12:35:20,616 - 49/100, SSIM: 0.764538197898057
+2024-03-12 12:35:21,869 - 50/100, SSIM: 0.81623419120595
+2024-03-12 12:35:25,297 - 51/100, SSIM: 0.7062895852690029
+2024-03-12 12:35:28,279 - 52/100, SSIM: 0.5159157710716419
+2024-03-12 12:35:29,600 - 53/100, SSIM: 0.9047263154192308
+2024-03-12 12:35:32,397 - 54/100, SSIM: 0.7165365679322159
+2024-03-12 12:35:38,007 - 55/100, SSIM: 0.691459905202431
+2024-03-12 12:35:39,346 - 56/100, SSIM: 0.7165386640133921
+2024-03-12 12:35:43,148 - 57/100, SSIM: 0.6595096504800525
+2024-03-12 12:35:44,413 - 58/100, SSIM: 0.7171229866138088
+2024-03-12 12:35:45,696 - 59/100, SSIM: 0.6962055215275503
+2024-03-12 12:35:47,128 - 60/100, SSIM: 0.6546524334416467
+2024-03-12 12:35:48,402 - 61/100, SSIM: 0.719142212811788
+2024-03-12 12:35:49,677 - 62/100, SSIM: 0.7709198868529189
+2024-03-12 12:35:53,555 - 63/100, SSIM: 0.8712006548022417
+2024-03-12 12:35:54,826 - 64/100, SSIM: 0.7532900765332785
+2024-03-12 12:35:56,257 - 65/100, SSIM: 0.730510998907098
+2024-03-12 12:35:57,589 - 66/100, SSIM: 0.806039235958333
+2024-03-12 12:35:58,890 - 67/100, SSIM: 0.8505109181774202
+2024-03-12 12:36:00,170 - 68/100, SSIM: 0.9483374754740631
+2024-03-12 12:36:01,485 - 69/100, SSIM: 0.8313613960738072
+2024-03-12 12:36:05,510 - 70/100, SSIM: 0.8728823768704523
+2024-03-12 12:36:06,775 - 71/100, SSIM: 0.9007362192461205
+2024-03-12 12:36:08,040 - 72/100, SSIM: 0.6725147347656786
+2024-03-12 12:36:09,321 - 73/100, SSIM: 0.7389796636037533
+2024-03-12 12:36:10,589 - 74/100, SSIM: 0.7798150007531293
+2024-03-12 12:36:12,037 - 75/100, SSIM: 0.663658909588081
+2024-03-12 12:36:13,299 - 76/100, SSIM: 0.5246836345238849
+2024-03-12 12:36:14,382 - 77/100, SSIM: 0.9604402714767476
+2024-03-12 12:36:18,817 - 78/100, SSIM: 0.8817158813562812
+2024-03-12 12:36:23,604 - 79/100, SSIM: 0.8546088711142102
+2024-03-12 12:36:24,917 - 80/100, SSIM: 0.9003842893533077
+2024-03-12 12:36:28,130 - 81/100, SSIM: 0.7700123134908976
+2024-03-12 12:36:29,408 - 82/100, SSIM: 0.9290900944636499
+2024-03-12 12:36:32,935 - 83/100, SSIM: 0.7912154208245954
+2024-03-12 12:36:34,205 - 84/100, SSIM: 0.7198230457441138
+2024-03-12 12:36:35,478 - 85/100, SSIM: 0.5197302363550372
+2024-03-12 12:36:36,808 - 86/100, SSIM: 0.8415919213857938
+2024-03-12 12:36:38,116 - 87/100, SSIM: 0.714521875596323
+2024-03-12 12:36:39,398 - 88/100, SSIM: 0.8594346644594325
+2024-03-12 12:36:40,671 - 89/100, SSIM: 0.8764000488105929
+2024-03-12 12:36:41,979 - 90/100, SSIM: 0.7171087242862234
+2024-03-12 12:36:46,335 - 91/100, SSIM: 0.7799724352287919
+2024-03-12 12:36:47,546 - 92/100, SSIM: 0.8835770622662897
+2024-03-12 12:36:48,822 - 93/100, SSIM: 0.7020015561277787
+2024-03-12 12:36:50,130 - 94/100, SSIM: 0.872914665707106
+2024-03-12 12:36:51,318 - 95/100, SSIM: 0.5663979536343567
+2024-03-12 12:36:52,587 - 96/100, SSIM: 0.9309012422322018
+2024-03-12 12:36:53,877 - 97/100, SSIM: 0.6547580654473232
+2024-03-12 12:36:55,136 - 98/100, SSIM: 0.8867461706834684
+2024-03-12 12:36:56,404 - 99/100, SSIM: 0.9056023082746942
+2024-03-12 12:36:57,477 - 100/100, SSIM: 0.7027879804568625
+2024-03-12 12:36:57,480 - SSIM in bicubic_x2_valid_dataset: 0.782572581695443
+2024-03-12 12:37:30,375 - 1/100, PSNR: 25.14090347290039
+2024-03-12 12:37:30,978 - 2/100, PSNR: 29.617828369140625
+2024-03-12 12:37:34,145 - 3/100, PSNR: 29.73246192932129
+2024-03-12 12:37:36,619 - 4/100, PSNR: 23.328811645507812
+2024-03-12 12:37:37,299 - 5/100, PSNR: 25.43440818786621
+2024-03-12 12:37:37,902 - 6/100, PSNR: 24.634735107421875
+2024-03-12 12:37:40,236 - 7/100, PSNR: 18.50008201599121
+2024-03-12 12:37:40,842 - 8/100, PSNR: 23.373266220092773
+2024-03-12 12:37:41,444 - 9/100, PSNR: 28.079999923706055
+2024-03-12 12:37:42,121 - 10/100, PSNR: 24.429691314697266
+2024-03-12 12:37:42,721 - 11/100, PSNR: 26.092670440673828
+2024-03-12 12:37:43,396 - 12/100, PSNR: 23.862735748291016
+2024-03-12 12:37:46,436 - 13/100, PSNR: 26.216684341430664
+2024-03-12 12:37:47,042 - 14/100, PSNR: 25.030227661132812
+2024-03-12 12:37:47,646 - 15/100, PSNR: 28.575538635253906
+2024-03-12 12:37:48,255 - 16/100, PSNR: 26.940950393676758
+2024-03-12 12:37:48,935 - 17/100, PSNR: 27.139867782592773
+2024-03-12 12:37:49,612 - 18/100, PSNR: 24.008525848388672
+2024-03-12 12:37:50,215 - 19/100, PSNR: 24.21781349182129
+2024-03-12 12:37:50,815 - 20/100, PSNR: 19.514921188354492
+2024-03-12 12:37:51,416 - 21/100, PSNR: 21.640642166137695
+2024-03-12 12:37:54,724 - 22/100, PSNR: 25.561445236206055
+2024-03-12 12:37:57,393 - 23/100, PSNR: 22.704113006591797
+2024-03-12 12:37:57,997 - 24/100, PSNR: 23.60651969909668
+2024-03-12 12:37:58,600 - 25/100, PSNR: 22.80543327331543
+2024-03-12 12:37:59,275 - 26/100, PSNR: 21.464908599853516
+2024-03-12 12:37:59,951 - 27/100, PSNR: 28.899017333984375
+2024-03-12 12:38:00,556 - 28/100, PSNR: 15.335593223571777
+2024-03-12 12:38:01,160 - 29/100, PSNR: 24.810903549194336
+2024-03-12 12:38:02,860 - 30/100, PSNR: 22.409391403198242
+2024-03-12 12:38:03,463 - 31/100, PSNR: 24.570039749145508
+2024-03-12 12:38:04,071 - 32/100, PSNR: 24.673755645751953
+2024-03-12 12:38:07,257 - 33/100, PSNR: 26.898542404174805
+2024-03-12 12:38:07,862 - 34/100, PSNR: 21.869239807128906
+2024-03-12 12:38:11,196 - 35/100, PSNR: 20.99620819091797
+2024-03-12 12:38:11,871 - 36/100, PSNR: 21.352787017822266
+2024-03-12 12:38:12,476 - 37/100, PSNR: 22.055566787719727
+2024-03-12 12:38:13,075 - 38/100, PSNR: 33.04607391357422
+2024-03-12 12:38:13,676 - 39/100, PSNR: 26.214025497436523
+2024-03-12 12:38:14,278 - 40/100, PSNR: 25.060779571533203
+2024-03-12 12:38:14,892 - 41/100, PSNR: 24.5781307220459
+2024-03-12 12:38:15,499 - 42/100, PSNR: 26.035812377929688
+2024-03-12 12:38:16,101 - 43/100, PSNR: 33.68634033203125
+2024-03-12 12:38:18,911 - 44/100, PSNR: 26.65725326538086
+2024-03-12 12:38:19,513 - 45/100, PSNR: 19.672958374023438
+2024-03-12 12:38:22,346 - 46/100, PSNR: 20.56244468688965
+2024-03-12 12:38:22,953 - 47/100, PSNR: 23.051151275634766
+2024-03-12 12:38:23,640 - 48/100, PSNR: 23.45077896118164
+2024-03-12 12:38:24,244 - 49/100, PSNR: 17.946252822875977
+2024-03-12 12:38:24,851 - 50/100, PSNR: 24.54531478881836
+2024-03-12 12:38:27,638 - 51/100, PSNR: 24.460569381713867
+2024-03-12 12:38:30,032 - 52/100, PSNR: 27.07154655456543
+2024-03-12 12:38:30,633 - 53/100, PSNR: 28.09886360168457
+2024-03-12 12:38:32,851 - 54/100, PSNR: 21.928146362304688
+2024-03-12 12:38:37,057 - 55/100, PSNR: 26.279531478881836
+2024-03-12 12:38:37,660 - 56/100, PSNR: 21.85797691345215
+2024-03-12 12:38:40,585 - 57/100, PSNR: 31.503929138183594
+2024-03-12 12:38:41,190 - 58/100, PSNR: 25.173978805541992
+2024-03-12 12:38:41,793 - 59/100, PSNR: 22.505233764648438
+2024-03-12 12:38:42,473 - 60/100, PSNR: 18.46257209777832
+2024-03-12 12:38:43,074 - 61/100, PSNR: 19.956462860107422
+2024-03-12 12:38:43,673 - 62/100, PSNR: 29.967710494995117
+2024-03-12 12:38:46,776 - 63/100, PSNR: 28.829763412475586
+2024-03-12 12:38:47,375 - 64/100, PSNR: 26.938379287719727
+2024-03-12 12:38:48,056 - 65/100, PSNR: 24.935117721557617
+2024-03-12 12:38:48,661 - 66/100, PSNR: 22.8756160736084
+2024-03-12 12:38:49,266 - 67/100, PSNR: 24.317716598510742
+2024-03-12 12:38:49,870 - 68/100, PSNR: 27.029890060424805
+2024-03-12 12:38:50,475 - 69/100, PSNR: 21.543594360351562
+2024-03-12 12:38:53,732 - 70/100, PSNR: 24.59494972229004
+2024-03-12 12:38:54,336 - 71/100, PSNR: 26.94441032409668
+2024-03-12 12:38:54,938 - 72/100, PSNR: 20.92057228088379
+2024-03-12 12:38:55,542 - 73/100, PSNR: 21.293317794799805
+2024-03-12 12:38:56,147 - 74/100, PSNR: 26.241945266723633
+2024-03-12 12:38:56,826 - 75/100, PSNR: 21.08622932434082
+2024-03-12 12:38:57,425 - 76/100, PSNR: 20.44477081298828
+2024-03-12 12:38:57,934 - 77/100, PSNR: 32.15153884887695
+2024-03-12 12:39:01,518 - 78/100, PSNR: 26.27886390686035
+2024-03-12 12:39:05,374 - 79/100, PSNR: 23.872873306274414
+2024-03-12 12:39:05,973 - 80/100, PSNR: 28.114238739013672
+2024-03-12 12:39:08,574 - 81/100, PSNR: 23.78743553161621
+2024-03-12 12:39:09,173 - 82/100, PSNR: 27.775501251220703
+2024-03-12 12:39:12,026 - 83/100, PSNR: 22.908632278442383
+2024-03-12 12:39:12,630 - 84/100, PSNR: 22.613245010375977
+2024-03-12 12:39:13,234 - 85/100, PSNR: 20.791536331176758
+2024-03-12 12:39:13,835 - 86/100, PSNR: 29.999982833862305
+2024-03-12 12:39:14,437 - 87/100, PSNR: 22.306089401245117
+2024-03-12 12:39:15,038 - 88/100, PSNR: 24.518821716308594
+2024-03-12 12:39:15,639 - 89/100, PSNR: 23.962936401367188
+2024-03-12 12:39:16,245 - 90/100, PSNR: 23.596298217773438
+2024-03-12 12:39:19,680 - 91/100, PSNR: 22.228652954101562
+2024-03-12 12:39:20,247 - 92/100, PSNR: 22.67061996459961
+2024-03-12 12:39:20,852 - 93/100, PSNR: 28.261688232421875
+2024-03-12 12:39:21,460 - 94/100, PSNR: 25.799579620361328
+2024-03-12 12:39:22,029 - 95/100, PSNR: 18.552825927734375
+2024-03-12 12:39:22,636 - 96/100, PSNR: 26.65363311767578
+2024-03-12 12:39:23,241 - 97/100, PSNR: 19.260337829589844
+2024-03-12 12:39:23,842 - 98/100, PSNR: 27.926645278930664
+2024-03-12 12:39:24,444 - 99/100, PSNR: 23.827959060668945
+2024-03-12 12:39:24,954 - 100/100, PSNR: 22.37660789489746
+2024-03-12 12:39:24,957 - PSNR in unknown_x2_valid_dataset: 24.45532989501953
+2024-03-12 12:39:26,253 - 1/100, SSIM: 0.6875984854533334
+2024-03-12 12:39:27,514 - 2/100, SSIM: 0.7646838936737158
+2024-03-12 12:39:28,948 - 3/100, SSIM: 0.9182993158264704
+2024-03-12 12:39:30,066 - 4/100, SSIM: 0.6081810607324037
+2024-03-12 12:39:31,506 - 5/100, SSIM: 0.5998660428522097
+2024-03-12 12:39:32,767 - 6/100, SSIM: 0.7325586125697893
+2024-03-12 12:39:33,808 - 7/100, SSIM: 0.30531425588486455
+2024-03-12 12:39:35,084 - 8/100, SSIM: 0.6907659171091737
+2024-03-12 12:39:36,351 - 9/100, SSIM: 0.7463686073729622
+2024-03-12 12:39:37,785 - 10/100, SSIM: 0.6354914491529896
+2024-03-12 12:39:39,061 - 11/100, SSIM: 0.6458704892847739
+2024-03-12 12:39:40,496 - 12/100, SSIM: 0.6698214920311744
+2024-03-12 12:39:41,856 - 13/100, SSIM: 0.7457455704424301
+2024-03-12 12:39:43,128 - 14/100, SSIM: 0.8260046751085796
+2024-03-12 12:39:44,399 - 15/100, SSIM: 0.8399936563016616
+2024-03-12 12:39:45,673 - 16/100, SSIM: 0.735236883941267
+2024-03-12 12:39:47,179 - 17/100, SSIM: 0.7805051722681796
+2024-03-12 12:39:48,780 - 18/100, SSIM: 0.7657897441209371
+2024-03-12 12:39:50,127 - 19/100, SSIM: 0.6559418599175086
+2024-03-12 12:39:51,488 - 20/100, SSIM: 0.56683473805245
+2024-03-12 12:39:53,182 - 21/100, SSIM: 0.6424018240731186
+2024-03-12 12:39:55,262 - 22/100, SSIM: 0.6813480895411171
+2024-03-12 12:39:56,842 - 23/100, SSIM: 0.6525690205123612
+2024-03-12 12:39:58,535 - 24/100, SSIM: 0.7779586566864091
+2024-03-12 12:40:00,178 - 25/100, SSIM: 0.6504301956835176
+2024-03-12 12:40:02,040 - 26/100, SSIM: 0.6134617764908522
+2024-03-12 12:40:03,897 - 27/100, SSIM: 0.8212759209580339
+2024-03-12 12:40:05,563 - 28/100, SSIM: 0.39670990789884014
+2024-03-12 12:40:07,224 - 29/100, SSIM: 0.4357699130929027
+2024-03-12 12:40:08,214 - 30/100, SSIM: 0.6000162737182123
+2024-03-12 12:40:09,895 - 31/100, SSIM: 0.7198089649381867
+2024-03-12 12:40:11,582 - 32/100, SSIM: 0.7471775107471891
+2024-03-12 12:40:13,515 - 33/100, SSIM: 0.8256728574609457
+2024-03-12 12:40:15,167 - 34/100, SSIM: 0.6499289178513404
+2024-03-12 12:40:17,211 - 35/100, SSIM: 0.37623947582727335
+2024-03-12 12:40:19,138 - 36/100, SSIM: 0.6438942584725944
+2024-03-12 12:40:20,832 - 37/100, SSIM: 0.6362563256055592
+2024-03-12 12:40:22,708 - 38/100, SSIM: 0.8667575727460606
+2024-03-12 12:40:24,388 - 39/100, SSIM: 0.3828025974147198
+2024-03-12 12:40:26,082 - 40/100, SSIM: 0.6480793596327988
+2024-03-12 12:40:27,707 - 41/100, SSIM: 0.7319665324165535
+2024-03-12 12:40:29,365 - 42/100, SSIM: 0.7563374184347023
+2024-03-12 12:40:31,065 - 43/100, SSIM: 0.9478008774112685
+2024-03-12 12:40:32,759 - 44/100, SSIM: 0.9618106699984398
+2024-03-12 12:40:34,401 - 45/100, SSIM: 0.5470787352313776
+2024-03-12 12:40:36,057 - 46/100, SSIM: 0.5779715479146056
+2024-03-12 12:40:37,717 - 47/100, SSIM: 0.6462285998408678
+2024-03-12 12:40:39,586 - 48/100, SSIM: 0.5708494124008939
+2024-03-12 12:40:41,216 - 49/100, SSIM: 0.49761187044768596
+2024-03-12 12:40:42,872 - 50/100, SSIM: 0.712377067567494
+2024-03-12 12:40:44,509 - 51/100, SSIM: 0.6427417429161061
+2024-03-12 12:40:45,874 - 52/100, SSIM: 0.4331228582203573
+2024-03-12 12:40:47,535 - 53/100, SSIM: 0.8515490741053657
+2024-03-12 12:40:48,800 - 54/100, SSIM: 0.5716839955161575
+2024-03-12 12:40:51,308 - 55/100, SSIM: 0.6342007219747353
+2024-03-12 12:40:52,928 - 56/100, SSIM: 0.5102831210810136
+2024-03-12 12:40:54,692 - 57/100, SSIM: 0.7548231389263739
+2024-03-12 12:40:56,347 - 58/100, SSIM: 0.5528332693609923
+2024-03-12 12:40:58,002 - 59/100, SSIM: 0.49377912321383227
+2024-03-12 12:40:59,801 - 60/100, SSIM: 0.37517353767292105
+2024-03-12 12:41:01,462 - 61/100, SSIM: 0.5224282459609156
+2024-03-12 12:41:03,111 - 62/100, SSIM: 0.7516885355532681
+2024-03-12 12:41:04,890 - 63/100, SSIM: 0.8298170147066349
+2024-03-12 12:41:06,541 - 64/100, SSIM: 0.6551171740092595
+2024-03-12 12:41:08,431 - 65/100, SSIM: 0.65962732602224
+2024-03-12 12:41:10,102 - 66/100, SSIM: 0.6625174035960932
+2024-03-12 12:41:11,767 - 67/100, SSIM: 0.7044200526699509
+2024-03-12 12:41:13,411 - 68/100, SSIM: 0.9088964111100722
+2024-03-12 12:41:15,057 - 69/100, SSIM: 0.660195134810559
+2024-03-12 12:41:16,965 - 70/100, SSIM: 0.676078495728942
+2024-03-12 12:41:18,640 - 71/100, SSIM: 0.7945526651048631
+2024-03-12 12:41:20,299 - 72/100, SSIM: 0.4720189849365939
+2024-03-12 12:41:21,971 - 73/100, SSIM: 0.5754942343063992
+2024-03-12 12:41:23,632 - 74/100, SSIM: 0.6757399929527445
+2024-03-12 12:41:25,509 - 75/100, SSIM: 0.42767386494959303
+2024-03-12 12:41:27,187 - 76/100, SSIM: 0.32251859224637364
+2024-03-12 12:41:28,572 - 77/100, SSIM: 0.9184709572397858
+2024-03-12 12:41:30,646 - 78/100, SSIM: 0.7726014023803943
+2024-03-12 12:41:32,934 - 79/100, SSIM: 0.7576955565234286
+2024-03-12 12:41:34,640 - 80/100, SSIM: 0.8025142643603153
+2024-03-12 12:41:36,161 - 81/100, SSIM: 0.6778685525361046
+2024-03-12 12:41:37,824 - 82/100, SSIM: 0.8910911448079807
+2024-03-12 12:41:39,563 - 83/100, SSIM: 0.5431581905530486
+2024-03-12 12:41:41,213 - 84/100, SSIM: 0.5356453662929423
+2024-03-12 12:41:42,880 - 85/100, SSIM: 0.38493915928300165
+2024-03-12 12:41:44,528 - 86/100, SSIM: 0.8506893358524925
+2024-03-12 12:41:46,175 - 87/100, SSIM: 0.6195543397530922
+2024-03-12 12:41:47,819 - 88/100, SSIM: 0.7520602131926091
+2024-03-12 12:41:49,459 - 89/100, SSIM: 0.7140972167495517
+2024-03-12 12:41:51,119 - 90/100, SSIM: 0.6357282824161615
+2024-03-12 12:41:53,152 - 91/100, SSIM: 0.6382527572556352
+2024-03-12 12:41:54,769 - 92/100, SSIM: 0.6977138065537307
+2024-03-12 12:41:56,464 - 93/100, SSIM: 0.7375491481934744
+2024-03-12 12:41:58,121 - 94/100, SSIM: 0.7927288394601625
+2024-03-12 12:41:59,648 - 95/100, SSIM: 0.32374902000335765
+2024-03-12 12:42:01,329 - 96/100, SSIM: 0.903211051477021
+2024-03-12 12:42:03,067 - 97/100, SSIM: 0.3706115096455486
+2024-03-12 12:42:04,728 - 98/100, SSIM: 0.8534327682347582
+2024-03-12 12:42:06,377 - 99/100, SSIM: 0.776521825165939
+2024-03-12 12:42:07,733 - 100/100, SSIM: 0.5703120563459162
+2024-03-12 12:42:46,978 - SSIM in unknown_x2_valid_dataset: 0.6627863554904161

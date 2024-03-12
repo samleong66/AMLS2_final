@@ -1,4 +1,4 @@
-import time
+import time, logging
 import tensorflow as tf
 
 from tensorflow.keras.applications.vgg19 import preprocess_input
@@ -56,6 +56,7 @@ class Trainer:
                 psnr_value = self.evaluate(valid_dataset)
 
                 duration = time.perf_counter() - self.now
+                logging.info(f'{step}/{steps}: loss = {loss_value.numpy():.3f}, PSNR = {psnr_value.numpy():3f} ({duration:.2f}s)')
                 print(f'{step}/{steps}: loss = {loss_value.numpy():.3f}, PSNR = {psnr_value.numpy():3f} ({duration:.2f}s)')
 
                 if save_best_only and psnr_value <= ckpt.psnr:
@@ -84,7 +85,7 @@ class Trainer:
         return loss_value
 
     def evaluate(self, dataset):
-        return evaluate(self.checkpoint.model, dataset)
+        return evaluate(self.checkpoint.model, dataset, 'psnr')
 
     def restore(self):
         if self.checkpoint_manager.latest_checkpoint:
@@ -147,6 +148,7 @@ class SrganTrainer:
                 dls_loss = dls_metric.result()
                 loss_results[0].append(pls_loss)
                 loss_results[1].append(dls_loss)
+                logging.info(f'{step}/{steps}, perceptual loss = {pls_loss:.4f}, discriminator loss = {dls_loss:.4f}')
                 print(f'{step}/{steps}, perceptual loss = {pls_loss:.4f}, discriminator loss = {dls_loss:.4f}')
                 pls_metric.reset_states()
                 dls_metric.reset_states()

@@ -1,8 +1,16 @@
 import os
+
+import numpy.random
 import tensorflow as tf
 
 from tensorflow.python.data.experimental import AUTOTUNE
 from data_preprocessing import random_crop, random_flip, random_rotate
+from data_preprocessing import resolve_single
+
+import numpy as np
+import matplotlib.pyplot as plt
+from PIL import Image
+import cv2 as cv
 
 
 class DIV2K:
@@ -152,3 +160,71 @@ def download_archive(file, target_dir, extract=True):
     target_dir = os.path.abspath(target_dir)
     tf.keras.utils.get_file(file, source_url, cache_subdir=target_dir, extract=extract)
     os.remove(os.path.join(target_dir, file))
+
+
+def compare_and_plot(downscale: int, downscale_way: str, pre_generator, gan_generator):
+    weights_dir = 'models/weights/srgan'
+    weights_file = lambda filename: os.path.join(weights_dir, filename)
+    lr_image_path = f'dataset/images/DIV2K_valid_LR_{downscale_way}/X{downscale}'
+    hr_image_path = r'dataset/images/DIV2K_valid_HR'
+
+    # num = numpy.random.randint(801, 900)
+    num = 897
+    lr_img = np.array(Image.open(lr_image_path + '/0' + str(num) + f'x{downscale}.png'))
+    hr_img = np.array(Image.open(hr_image_path + '/0' + str(num) + '.png'))
+
+    pre_generator.load_weights(weights_file(f'pre_generator_x{downscale}.h5'))
+    gan_generator.load_weights(weights_file(f'gan_generator_x{downscale}.h5'))
+
+    gan_sr = resolve_single(gan_generator, lr_img)
+    pre_sr = resolve_single(pre_generator, lr_img)
+
+    fig = plt.figure(figsize=(12, 8))
+
+    images = [lr_img, pre_sr, gan_sr, hr_img]
+    titles = ['LR', 'SR (PRE)', 'SR (GAN)', 'HR']
+    positions = [1, 2, 3, 4]
+
+    for i, (img, title, pos) in enumerate(zip(images, titles, positions)):
+        ogsize = 30
+        resize = 250
+        upper = 50
+        left = 50
+        upper_r = upper
+        left_r = int(left + 1.25 * ogsize)
+
+        bottom = upper + ogsize
+        right = left + ogsize
+        bottom_r = upper_r + resize
+        right_r = left_r + resize
+
+        if i > 0:
+            resize = int(resize * downscale)
+            ogsize = int(ogsize * downscale)
+            upper = upper * downscale
+            left = left * downscale
+            bottom = int(upper + ogsize)
+            right = int(left + ogsize)
+            upper_r = upper_r * downscale
+            left_r = left_r * downscale
+            bottom_r = int(upper_r + resize)
+            right_r = int(left_r + resize)
+
+        img_np = img.numpy() if isinstance(img,
+                                           tf.Tensor) else img  # Convert to NumPy array if it's a TensorFlow tensor
+        part = img_np[upper:bottom, left:right]
+        part = part.astype(np.float32)  # Convert to float32
+        mask = cv.resize(part, (resize, resize), interpolation=cv.INTER_LINEAR)
+        img_np[upper_r:bottom_r, left_r:right_r] = mask
+        cv.rectangle(img_np, (left, bottom), (right, upper), (0, 255, 0), thickness=2)
+        cv.rectangle(img_np, (left_r, bottom_r), (right_r, upper_r), (0, 255, 0), thickness=2)
+        img_np = cv.line(img_np, (right, bottom), (left_r, bottom_r), (0, 255, 0), thickness=2)
+        img_np = cv.line(img_np, (right, upper), (left_r, upper_r), (0, 255, 0), thickness=2)
+        ax = fig.add_subplot(2, 2, pos)
+        ax.imshow(img_np)
+        ax.set_title(title)
+        ax.set_xticks([])
+        ax.set_yticks([])
+    plt.tight_layout()
+
+    return fig

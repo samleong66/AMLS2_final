@@ -5,17 +5,17 @@ import tensorflow as tf
 
 from data_preprocessing import denormalize_m11, normalize_m11, pixel_shuffle, normalize_01
 
-
-LR_SIZE = 48
-HR_SIZE = 96
-
-DOWNSCALE = 2
-
+from config import HR_SIZE, DOWNSCALE
 
 def upsample(x_in, num_filters):
     x = Conv2D(num_filters, kernel_size=3, padding='same')(x_in)
     # print(x.shape)
-    x = Lambda(pixel_shuffle(scale=DOWNSCALE))(x)
+    if DOWNSCALE == 3:
+        x = Lambda(pixel_shuffle(scale=DOWNSCALE))(x)
+    elif DOWNSCALE == 2 or DOWNSCALE == 4:
+        x = Lambda(pixel_shuffle(scale=2))(x)
+    elif DOWNSCALE == 8:
+        x = Lambda(pixel_shuffle(scale=4))(x)
     # print(x.shape)
     return PReLU(shared_axes=[1, 2])(x)
 
@@ -33,19 +33,27 @@ def res_block(x_in, num_filters, momentum=0.8):
 def sr_resnet(num_filters=64, num_res_blocks=16):
     x_in = Input(shape=(None, None, 3))
     x = Lambda(normalize_01)(x_in)
-
+    # print(x.shape)
     x = Conv2D(num_filters, kernel_size=9, padding='same')(x)
     x = x_1 = PReLU(shared_axes=[1, 2])(x)
-
+    # print(x.shape)
     for _ in range(num_res_blocks):
         x = res_block(x, num_filters)
-
+    # print(x.shape)
     x = Conv2D(num_filters, kernel_size=3, padding='same')(x)
     x = BatchNormalization()(x)
     x = Add()([x_1, x])
-
-    x = upsample(x, num_filters * 4)
-    # x = upsample(x, num_filters * 4)
+    # print(x.shape)
+    if DOWNSCALE == 2:
+        x = upsample(x, num_filters * 4)
+    elif DOWNSCALE == 4:
+        x = upsample(x, num_filters * 4)
+        x = upsample(x, num_filters * 4)
+    elif DOWNSCALE == 3:
+        x = upsample(x, num_filters * 9)
+    elif DOWNSCALE == 8:
+        x = upsample(x, num_filters * 4)
+        x = upsample(x, num_filters * 8)
 
     x = Conv2D(3, kernel_size=9, padding='same', activation='tanh')(x)
     x = Lambda(denormalize_m11)(x)
