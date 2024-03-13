@@ -12,4 +12,7 @@ elif DOWNSCALE == 4:
     LR_SIZE = 48
     HR_SIZE = 192
 
+WEIGHT_DIR = 'models/weights/srgan'
+COMPARISON_DIR = 'results/comparison'
+LOG_DIR = f'results/training_x{DOWNSCALE}.log'
 

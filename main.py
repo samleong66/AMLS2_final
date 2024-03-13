@@ -6,14 +6,14 @@ from model import generator, discriminator
 from data_preprocessing import resolve_single, evaluate
 import tensorflow as tf
 import logging
-from config import DOWNSCALE, DOWNSCALE_WAY
+from config import DOWNSCALE, DOWNSCALE_WAY, WEIGHT_DIR, COMPARISON_DIR, LOG_DIR
 import matplotlib.pyplot as plt
 from PIL import Image
 import numpy as np
 from load_data import compare_and_plot
 
 # Location of model weights (needed for demo)
-weights_dir = 'models/weights/srgan'
+weights_dir = WEIGHT_DIR
 weights_file = lambda filename: os.path.join(weights_dir, filename)
 
 gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
@@ -21,13 +21,12 @@ tf.config.experimental.set_memory_growth(gpus[0], True)
 
 os.makedirs(weights_dir, exist_ok=True)
 
-comparison_dir = 'results/comparison'
+comparison_dir = COMPARISON_DIR
 comparison_file = lambda filename: os.path.join(comparison_dir, filename)
 os.makedirs(comparison_dir, exist_ok=True)
 
 if __name__ == "__main__":
-    logging.basicConfig(filename=f'results/training_x{DOWNSCALE}.log', level=logging.INFO,
-                        format='%(asctime)s - %(message)s')
+    logging.basicConfig(filename=LOG_DIR, level=logging.INFO, format='%(asctime)s - %(message)s')
 
     '''''''''
     Evaluation
