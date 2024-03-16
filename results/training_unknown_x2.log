@@ -1,0 +1,835 @@
+2024-03-16 15:22:48,017 - Start pre-training
+2024-03-16 15:22:49,045 - Detecting that an object or model or tf.train.Checkpoint is being deleted with unrestored values. See the following logs for the specific values in question. To silence these warnings, use `status.expect_partial()`. See https://www.tensorflow.org/api_docs/python/tf/train/Checkpoint#restorefor details about the status object returned by the restore function.
+2024-03-16 15:22:49,046 - Value in checkpoint could not be found in the restored object: (root).save_counter
+2024-03-16 15:22:49,046 - Value in checkpoint could not be found in the restored object: (root).optimizer.iter
+2024-03-16 15:22:49,047 - Value in checkpoint could not be found in the restored object: (root).optimizer.beta_1
+2024-03-16 15:22:49,047 - Value in checkpoint could not be found in the restored object: (root).optimizer.beta_2
+2024-03-16 15:22:49,048 - Value in checkpoint could not be found in the restored object: (root).optimizer.decay
+2024-03-16 15:22:49,048 - Value in checkpoint could not be found in the restored object: (root).optimizer.learning_rate
+2024-03-16 15:22:49,048 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-0.kernel
+2024-03-16 15:22:49,048 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-0.bias
+2024-03-16 15:22:49,049 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-1.alpha
+2024-03-16 15:22:49,049 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-2.kernel
+2024-03-16 15:22:49,050 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-2.bias
+2024-03-16 15:22:49,050 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-3.gamma
+2024-03-16 15:22:49,050 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-3.beta
+2024-03-16 15:22:49,050 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-4.alpha
+2024-03-16 15:22:49,050 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-5.kernel
+2024-03-16 15:22:49,051 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-5.bias
+2024-03-16 15:22:49,051 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-6.gamma
+2024-03-16 15:22:49,051 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-6.beta
+2024-03-16 15:22:49,051 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-7.kernel
+2024-03-16 15:22:49,051 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-7.bias
+2024-03-16 15:22:49,052 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-8.gamma
+2024-03-16 15:22:49,052 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-8.beta
+2024-03-16 15:22:49,052 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-9.alpha
+2024-03-16 15:22:49,052 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-10.kernel
+2024-03-16 15:22:49,053 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-10.bias
+2024-03-16 15:22:49,053 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-11.gamma
+2024-03-16 15:22:49,053 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-11.beta
+2024-03-16 15:22:49,053 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-12.kernel
+2024-03-16 15:22:49,054 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-12.bias
+2024-03-16 15:22:49,054 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-13.gamma
+2024-03-16 15:22:49,054 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-13.beta
+2024-03-16 15:22:49,054 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-14.alpha
+2024-03-16 15:22:49,054 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-15.kernel
+2024-03-16 15:22:49,054 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-15.bias
+2024-03-16 15:22:49,055 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-16.gamma
+2024-03-16 15:22:49,055 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-16.beta
+2024-03-16 15:22:49,055 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-17.kernel
+2024-03-16 15:22:49,055 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-17.bias
+2024-03-16 15:22:49,056 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-18.gamma
+2024-03-16 15:22:49,056 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-18.beta
+2024-03-16 15:22:49,056 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-19.alpha
+2024-03-16 15:22:49,056 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-20.kernel
+2024-03-16 15:22:49,057 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-20.bias
+2024-03-16 15:22:49,057 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-21.gamma
+2024-03-16 15:22:49,057 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-21.beta
+2024-03-16 15:22:49,057 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-22.kernel
+2024-03-16 15:22:49,057 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-22.bias
+2024-03-16 15:22:49,057 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-23.gamma
+2024-03-16 15:22:49,058 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-23.beta
+2024-03-16 15:22:49,058 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-24.alpha
+2024-03-16 15:22:49,058 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-25.kernel
+2024-03-16 15:22:49,058 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-25.bias
+2024-03-16 15:22:49,059 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-26.gamma
+2024-03-16 15:22:49,059 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-26.beta
+2024-03-16 15:22:49,059 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-27.kernel
+2024-03-16 15:22:49,059 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-27.bias
+2024-03-16 15:22:49,060 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-28.gamma
+2024-03-16 15:22:49,060 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-28.beta
+2024-03-16 15:22:49,060 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-29.alpha
+2024-03-16 15:22:49,060 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-30.kernel
+2024-03-16 15:22:49,060 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-30.bias
+2024-03-16 15:22:49,061 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-31.gamma
+2024-03-16 15:22:49,061 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-31.beta
+2024-03-16 15:22:49,061 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-32.kernel
+2024-03-16 15:22:49,061 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-32.bias
+2024-03-16 15:22:49,061 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-33.gamma
+2024-03-16 15:22:49,062 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-33.beta
+2024-03-16 15:22:49,062 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-34.alpha
+2024-03-16 15:22:49,062 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-35.kernel
+2024-03-16 15:22:49,062 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-35.bias
+2024-03-16 15:22:49,063 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-36.gamma
+2024-03-16 15:22:49,063 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-36.beta
+2024-03-16 15:22:49,063 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-37.kernel
+2024-03-16 15:22:49,063 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-37.bias
+2024-03-16 15:22:49,064 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-38.gamma
+2024-03-16 15:22:49,064 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-38.beta
+2024-03-16 15:22:49,064 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-39.alpha
+2024-03-16 15:22:49,064 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-40.kernel
+2024-03-16 15:22:49,064 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-40.bias
+2024-03-16 15:22:49,065 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-41.gamma
+2024-03-16 15:22:49,065 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-41.beta
+2024-03-16 15:22:49,065 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-42.kernel
+2024-03-16 15:22:49,065 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-42.bias
+2024-03-16 15:22:49,065 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-43.gamma
+2024-03-16 15:22:49,066 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-43.beta
+2024-03-16 15:22:49,066 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-44.alpha
+2024-03-16 15:22:49,066 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-45.kernel
+2024-03-16 15:22:49,066 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-45.bias
+2024-03-16 15:22:49,067 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-46.gamma
+2024-03-16 15:22:49,067 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-46.beta
+2024-03-16 15:22:49,067 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-47.kernel
+2024-03-16 15:22:49,067 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-47.bias
+2024-03-16 15:22:49,068 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-48.gamma
+2024-03-16 15:22:49,068 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-48.beta
+2024-03-16 15:22:49,068 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-49.alpha
+2024-03-16 15:22:49,068 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-50.kernel
+2024-03-16 15:22:49,068 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-50.bias
+2024-03-16 15:22:49,068 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-51.gamma
+2024-03-16 15:22:49,069 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-51.beta
+2024-03-16 15:22:49,069 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-52.kernel
+2024-03-16 15:22:49,069 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-52.bias
+2024-03-16 15:22:49,069 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-53.gamma
+2024-03-16 15:22:49,070 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-53.beta
+2024-03-16 15:22:49,070 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-54.alpha
+2024-03-16 15:22:49,070 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-55.kernel
+2024-03-16 15:22:49,070 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-55.bias
+2024-03-16 15:22:49,071 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-56.gamma
+2024-03-16 15:22:49,071 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-56.beta
+2024-03-16 15:22:49,071 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-57.kernel
+2024-03-16 15:22:49,071 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-57.bias
+2024-03-16 15:22:49,071 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-58.gamma
+2024-03-16 15:22:49,071 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-58.beta
+2024-03-16 15:22:49,072 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-59.alpha
+2024-03-16 15:22:49,072 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-60.kernel
+2024-03-16 15:22:49,072 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-60.bias
+2024-03-16 15:22:49,072 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-61.gamma
+2024-03-16 15:22:49,073 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-61.beta
+2024-03-16 15:22:49,073 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-62.kernel
+2024-03-16 15:22:49,073 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-62.bias
+2024-03-16 15:22:49,073 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-63.gamma
+2024-03-16 15:22:49,074 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-63.beta
+2024-03-16 15:22:49,074 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-64.alpha
+2024-03-16 15:22:49,074 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-65.kernel
+2024-03-16 15:22:49,074 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-65.bias
+2024-03-16 15:22:49,074 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-66.gamma
+2024-03-16 15:22:49,075 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-66.beta
+2024-03-16 15:22:49,075 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-67.kernel
+2024-03-16 15:22:49,075 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-67.bias
+2024-03-16 15:22:49,075 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-68.gamma
+2024-03-16 15:22:49,075 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-68.beta
+2024-03-16 15:22:49,076 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-69.alpha
+2024-03-16 15:22:49,076 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-70.kernel
+2024-03-16 15:22:49,076 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-70.bias
+2024-03-16 15:22:49,076 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-71.gamma
+2024-03-16 15:22:49,077 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-71.beta
+2024-03-16 15:22:49,077 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-72.kernel
+2024-03-16 15:22:49,077 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-72.bias
+2024-03-16 15:22:49,077 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-73.gamma
+2024-03-16 15:22:49,078 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-73.beta
+2024-03-16 15:22:49,078 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-74.alpha
+2024-03-16 15:22:49,078 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-75.kernel
+2024-03-16 15:22:49,078 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-75.bias
+2024-03-16 15:22:49,078 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-76.gamma
+2024-03-16 15:22:49,079 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-76.beta
+2024-03-16 15:22:49,079 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-77.kernel
+2024-03-16 15:22:49,079 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-77.bias
+2024-03-16 15:22:49,079 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-78.gamma
+2024-03-16 15:22:49,079 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-78.beta
+2024-03-16 15:22:49,080 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-79.alpha
+2024-03-16 15:22:49,080 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-80.kernel
+2024-03-16 15:22:49,080 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-80.bias
+2024-03-16 15:22:49,080 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-81.gamma
+2024-03-16 15:22:49,081 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-81.beta
+2024-03-16 15:22:49,081 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-82.kernel
+2024-03-16 15:22:49,081 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-82.bias
+2024-03-16 15:22:49,081 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-83.gamma
+2024-03-16 15:22:49,082 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-83.beta
+2024-03-16 15:22:49,082 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-84.kernel
+2024-03-16 15:22:49,082 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-84.bias
+2024-03-16 15:22:49,082 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-85.alpha
+2024-03-16 15:22:49,082 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-86.kernel
+2024-03-16 15:22:49,082 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).model.layer_with_weights-86.bias
+2024-03-16 15:22:49,083 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-0.kernel
+2024-03-16 15:22:49,083 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-0.bias
+2024-03-16 15:22:49,083 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-1.alpha
+2024-03-16 15:22:49,083 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-2.kernel
+2024-03-16 15:22:49,084 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-2.bias
+2024-03-16 15:22:49,084 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-3.gamma
+2024-03-16 15:22:49,084 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-3.beta
+2024-03-16 15:22:49,084 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-4.alpha
+2024-03-16 15:22:49,084 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-5.kernel
+2024-03-16 15:22:49,085 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-5.bias
+2024-03-16 15:22:49,085 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-6.gamma
+2024-03-16 15:22:49,085 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-6.beta
+2024-03-16 15:22:49,085 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-7.kernel
+2024-03-16 15:22:49,085 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-7.bias
+2024-03-16 15:22:49,086 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-8.gamma
+2024-03-16 15:22:49,086 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-8.beta
+2024-03-16 15:22:49,086 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-9.alpha
+2024-03-16 15:22:49,086 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-10.kernel
+2024-03-16 15:22:49,087 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-10.bias
+2024-03-16 15:22:49,087 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-11.gamma
+2024-03-16 15:22:49,087 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-11.beta
+2024-03-16 15:22:49,087 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-12.kernel
+2024-03-16 15:22:49,088 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-12.bias
+2024-03-16 15:22:49,088 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-13.gamma
+2024-03-16 15:22:49,088 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-13.beta
+2024-03-16 15:22:49,088 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-14.alpha
+2024-03-16 15:22:49,088 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-15.kernel
+2024-03-16 15:22:49,088 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-15.bias
+2024-03-16 15:22:49,089 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-16.gamma
+2024-03-16 15:22:49,089 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-16.beta
+2024-03-16 15:22:49,089 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-17.kernel
+2024-03-16 15:22:49,089 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-17.bias
+2024-03-16 15:22:49,090 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-18.gamma
+2024-03-16 15:22:49,090 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-18.beta
+2024-03-16 15:22:49,091 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-19.alpha
+2024-03-16 15:22:49,091 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-20.kernel
+2024-03-16 15:22:49,091 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-20.bias
+2024-03-16 15:22:49,092 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-21.gamma
+2024-03-16 15:22:49,092 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-21.beta
+2024-03-16 15:22:49,093 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-22.kernel
+2024-03-16 15:22:49,094 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-22.bias
+2024-03-16 15:22:49,094 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-23.gamma
+2024-03-16 15:22:49,094 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-23.beta
+2024-03-16 15:22:49,095 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-24.alpha
+2024-03-16 15:22:49,095 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-25.kernel
+2024-03-16 15:22:49,096 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-25.bias
+2024-03-16 15:22:49,096 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-26.gamma
+2024-03-16 15:22:49,097 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-26.beta
+2024-03-16 15:22:49,097 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-27.kernel
+2024-03-16 15:22:49,098 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-27.bias
+2024-03-16 15:22:49,098 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-28.gamma
+2024-03-16 15:22:49,099 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-28.beta
+2024-03-16 15:22:49,099 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-29.alpha
+2024-03-16 15:22:49,099 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-30.kernel
+2024-03-16 15:22:49,100 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-30.bias
+2024-03-16 15:22:49,100 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-31.gamma
+2024-03-16 15:22:49,101 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-31.beta
+2024-03-16 15:22:49,101 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-32.kernel
+2024-03-16 15:22:49,102 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-32.bias
+2024-03-16 15:22:49,102 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-33.gamma
+2024-03-16 15:22:49,102 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-33.beta
+2024-03-16 15:22:49,103 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-34.alpha
+2024-03-16 15:22:49,103 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-35.kernel
+2024-03-16 15:22:49,104 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-35.bias
+2024-03-16 15:22:49,104 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-36.gamma
+2024-03-16 15:22:49,105 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-36.beta
+2024-03-16 15:22:49,105 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-37.kernel
+2024-03-16 15:22:49,106 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-37.bias
+2024-03-16 15:22:49,106 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-38.gamma
+2024-03-16 15:22:49,107 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-38.beta
+2024-03-16 15:22:49,107 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-39.alpha
+2024-03-16 15:22:49,107 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-40.kernel
+2024-03-16 15:22:49,108 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-40.bias
+2024-03-16 15:22:49,108 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-41.gamma
+2024-03-16 15:22:49,109 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-41.beta
+2024-03-16 15:22:49,109 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-42.kernel
+2024-03-16 15:22:49,110 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-42.bias
+2024-03-16 15:22:49,110 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-43.gamma
+2024-03-16 15:22:49,110 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-43.beta
+2024-03-16 15:22:49,111 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-44.alpha
+2024-03-16 15:22:49,111 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-45.kernel
+2024-03-16 15:22:49,112 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-45.bias
+2024-03-16 15:22:49,112 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-46.gamma
+2024-03-16 15:22:49,113 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-46.beta
+2024-03-16 15:22:49,113 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-47.kernel
+2024-03-16 15:22:49,114 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-47.bias
+2024-03-16 15:22:49,114 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-48.gamma
+2024-03-16 15:22:49,115 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-48.beta
+2024-03-16 15:22:49,115 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-49.alpha
+2024-03-16 15:22:49,116 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-50.kernel
+2024-03-16 15:22:49,116 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-50.bias
+2024-03-16 15:22:49,117 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-51.gamma
+2024-03-16 15:22:49,117 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-51.beta
+2024-03-16 15:22:49,118 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-52.kernel
+2024-03-16 15:22:49,118 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-52.bias
+2024-03-16 15:22:49,118 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-53.gamma
+2024-03-16 15:22:49,119 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-53.beta
+2024-03-16 15:22:49,119 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-54.alpha
+2024-03-16 15:22:49,119 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-55.kernel
+2024-03-16 15:22:49,119 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-55.bias
+2024-03-16 15:22:49,120 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-56.gamma
+2024-03-16 15:22:49,120 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-56.beta
+2024-03-16 15:22:49,120 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-57.kernel
+2024-03-16 15:22:49,120 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-57.bias
+2024-03-16 15:22:49,121 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-58.gamma
+2024-03-16 15:22:49,121 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-58.beta
+2024-03-16 15:22:49,121 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-59.alpha
+2024-03-16 15:22:49,121 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-60.kernel
+2024-03-16 15:22:49,122 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-60.bias
+2024-03-16 15:22:49,122 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-61.gamma
+2024-03-16 15:22:49,122 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-61.beta
+2024-03-16 15:22:49,122 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-62.kernel
+2024-03-16 15:22:49,123 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-62.bias
+2024-03-16 15:22:49,123 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-63.gamma
+2024-03-16 15:22:49,123 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-63.beta
+2024-03-16 15:22:49,123 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-64.alpha
+2024-03-16 15:22:49,123 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-65.kernel
+2024-03-16 15:22:49,123 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-65.bias
+2024-03-16 15:22:49,124 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-66.gamma
+2024-03-16 15:22:49,124 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-66.beta
+2024-03-16 15:22:49,124 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-67.kernel
+2024-03-16 15:22:49,124 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-67.bias
+2024-03-16 15:22:49,125 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-68.gamma
+2024-03-16 15:22:49,125 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-68.beta
+2024-03-16 15:22:49,125 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-69.alpha
+2024-03-16 15:22:49,125 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-70.kernel
+2024-03-16 15:22:49,125 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-70.bias
+2024-03-16 15:22:49,126 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-71.gamma
+2024-03-16 15:22:49,126 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-71.beta
+2024-03-16 15:22:49,126 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-72.kernel
+2024-03-16 15:22:49,126 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-72.bias
+2024-03-16 15:22:49,126 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-73.gamma
+2024-03-16 15:22:49,127 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-73.beta
+2024-03-16 15:22:49,127 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-74.alpha
+2024-03-16 15:22:49,127 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-75.kernel
+2024-03-16 15:22:49,127 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-75.bias
+2024-03-16 15:22:49,128 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-76.gamma
+2024-03-16 15:22:49,128 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-76.beta
+2024-03-16 15:22:49,128 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-77.kernel
+2024-03-16 15:22:49,128 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-77.bias
+2024-03-16 15:22:49,129 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-78.gamma
+2024-03-16 15:22:49,129 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-78.beta
+2024-03-16 15:22:49,129 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-79.alpha
+2024-03-16 15:22:49,129 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-80.kernel
+2024-03-16 15:22:49,130 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-80.bias
+2024-03-16 15:22:49,130 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-81.gamma
+2024-03-16 15:22:49,130 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-81.beta
+2024-03-16 15:22:49,130 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-82.kernel
+2024-03-16 15:22:49,131 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-82.bias
+2024-03-16 15:22:49,131 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-83.gamma
+2024-03-16 15:22:49,131 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-83.beta
+2024-03-16 15:22:49,131 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-84.kernel
+2024-03-16 15:22:49,132 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-84.bias
+2024-03-16 15:22:49,132 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-85.alpha
+2024-03-16 15:22:49,132 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-86.kernel
+2024-03-16 15:22:49,132 - Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).model.layer_with_weights-86.bias
+2024-03-16 15:24:30,321 - Start pre-training
+2024-03-16 15:25:30,474 - 1/10, PSNR: 24.84119415283203
+2024-03-16 15:25:30,789 - 2/10, PSNR: 24.862024307250977
+2024-03-16 15:25:34,029 - 3/10, PSNR: 25.04943084716797
+2024-03-16 15:25:36,585 - 4/10, PSNR: 22.841781616210938
+2024-03-16 15:25:36,939 - 5/10, PSNR: 25.195358276367188
+2024-03-16 15:25:37,252 - 6/10, PSNR: 23.981613159179688
+2024-03-16 15:25:39,644 - 7/10, PSNR: 17.725858688354492
+2024-03-16 15:25:39,958 - 8/10, PSNR: 22.35235023498535
+2024-03-16 15:25:40,271 - 9/10, PSNR: 25.556161880493164
+2024-03-16 15:25:40,624 - 10/10, PSNR: 24.339054107666016
+2024-03-16 15:25:40,631 - 1000/10000: loss = 756.930, PSNR = 23.674482 (69.51s)
+2024-03-16 15:26:11,824 - 1/10, PSNR: 25.033618927001953
+2024-03-16 15:26:12,137 - 2/10, PSNR: 27.203853607177734
+2024-03-16 15:26:12,488 - 3/10, PSNR: 26.52968978881836
+2024-03-16 15:26:12,761 - 4/10, PSNR: 22.93248176574707
+2024-03-16 15:26:13,113 - 5/10, PSNR: 25.225736618041992
+2024-03-16 15:26:13,426 - 6/10, PSNR: 24.447162628173828
+2024-03-16 15:26:13,683 - 7/10, PSNR: 18.373144149780273
+2024-03-16 15:26:13,996 - 8/10, PSNR: 23.37117576599121
+2024-03-16 15:26:14,309 - 9/10, PSNR: 27.034147262573242
+2024-03-16 15:26:14,661 - 10/10, PSNR: 24.371782302856445
+2024-03-16 15:26:14,666 - 2000/10000: loss = 420.430, PSNR = 24.452280 (33.59s)
+2024-03-16 15:26:45,881 - 1/10, PSNR: 24.63611602783203
+2024-03-16 15:26:46,195 - 2/10, PSNR: 27.268096923828125
+2024-03-16 15:26:46,548 - 3/10, PSNR: 27.940202713012695
+2024-03-16 15:26:46,820 - 4/10, PSNR: 22.825294494628906
+2024-03-16 15:26:47,173 - 5/10, PSNR: 24.852506637573242
+2024-03-16 15:26:47,486 - 6/10, PSNR: 24.33434295654297
+2024-03-16 15:26:47,743 - 7/10, PSNR: 18.50296974182129
+2024-03-16 15:26:48,056 - 8/10, PSNR: 22.858985900878906
+2024-03-16 15:26:48,369 - 9/10, PSNR: 26.427396774291992
+2024-03-16 15:26:48,722 - 10/10, PSNR: 24.22037696838379
+2024-03-16 15:26:48,727 - 3000/10000: loss = 366.392, PSNR = 24.386627 (33.73s)
+2024-03-16 15:27:19,700 - 1/10, PSNR: 25.581104278564453
+2024-03-16 15:27:20,014 - 2/10, PSNR: 29.131488800048828
+2024-03-16 15:27:20,365 - 3/10, PSNR: 29.65229034423828
+2024-03-16 15:27:20,636 - 4/10, PSNR: 23.734895706176758
+2024-03-16 15:27:20,988 - 5/10, PSNR: 25.838729858398438
+2024-03-16 15:27:21,300 - 6/10, PSNR: 24.906667709350586
+2024-03-16 15:27:21,557 - 7/10, PSNR: 18.758607864379883
+2024-03-16 15:27:21,870 - 8/10, PSNR: 23.706581115722656
+2024-03-16 15:27:22,181 - 9/10, PSNR: 28.33426284790039
+2024-03-16 15:27:22,532 - 10/10, PSNR: 25.001256942749023
+2024-03-16 15:27:22,537 - 4000/10000: loss = 351.416, PSNR = 25.464588 (33.48s)
+2024-03-16 15:27:53,596 - 1/10, PSNR: 25.297191619873047
+2024-03-16 15:27:53,911 - 2/10, PSNR: 28.34876251220703
+2024-03-16 15:27:54,261 - 3/10, PSNR: 28.10837173461914
+2024-03-16 15:27:54,534 - 4/10, PSNR: 23.343971252441406
+2024-03-16 15:27:54,885 - 5/10, PSNR: 25.598939895629883
+2024-03-16 15:27:55,196 - 6/10, PSNR: 24.921693801879883
+2024-03-16 15:27:55,453 - 7/10, PSNR: 18.593313217163086
+2024-03-16 15:27:55,765 - 8/10, PSNR: 23.80462646484375
+2024-03-16 15:27:56,077 - 9/10, PSNR: 27.827030181884766
+2024-03-16 15:27:56,429 - 10/10, PSNR: 24.698190689086914
+2024-03-16 15:27:56,434 - 5000/10000: loss = 334.712, PSNR = 25.054211 (33.58s)
+2024-03-16 15:28:27,520 - 1/10, PSNR: 25.50377655029297
+2024-03-16 15:28:27,834 - 2/10, PSNR: 26.881589889526367
+2024-03-16 15:28:28,186 - 3/10, PSNR: 28.265371322631836
+2024-03-16 15:28:28,458 - 4/10, PSNR: 23.6121826171875
+2024-03-16 15:28:28,809 - 5/10, PSNR: 25.652132034301758
+2024-03-16 15:28:29,122 - 6/10, PSNR: 24.90509033203125
+2024-03-16 15:28:29,378 - 7/10, PSNR: 18.635353088378906
+2024-03-16 15:28:29,689 - 8/10, PSNR: 23.90009880065918
+2024-03-16 15:28:30,001 - 9/10, PSNR: 27.60227394104004
+2024-03-16 15:28:30,352 - 10/10, PSNR: 24.461524963378906
+2024-03-16 15:28:30,358 - 6000/10000: loss = 334.338, PSNR = 24.941938 (33.61s)
+2024-03-16 15:29:01,304 - 1/10, PSNR: 24.990699768066406
+2024-03-16 15:29:01,617 - 2/10, PSNR: 27.90651512145996
+2024-03-16 15:29:01,967 - 3/10, PSNR: 27.480112075805664
+2024-03-16 15:29:02,239 - 4/10, PSNR: 23.18362808227539
+2024-03-16 15:29:02,592 - 5/10, PSNR: 24.922290802001953
+2024-03-16 15:29:02,906 - 6/10, PSNR: 24.642200469970703
+2024-03-16 15:29:03,165 - 7/10, PSNR: 18.683895111083984
+2024-03-16 15:29:03,478 - 8/10, PSNR: 23.99690818786621
+2024-03-16 15:29:03,791 - 9/10, PSNR: 27.095745086669922
+2024-03-16 15:29:04,142 - 10/10, PSNR: 24.359779357910156
+2024-03-16 15:29:04,147 - 7000/10000: loss = 330.102, PSNR = 24.726177 (33.47s)
+2024-03-16 15:29:35,158 - 1/10, PSNR: 25.810022354125977
+2024-03-16 15:29:35,469 - 2/10, PSNR: 28.0353946685791
+2024-03-16 15:29:35,822 - 3/10, PSNR: 27.665172576904297
+2024-03-16 15:29:36,094 - 4/10, PSNR: 23.78915786743164
+2024-03-16 15:29:36,445 - 5/10, PSNR: 25.831144332885742
+2024-03-16 15:29:36,758 - 6/10, PSNR: 25.1358699798584
+2024-03-16 15:29:37,015 - 7/10, PSNR: 18.84471893310547
+2024-03-16 15:29:37,327 - 8/10, PSNR: 23.933130264282227
+2024-03-16 15:29:37,639 - 9/10, PSNR: 28.31174659729004
+2024-03-16 15:29:37,991 - 10/10, PSNR: 24.966501235961914
+2024-03-16 15:29:37,996 - 8000/10000: loss = 313.821, PSNR = 25.232285 (33.54s)
+2024-03-16 15:30:08,986 - 1/10, PSNR: 25.674041748046875
+2024-03-16 15:30:09,298 - 2/10, PSNR: 29.285364151000977
+2024-03-16 15:30:09,650 - 3/10, PSNR: 29.56031036376953
+2024-03-16 15:30:09,922 - 4/10, PSNR: 23.847431182861328
+2024-03-16 15:30:10,274 - 5/10, PSNR: 25.940847396850586
+2024-03-16 15:30:10,586 - 6/10, PSNR: 25.206335067749023
+2024-03-16 15:30:10,842 - 7/10, PSNR: 18.812034606933594
+2024-03-16 15:30:11,155 - 8/10, PSNR: 24.174226760864258
+2024-03-16 15:30:11,466 - 9/10, PSNR: 28.27889060974121
+2024-03-16 15:30:11,818 - 10/10, PSNR: 24.856962203979492
+2024-03-16 15:30:11,824 - 9000/10000: loss = 307.027, PSNR = 25.563643 (33.51s)
+2024-03-16 15:30:42,692 - 1/10, PSNR: 25.612642288208008
+2024-03-16 15:30:43,004 - 2/10, PSNR: 30.103626251220703
+2024-03-16 15:30:43,354 - 3/10, PSNR: 29.67119789123535
+2024-03-16 15:30:43,626 - 4/10, PSNR: 23.740182876586914
+2024-03-16 15:30:43,978 - 5/10, PSNR: 25.69198989868164
+2024-03-16 15:30:44,291 - 6/10, PSNR: 25.052032470703125
+2024-03-16 15:30:44,548 - 7/10, PSNR: 18.860158920288086
+2024-03-16 15:30:44,861 - 8/10, PSNR: 24.242130279541016
+2024-03-16 15:30:45,173 - 9/10, PSNR: 28.19810676574707
+2024-03-16 15:30:45,525 - 10/10, PSNR: 24.959911346435547
+2024-03-16 15:30:45,530 - 10000/10000: loss = 309.336, PSNR = 25.613199 (33.39s)
+2024-03-16 15:30:47,233 - Start training GAN
+2024-03-16 15:31:23,289 - 50/20000, perceptual loss = 0.1397, discriminator loss = 1.8773
+2024-03-16 15:31:26,765 - 100/20000, perceptual loss = 0.1312, discriminator loss = 1.3044
+2024-03-16 15:31:30,286 - 150/20000, perceptual loss = 0.1310, discriminator loss = 0.9269
+2024-03-16 15:31:33,832 - 200/20000, perceptual loss = 0.1319, discriminator loss = 0.5752
+2024-03-16 15:31:37,433 - 250/20000, perceptual loss = 0.1309, discriminator loss = 0.4705
+2024-03-16 15:31:40,990 - 300/20000, perceptual loss = 0.1268, discriminator loss = 0.6585
+2024-03-16 15:31:44,612 - 350/20000, perceptual loss = 0.1363, discriminator loss = 0.2861
+2024-03-16 15:31:48,225 - 400/20000, perceptual loss = 0.1231, discriminator loss = 0.2917
+2024-03-16 15:31:51,821 - 450/20000, perceptual loss = 0.1301, discriminator loss = 0.3118
+2024-03-16 15:31:55,369 - 500/20000, perceptual loss = 0.1220, discriminator loss = 0.2698
+2024-03-16 15:31:58,891 - 550/20000, perceptual loss = 0.1348, discriminator loss = 0.1639
+2024-03-16 15:32:02,389 - 600/20000, perceptual loss = 0.1332, discriminator loss = 0.4643
+2024-03-16 15:32:05,954 - 650/20000, perceptual loss = 0.1218, discriminator loss = 0.0179
+2024-03-16 15:32:09,434 - 700/20000, perceptual loss = 0.1284, discriminator loss = 0.2412
+2024-03-16 15:32:12,930 - 750/20000, perceptual loss = 0.1319, discriminator loss = 0.4011
+2024-03-16 15:32:16,433 - 800/20000, perceptual loss = 0.1297, discriminator loss = 0.1421
+2024-03-16 15:32:19,992 - 850/20000, perceptual loss = 0.1239, discriminator loss = 0.0867
+2024-03-16 15:32:23,472 - 900/20000, perceptual loss = 0.1337, discriminator loss = 0.0522
+2024-03-16 15:32:26,972 - 950/20000, perceptual loss = 0.1246, discriminator loss = 0.4433
+2024-03-16 15:32:30,477 - 1000/20000, perceptual loss = 0.1306, discriminator loss = 0.0928
+2024-03-16 15:32:33,986 - 1050/20000, perceptual loss = 0.1159, discriminator loss = 0.7451
+2024-03-16 15:32:37,514 - 1100/20000, perceptual loss = 0.1268, discriminator loss = 0.6829
+2024-03-16 15:32:41,008 - 1150/20000, perceptual loss = 0.1328, discriminator loss = 0.2206
+2024-03-16 15:32:44,488 - 1200/20000, perceptual loss = 0.1176, discriminator loss = 0.1903
+2024-03-16 15:32:48,010 - 1250/20000, perceptual loss = 0.1260, discriminator loss = 0.1214
+2024-03-16 15:32:51,556 - 1300/20000, perceptual loss = 0.1244, discriminator loss = 0.2013
+2024-03-16 15:32:55,052 - 1350/20000, perceptual loss = 0.1225, discriminator loss = 0.5879
+2024-03-16 15:32:58,540 - 1400/20000, perceptual loss = 0.1151, discriminator loss = 0.4982
+2024-03-16 15:33:02,067 - 1450/20000, perceptual loss = 0.1172, discriminator loss = 0.2195
+2024-03-16 15:33:05,590 - 1500/20000, perceptual loss = 0.1291, discriminator loss = 0.4259
+2024-03-16 15:33:09,111 - 1550/20000, perceptual loss = 0.1163, discriminator loss = 0.5831
+2024-03-16 15:33:12,600 - 1600/20000, perceptual loss = 0.1330, discriminator loss = 0.3485
+2024-03-16 15:33:16,093 - 1650/20000, perceptual loss = 0.1225, discriminator loss = 0.2295
+2024-03-16 15:33:19,593 - 1700/20000, perceptual loss = 0.1229, discriminator loss = 0.2098
+2024-03-16 15:33:23,151 - 1750/20000, perceptual loss = 0.1130, discriminator loss = 1.0241
+2024-03-16 15:33:26,639 - 1800/20000, perceptual loss = 0.1156, discriminator loss = 0.5129
+2024-03-16 15:33:30,140 - 1850/20000, perceptual loss = 0.1177, discriminator loss = 0.4220
+2024-03-16 15:33:33,646 - 1900/20000, perceptual loss = 0.1090, discriminator loss = 0.4273
+2024-03-16 15:33:37,192 - 1950/20000, perceptual loss = 0.1195, discriminator loss = 0.4390
+2024-03-16 15:33:40,693 - 2000/20000, perceptual loss = 0.1135, discriminator loss = 0.1303
+2024-03-16 15:33:44,194 - 2050/20000, perceptual loss = 0.1094, discriminator loss = 0.8269
+2024-03-16 15:33:47,675 - 2100/20000, perceptual loss = 0.1090, discriminator loss = 0.3785
+2024-03-16 15:33:51,216 - 2150/20000, perceptual loss = 0.1123, discriminator loss = 0.4827
+2024-03-16 15:33:54,737 - 2200/20000, perceptual loss = 0.1062, discriminator loss = 0.4078
+2024-03-16 15:33:58,231 - 2250/20000, perceptual loss = 0.1097, discriminator loss = 0.1219
+2024-03-16 15:34:01,733 - 2300/20000, perceptual loss = 0.1144, discriminator loss = 0.2913
+2024-03-16 15:34:05,278 - 2350/20000, perceptual loss = 0.1102, discriminator loss = 0.7413
+2024-03-16 15:34:08,756 - 2400/20000, perceptual loss = 0.1252, discriminator loss = 0.1885
+2024-03-16 15:34:12,256 - 2450/20000, perceptual loss = 0.1088, discriminator loss = 0.7129
+2024-03-16 15:34:15,753 - 2500/20000, perceptual loss = 0.1125, discriminator loss = 0.1274
+2024-03-16 15:34:19,303 - 2550/20000, perceptual loss = 0.1079, discriminator loss = 0.4342
+2024-03-16 15:34:22,788 - 2600/20000, perceptual loss = 0.1006, discriminator loss = 0.2659
+2024-03-16 15:34:26,287 - 2650/20000, perceptual loss = 0.1042, discriminator loss = 0.2603
+2024-03-16 15:34:29,794 - 2700/20000, perceptual loss = 0.1023, discriminator loss = 0.7356
+2024-03-16 15:34:33,337 - 2750/20000, perceptual loss = 0.1029, discriminator loss = 0.1870
+2024-03-16 15:34:36,818 - 2800/20000, perceptual loss = 0.1075, discriminator loss = 0.0487
+2024-03-16 15:34:40,342 - 2850/20000, perceptual loss = 0.1091, discriminator loss = 0.4141
+2024-03-16 15:34:43,829 - 2900/20000, perceptual loss = 0.1119, discriminator loss = 0.1438
+2024-03-16 15:34:47,402 - 2950/20000, perceptual loss = 0.1104, discriminator loss = 0.3585
+2024-03-16 15:34:50,896 - 3000/20000, perceptual loss = 0.1146, discriminator loss = 0.4499
+2024-03-16 15:34:54,399 - 3050/20000, perceptual loss = 0.1011, discriminator loss = 0.4894
+2024-03-16 15:34:57,904 - 3100/20000, perceptual loss = 0.1046, discriminator loss = 0.0596
+2024-03-16 15:35:01,468 - 3150/20000, perceptual loss = 0.0982, discriminator loss = 0.3598
+2024-03-16 15:35:04,955 - 3200/20000, perceptual loss = 0.0999, discriminator loss = 0.3990
+2024-03-16 15:35:08,461 - 3250/20000, perceptual loss = 0.1027, discriminator loss = 0.2196
+2024-03-16 15:35:11,958 - 3300/20000, perceptual loss = 0.1088, discriminator loss = 0.3880
+2024-03-16 15:35:15,475 - 3350/20000, perceptual loss = 0.1014, discriminator loss = 0.9781
+2024-03-16 15:35:19,027 - 3400/20000, perceptual loss = 0.1098, discriminator loss = 0.1379
+2024-03-16 15:35:22,525 - 3450/20000, perceptual loss = 0.0972, discriminator loss = 0.3835
+2024-03-16 15:35:26,011 - 3500/20000, perceptual loss = 0.1008, discriminator loss = 0.2054
+2024-03-16 15:35:29,529 - 3550/20000, perceptual loss = 0.1061, discriminator loss = 0.1692
+2024-03-16 15:35:33,075 - 3600/20000, perceptual loss = 0.1014, discriminator loss = 0.2825
+2024-03-16 15:35:36,584 - 3650/20000, perceptual loss = 0.1058, discriminator loss = 0.3624
+2024-03-16 15:35:40,083 - 3700/20000, perceptual loss = 0.1033, discriminator loss = 0.4314
+2024-03-16 15:35:43,602 - 3750/20000, perceptual loss = 0.1007, discriminator loss = 0.3327
+2024-03-16 15:35:47,105 - 3800/20000, perceptual loss = 0.1043, discriminator loss = 0.4676
+2024-03-16 15:35:50,642 - 3850/20000, perceptual loss = 0.0946, discriminator loss = 0.2627
+2024-03-16 15:35:54,123 - 3900/20000, perceptual loss = 0.0989, discriminator loss = 0.2964
+2024-03-16 15:35:57,619 - 3950/20000, perceptual loss = 0.1006, discriminator loss = 0.3645
+2024-03-16 15:36:01,122 - 4000/20000, perceptual loss = 0.1002, discriminator loss = 0.1685
+2024-03-16 15:36:04,685 - 4050/20000, perceptual loss = 0.0955, discriminator loss = 0.7627
+2024-03-16 15:36:08,160 - 4100/20000, perceptual loss = 0.1030, discriminator loss = 0.1622
+2024-03-16 15:36:11,667 - 4150/20000, perceptual loss = 0.1048, discriminator loss = 0.3631
+2024-03-16 15:36:15,172 - 4200/20000, perceptual loss = 0.0995, discriminator loss = 0.4426
+2024-03-16 15:36:18,673 - 4250/20000, perceptual loss = 0.0973, discriminator loss = 0.5419
+2024-03-16 15:36:22,209 - 4300/20000, perceptual loss = 0.0932, discriminator loss = 0.4632
+2024-03-16 15:36:25,707 - 4350/20000, perceptual loss = 0.1043, discriminator loss = 0.6220
+2024-03-16 15:36:29,191 - 4400/20000, perceptual loss = 0.0962, discriminator loss = 0.1667
+2024-03-16 15:36:32,711 - 4450/20000, perceptual loss = 0.0959, discriminator loss = 0.1922
+2024-03-16 15:36:36,261 - 4500/20000, perceptual loss = 0.1006, discriminator loss = 0.2372
+2024-03-16 15:36:39,755 - 4550/20000, perceptual loss = 0.0977, discriminator loss = 0.2397
+2024-03-16 15:36:43,234 - 4600/20000, perceptual loss = 0.0984, discriminator loss = 0.4250
+2024-03-16 15:36:46,751 - 4650/20000, perceptual loss = 0.1044, discriminator loss = 0.3957
+2024-03-16 15:36:50,276 - 4700/20000, perceptual loss = 0.1048, discriminator loss = 0.1126
+2024-03-16 15:36:53,784 - 4750/20000, perceptual loss = 0.0960, discriminator loss = 0.3928
+2024-03-16 15:36:57,263 - 4800/20000, perceptual loss = 0.0923, discriminator loss = 0.2775
+2024-03-16 15:37:00,767 - 4850/20000, perceptual loss = 0.1013, discriminator loss = 0.3032
+2024-03-16 15:37:04,266 - 4900/20000, perceptual loss = 0.1096, discriminator loss = 0.3944
+2024-03-16 15:37:07,832 - 4950/20000, perceptual loss = 0.0849, discriminator loss = 0.8026
+2024-03-16 15:37:11,318 - 5000/20000, perceptual loss = 0.0945, discriminator loss = 0.2125
+2024-03-16 15:37:14,825 - 5050/20000, perceptual loss = 0.0964, discriminator loss = 0.3193
+2024-03-16 15:37:18,321 - 5100/20000, perceptual loss = 0.0904, discriminator loss = 0.2732
+2024-03-16 15:37:21,873 - 5150/20000, perceptual loss = 0.0959, discriminator loss = 0.1506
+2024-03-16 15:37:25,356 - 5200/20000, perceptual loss = 0.0945, discriminator loss = 0.5714
+2024-03-16 15:37:28,860 - 5250/20000, perceptual loss = 0.0963, discriminator loss = 0.0703
+2024-03-16 15:37:32,362 - 5300/20000, perceptual loss = 0.0936, discriminator loss = 0.1210
+2024-03-16 15:37:35,921 - 5350/20000, perceptual loss = 0.0958, discriminator loss = 0.3496
+2024-03-16 15:37:39,403 - 5400/20000, perceptual loss = 0.0908, discriminator loss = 0.0284
+2024-03-16 15:37:42,904 - 5450/20000, perceptual loss = 0.0949, discriminator loss = 0.5982
+2024-03-16 15:37:46,407 - 5500/20000, perceptual loss = 0.0893, discriminator loss = 0.1472
+2024-03-16 15:37:49,952 - 5550/20000, perceptual loss = 0.0948, discriminator loss = 0.3772
+2024-03-16 15:37:53,428 - 5600/20000, perceptual loss = 0.0963, discriminator loss = 0.0393
+2024-03-16 15:37:56,931 - 5650/20000, perceptual loss = 0.0928, discriminator loss = 0.2732
+2024-03-16 15:38:00,432 - 5700/20000, perceptual loss = 0.0995, discriminator loss = 0.4959
+2024-03-16 15:38:03,989 - 5750/20000, perceptual loss = 0.0923, discriminator loss = 0.0761
+2024-03-16 15:38:07,472 - 5800/20000, perceptual loss = 0.0874, discriminator loss = 0.7749
+2024-03-16 15:38:10,970 - 5850/20000, perceptual loss = 0.0910, discriminator loss = 0.4925
+2024-03-16 15:38:14,465 - 5900/20000, perceptual loss = 0.0902, discriminator loss = 0.3877
+2024-03-16 15:38:18,005 - 5950/20000, perceptual loss = 0.0960, discriminator loss = 0.2834
+2024-03-16 15:38:21,478 - 6000/20000, perceptual loss = 0.0941, discriminator loss = 0.3646
+2024-03-16 15:38:24,976 - 6050/20000, perceptual loss = 0.0906, discriminator loss = 0.6907
+2024-03-16 15:38:28,471 - 6100/20000, perceptual loss = 0.0870, discriminator loss = 0.3842
+2024-03-16 15:38:32,020 - 6150/20000, perceptual loss = 0.0900, discriminator loss = 0.0453
+2024-03-16 15:38:35,504 - 6200/20000, perceptual loss = 0.0892, discriminator loss = 0.6175
+2024-03-16 15:38:39,002 - 6250/20000, perceptual loss = 0.1001, discriminator loss = 0.1282
+2024-03-16 15:38:42,507 - 6300/20000, perceptual loss = 0.0895, discriminator loss = 0.0565
+2024-03-16 15:38:46,063 - 6350/20000, perceptual loss = 0.0977, discriminator loss = 0.0868
+2024-03-16 15:38:49,539 - 6400/20000, perceptual loss = 0.0868, discriminator loss = 0.5407
+2024-03-16 15:38:53,037 - 6450/20000, perceptual loss = 0.0912, discriminator loss = 0.3826
+2024-03-16 15:38:56,516 - 6500/20000, perceptual loss = 0.0897, discriminator loss = 0.2557
+2024-03-16 15:39:00,033 - 6550/20000, perceptual loss = 0.0920, discriminator loss = 0.4035
+2024-03-16 15:39:03,570 - 6600/20000, perceptual loss = 0.0986, discriminator loss = 0.0370
+2024-03-16 15:39:07,065 - 6650/20000, perceptual loss = 0.0903, discriminator loss = 0.4231
+2024-03-16 15:39:10,548 - 6700/20000, perceptual loss = 0.0934, discriminator loss = 0.6489
+2024-03-16 15:39:14,064 - 6750/20000, perceptual loss = 0.0869, discriminator loss = 0.1705
+2024-03-16 15:39:17,611 - 6800/20000, perceptual loss = 0.0900, discriminator loss = 0.9495
+2024-03-16 15:39:21,108 - 6850/20000, perceptual loss = 0.0844, discriminator loss = 0.2860
+2024-03-16 15:39:24,586 - 6900/20000, perceptual loss = 0.0894, discriminator loss = 0.5570
+2024-03-16 15:39:28,082 - 6950/20000, perceptual loss = 0.0910, discriminator loss = 0.3174
+2024-03-16 15:39:31,576 - 7000/20000, perceptual loss = 0.0890, discriminator loss = 0.2489
+2024-03-16 15:39:35,135 - 7050/20000, perceptual loss = 0.0952, discriminator loss = 0.1806
+2024-03-16 15:39:38,615 - 7100/20000, perceptual loss = 0.0920, discriminator loss = 0.3831
+2024-03-16 15:39:42,112 - 7150/20000, perceptual loss = 0.0901, discriminator loss = 0.2549
+2024-03-16 15:39:45,614 - 7200/20000, perceptual loss = 0.0936, discriminator loss = 0.2290
+2024-03-16 15:39:49,164 - 7250/20000, perceptual loss = 0.0927, discriminator loss = 0.2564
+2024-03-16 15:39:52,659 - 7300/20000, perceptual loss = 0.0959, discriminator loss = 0.4001
+2024-03-16 15:39:56,160 - 7350/20000, perceptual loss = 0.0891, discriminator loss = 0.3346
+2024-03-16 15:39:59,642 - 7400/20000, perceptual loss = 0.0967, discriminator loss = 0.2067
+2024-03-16 15:40:03,155 - 7450/20000, perceptual loss = 0.0890, discriminator loss = 0.2279
+2024-03-16 15:40:06,708 - 7500/20000, perceptual loss = 0.0841, discriminator loss = 0.4314
+2024-03-16 15:40:10,205 - 7550/20000, perceptual loss = 0.0863, discriminator loss = 0.0875
+2024-03-16 15:40:13,687 - 7600/20000, perceptual loss = 0.0944, discriminator loss = 0.3033
+2024-03-16 15:40:17,207 - 7650/20000, perceptual loss = 0.0835, discriminator loss = 0.4488
+2024-03-16 15:40:20,740 - 7700/20000, perceptual loss = 0.0878, discriminator loss = 0.3189
+2024-03-16 15:40:24,252 - 7750/20000, perceptual loss = 0.0892, discriminator loss = 0.4705
+2024-03-16 15:40:27,737 - 7800/20000, perceptual loss = 0.0838, discriminator loss = 0.6365
+2024-03-16 15:40:31,231 - 7850/20000, perceptual loss = 0.0835, discriminator loss = 0.2408
+2024-03-16 15:40:34,733 - 7900/20000, perceptual loss = 0.0902, discriminator loss = 0.3621
+2024-03-16 15:40:38,290 - 7950/20000, perceptual loss = 0.0898, discriminator loss = 0.2270
+2024-03-16 15:40:41,772 - 8000/20000, perceptual loss = 0.0843, discriminator loss = 0.2251
+2024-03-16 15:40:45,272 - 8050/20000, perceptual loss = 0.0852, discriminator loss = 0.4622
+2024-03-16 15:40:48,772 - 8100/20000, perceptual loss = 0.0879, discriminator loss = 0.1208
+2024-03-16 15:40:52,311 - 8150/20000, perceptual loss = 0.0919, discriminator loss = 0.2690
+2024-03-16 15:40:55,823 - 8200/20000, perceptual loss = 0.0920, discriminator loss = 0.2457
+2024-03-16 15:40:59,322 - 8250/20000, perceptual loss = 0.0909, discriminator loss = 0.3341
+2024-03-16 15:41:02,800 - 8300/20000, perceptual loss = 0.0911, discriminator loss = 0.2922
+2024-03-16 15:41:06,330 - 8350/20000, perceptual loss = 0.1004, discriminator loss = 0.2752
+2024-03-16 15:41:09,878 - 8400/20000, perceptual loss = 0.0825, discriminator loss = 0.3239
+2024-03-16 15:41:13,374 - 8450/20000, perceptual loss = 0.0854, discriminator loss = 0.4191
+2024-03-16 15:41:16,857 - 8500/20000, perceptual loss = 0.0894, discriminator loss = 0.0821
+2024-03-16 15:41:20,386 - 8550/20000, perceptual loss = 0.0884, discriminator loss = 0.2116
+2024-03-16 15:41:23,950 - 8600/20000, perceptual loss = 0.0895, discriminator loss = 0.5785
+2024-03-16 15:41:27,459 - 8650/20000, perceptual loss = 0.0816, discriminator loss = 0.2409
+2024-03-16 15:41:30,958 - 8700/20000, perceptual loss = 0.0884, discriminator loss = 0.1055
+2024-03-16 15:41:34,471 - 8750/20000, perceptual loss = 0.0887, discriminator loss = 0.3241
+2024-03-16 15:41:37,988 - 8800/20000, perceptual loss = 0.0835, discriminator loss = 0.1069
+2024-03-16 15:41:41,558 - 8850/20000, perceptual loss = 0.0872, discriminator loss = 0.2879
+2024-03-16 15:41:45,057 - 8900/20000, perceptual loss = 0.0861, discriminator loss = 0.4553
+2024-03-16 15:41:48,561 - 8950/20000, perceptual loss = 0.0777, discriminator loss = 0.3448
+2024-03-16 15:41:52,068 - 9000/20000, perceptual loss = 0.0892, discriminator loss = 0.2352
+2024-03-16 15:41:55,633 - 9050/20000, perceptual loss = 0.0836, discriminator loss = 0.1465
+2024-03-16 15:41:59,127 - 9100/20000, perceptual loss = 0.0896, discriminator loss = 0.2970
+2024-03-16 15:42:02,730 - 9150/20000, perceptual loss = 0.0838, discriminator loss = 0.2043
+2024-03-16 15:42:06,265 - 9200/20000, perceptual loss = 0.0832, discriminator loss = 0.5979
+2024-03-16 15:42:09,786 - 9250/20000, perceptual loss = 0.0829, discriminator loss = 0.4586
+2024-03-16 15:42:13,337 - 9300/20000, perceptual loss = 0.0867, discriminator loss = 0.1149
+2024-03-16 15:42:16,849 - 9350/20000, perceptual loss = 0.0835, discriminator loss = 0.3448
+2024-03-16 15:42:20,349 - 9400/20000, perceptual loss = 0.0845, discriminator loss = 0.2626
+2024-03-16 15:42:23,875 - 9450/20000, perceptual loss = 0.0826, discriminator loss = 0.2077
+2024-03-16 15:42:27,424 - 9500/20000, perceptual loss = 0.0882, discriminator loss = 0.3506
+2024-03-16 15:42:30,942 - 9550/20000, perceptual loss = 0.0791, discriminator loss = 0.4220
+2024-03-16 15:42:34,437 - 9600/20000, perceptual loss = 0.0897, discriminator loss = 0.2488
+2024-03-16 15:42:37,964 - 9650/20000, perceptual loss = 0.0850, discriminator loss = 0.3057
+2024-03-16 15:42:41,463 - 9700/20000, perceptual loss = 0.0781, discriminator loss = 0.1155
+2024-03-16 15:42:45,011 - 9750/20000, perceptual loss = 0.0820, discriminator loss = 0.2917
+2024-03-16 15:42:48,494 - 9800/20000, perceptual loss = 0.0819, discriminator loss = 0.1881
+2024-03-16 15:42:52,002 - 9850/20000, perceptual loss = 0.0843, discriminator loss = 0.3079
+2024-03-16 15:42:55,506 - 9900/20000, perceptual loss = 0.0901, discriminator loss = 0.6495
+2024-03-16 15:42:59,057 - 9950/20000, perceptual loss = 0.0902, discriminator loss = 0.3170
+2024-03-16 15:43:02,548 - 10000/20000, perceptual loss = 0.0843, discriminator loss = 0.2686
+2024-03-16 15:43:06,050 - 10050/20000, perceptual loss = 0.0854, discriminator loss = 0.3139
+2024-03-16 15:43:09,554 - 10100/20000, perceptual loss = 0.0830, discriminator loss = 0.5086
+2024-03-16 15:43:13,119 - 10150/20000, perceptual loss = 0.0815, discriminator loss = 0.2931
+2024-03-16 15:43:16,597 - 10200/20000, perceptual loss = 0.0884, discriminator loss = 0.3278
+2024-03-16 15:43:20,100 - 10250/20000, perceptual loss = 0.0914, discriminator loss = 0.1134
+2024-03-16 15:43:23,601 - 10300/20000, perceptual loss = 0.0812, discriminator loss = 0.3165
+2024-03-16 15:43:27,159 - 10350/20000, perceptual loss = 0.0857, discriminator loss = 0.2711
+2024-03-16 15:43:30,643 - 10400/20000, perceptual loss = 0.0839, discriminator loss = 0.6138
+2024-03-16 15:43:34,147 - 10450/20000, perceptual loss = 0.0891, discriminator loss = 0.1779
+2024-03-16 15:43:37,660 - 10500/20000, perceptual loss = 0.0768, discriminator loss = 0.2588
+2024-03-16 15:43:41,223 - 10550/20000, perceptual loss = 0.0857, discriminator loss = 0.3932
+2024-03-16 15:43:44,720 - 10600/20000, perceptual loss = 0.0914, discriminator loss = 0.1480
+2024-03-16 15:43:48,319 - 10650/20000, perceptual loss = 0.1018, discriminator loss = 0.3544
+2024-03-16 15:43:51,882 - 10700/20000, perceptual loss = 0.0928, discriminator loss = 0.2432
+2024-03-16 15:43:55,430 - 10750/20000, perceptual loss = 0.0881, discriminator loss = 0.4801
+2024-03-16 15:43:58,915 - 10800/20000, perceptual loss = 0.0837, discriminator loss = 0.3230
+2024-03-16 15:44:02,412 - 10850/20000, perceptual loss = 0.0859, discriminator loss = 0.4198
+2024-03-16 15:44:05,921 - 10900/20000, perceptual loss = 0.0805, discriminator loss = 0.4504
+2024-03-16 15:44:09,580 - 10950/20000, perceptual loss = 0.0814, discriminator loss = 0.1809
+2024-03-16 15:44:13,129 - 11000/20000, perceptual loss = 0.0827, discriminator loss = 0.7863
+2024-03-16 15:44:16,637 - 11050/20000, perceptual loss = 0.0793, discriminator loss = 0.3231
+2024-03-16 15:44:20,141 - 11100/20000, perceptual loss = 0.0883, discriminator loss = 0.3805
+2024-03-16 15:44:23,682 - 11150/20000, perceptual loss = 0.0802, discriminator loss = 0.3101
+2024-03-16 15:44:27,169 - 11200/20000, perceptual loss = 0.0889, discriminator loss = 0.2425
+2024-03-16 15:44:30,684 - 11250/20000, perceptual loss = 0.0839, discriminator loss = 0.2716
+2024-03-16 15:44:34,194 - 11300/20000, perceptual loss = 0.0839, discriminator loss = 0.7036
+2024-03-16 15:44:37,809 - 11350/20000, perceptual loss = 0.0840, discriminator loss = 0.1588
+2024-03-16 15:44:41,359 - 11400/20000, perceptual loss = 0.0817, discriminator loss = 0.1659
+2024-03-16 15:44:44,880 - 11450/20000, perceptual loss = 0.0820, discriminator loss = 0.5519
+2024-03-16 15:44:48,383 - 11500/20000, perceptual loss = 0.0822, discriminator loss = 0.4109
+2024-03-16 15:44:51,898 - 11550/20000, perceptual loss = 0.0895, discriminator loss = 0.2965
+2024-03-16 15:44:55,404 - 11600/20000, perceptual loss = 0.0823, discriminator loss = 0.3195
+2024-03-16 15:44:58,928 - 11650/20000, perceptual loss = 0.0835, discriminator loss = 0.3764
+2024-03-16 15:45:02,437 - 11700/20000, perceptual loss = 0.0759, discriminator loss = 0.2769
+2024-03-16 15:45:05,986 - 11750/20000, perceptual loss = 0.0839, discriminator loss = 0.5613
+2024-03-16 15:45:09,469 - 11800/20000, perceptual loss = 0.0815, discriminator loss = 0.2314
+2024-03-16 15:45:12,984 - 11850/20000, perceptual loss = 0.0855, discriminator loss = 0.6711
+2024-03-16 15:45:16,490 - 11900/20000, perceptual loss = 0.0776, discriminator loss = 0.2518
+2024-03-16 15:45:20,057 - 11950/20000, perceptual loss = 0.0772, discriminator loss = 0.1823
+2024-03-16 15:45:23,539 - 12000/20000, perceptual loss = 0.0813, discriminator loss = 0.1197
+2024-03-16 15:45:27,039 - 12050/20000, perceptual loss = 0.0804, discriminator loss = 0.4469
+2024-03-16 15:45:30,542 - 12100/20000, perceptual loss = 0.0803, discriminator loss = 0.2365
+2024-03-16 15:45:34,074 - 12150/20000, perceptual loss = 0.0759, discriminator loss = 0.4816
+2024-03-16 15:45:37,584 - 12200/20000, perceptual loss = 0.0801, discriminator loss = 0.4469
+2024-03-16 15:45:41,082 - 12250/20000, perceptual loss = 0.0855, discriminator loss = 0.3381
+2024-03-16 15:45:44,566 - 12300/20000, perceptual loss = 0.0875, discriminator loss = 0.2459
+2024-03-16 15:45:48,092 - 12350/20000, perceptual loss = 0.0856, discriminator loss = 0.2853
+2024-03-16 15:45:51,650 - 12400/20000, perceptual loss = 0.0782, discriminator loss = 0.2745
+2024-03-16 15:45:55,151 - 12450/20000, perceptual loss = 0.0807, discriminator loss = 0.6005
+2024-03-16 15:45:58,647 - 12500/20000, perceptual loss = 0.0826, discriminator loss = 0.2665
+2024-03-16 15:46:02,166 - 12550/20000, perceptual loss = 0.0910, discriminator loss = 0.2068
+2024-03-16 15:46:05,666 - 12600/20000, perceptual loss = 0.0782, discriminator loss = 0.3325
+2024-03-16 15:46:09,209 - 12650/20000, perceptual loss = 0.0790, discriminator loss = 0.4121
+2024-03-16 15:46:12,687 - 12700/20000, perceptual loss = 0.0788, discriminator loss = 0.3770
+2024-03-16 15:46:16,182 - 12750/20000, perceptual loss = 0.0830, discriminator loss = 0.6665
+2024-03-16 15:46:19,687 - 12800/20000, perceptual loss = 0.0884, discriminator loss = 0.2113
+2024-03-16 15:46:23,247 - 12850/20000, perceptual loss = 0.0822, discriminator loss = 0.4833
+2024-03-16 15:46:26,732 - 12900/20000, perceptual loss = 0.0875, discriminator loss = 0.2665
+2024-03-16 15:46:30,233 - 12950/20000, perceptual loss = 0.0817, discriminator loss = 0.2813
+2024-03-16 15:46:33,739 - 13000/20000, perceptual loss = 0.0735, discriminator loss = 0.2395
+2024-03-16 15:46:37,262 - 13050/20000, perceptual loss = 0.0791, discriminator loss = 0.4237
+2024-03-16 15:46:40,785 - 13100/20000, perceptual loss = 0.0742, discriminator loss = 0.4195
+2024-03-16 15:46:44,298 - 13150/20000, perceptual loss = 0.0777, discriminator loss = 0.2257
+2024-03-16 15:46:47,788 - 13200/20000, perceptual loss = 0.0768, discriminator loss = 0.3910
+2024-03-16 15:46:51,311 - 13250/20000, perceptual loss = 0.0795, discriminator loss = 0.2767
+2024-03-16 15:46:54,861 - 13300/20000, perceptual loss = 0.0798, discriminator loss = 0.5329
+2024-03-16 15:46:58,371 - 13350/20000, perceptual loss = 0.0814, discriminator loss = 0.1896
+2024-03-16 15:47:01,858 - 13400/20000, perceptual loss = 0.0782, discriminator loss = 0.2607
+2024-03-16 15:47:05,370 - 13450/20000, perceptual loss = 0.0781, discriminator loss = 0.4089
+2024-03-16 15:47:08,896 - 13500/20000, perceptual loss = 0.0790, discriminator loss = 0.2172
+2024-03-16 15:47:12,392 - 13550/20000, perceptual loss = 0.0800, discriminator loss = 0.3664
+2024-03-16 15:47:15,890 - 13600/20000, perceptual loss = 0.0762, discriminator loss = 0.3990
+2024-03-16 15:47:19,441 - 13650/20000, perceptual loss = 0.0752, discriminator loss = 0.2163
+2024-03-16 15:47:22,919 - 13700/20000, perceptual loss = 0.0850, discriminator loss = 0.2699
+2024-03-16 15:47:26,415 - 13750/20000, perceptual loss = 0.0888, discriminator loss = 0.3958
+2024-03-16 15:47:29,943 - 13800/20000, perceptual loss = 0.0773, discriminator loss = 0.4410
+2024-03-16 15:47:33,466 - 13850/20000, perceptual loss = 0.0797, discriminator loss = 0.3035
+2024-03-16 15:47:36,957 - 13900/20000, perceptual loss = 0.0792, discriminator loss = 0.1959
+2024-03-16 15:47:40,484 - 13950/20000, perceptual loss = 0.0829, discriminator loss = 0.3583
+2024-03-16 15:47:44,017 - 14000/20000, perceptual loss = 0.0756, discriminator loss = 0.3450
+2024-03-16 15:47:47,513 - 14050/20000, perceptual loss = 0.0858, discriminator loss = 0.1943
+2024-03-16 15:47:50,997 - 14100/20000, perceptual loss = 0.0833, discriminator loss = 0.3818
+2024-03-16 15:47:54,521 - 14150/20000, perceptual loss = 0.0891, discriminator loss = 0.3990
+2024-03-16 15:47:58,072 - 14200/20000, perceptual loss = 0.0842, discriminator loss = 0.4229
+2024-03-16 15:48:01,572 - 14250/20000, perceptual loss = 0.0831, discriminator loss = 0.3502
+2024-03-16 15:48:05,053 - 14300/20000, perceptual loss = 0.0788, discriminator loss = 0.2250
+2024-03-16 15:48:08,575 - 14350/20000, perceptual loss = 0.0781, discriminator loss = 0.4279
+2024-03-16 15:48:12,122 - 14400/20000, perceptual loss = 0.0779, discriminator loss = 0.4448
+2024-03-16 15:48:15,633 - 14450/20000, perceptual loss = 0.0824, discriminator loss = 0.1618
+2024-03-16 15:48:19,114 - 14500/20000, perceptual loss = 0.0887, discriminator loss = 0.4181
+2024-03-16 15:48:22,615 - 14550/20000, perceptual loss = 0.0745, discriminator loss = 0.3312
+2024-03-16 15:48:26,124 - 14600/20000, perceptual loss = 0.0831, discriminator loss = 0.3575
+2024-03-16 15:48:29,695 - 14650/20000, perceptual loss = 0.0812, discriminator loss = 0.2028
+2024-03-16 15:48:33,175 - 14700/20000, perceptual loss = 0.0806, discriminator loss = 0.1926
+2024-03-16 15:48:36,674 - 14750/20000, perceptual loss = 0.0772, discriminator loss = 0.4512
+2024-03-16 15:48:40,179 - 14800/20000, perceptual loss = 0.0746, discriminator loss = 0.1147
+2024-03-16 15:48:43,745 - 14850/20000, perceptual loss = 0.0699, discriminator loss = 0.3799
+2024-03-16 15:48:47,229 - 14900/20000, perceptual loss = 0.0805, discriminator loss = 0.2268
+2024-03-16 15:48:50,728 - 14950/20000, perceptual loss = 0.0799, discriminator loss = 0.4602
+2024-03-16 15:48:54,241 - 15000/20000, perceptual loss = 0.0850, discriminator loss = 0.3901
+2024-03-16 15:48:57,792 - 15050/20000, perceptual loss = 0.0886, discriminator loss = 0.1270
+2024-03-16 15:49:01,276 - 15100/20000, perceptual loss = 0.0848, discriminator loss = 0.3506
+2024-03-16 15:49:04,777 - 15150/20000, perceptual loss = 0.0777, discriminator loss = 0.2599
+2024-03-16 15:49:08,294 - 15200/20000, perceptual loss = 0.0765, discriminator loss = 0.4253
+2024-03-16 15:49:11,825 - 15250/20000, perceptual loss = 0.0801, discriminator loss = 0.5986
+2024-03-16 15:49:15,301 - 15300/20000, perceptual loss = 0.0846, discriminator loss = 0.2565
+2024-03-16 15:49:18,815 - 15350/20000, perceptual loss = 0.0808, discriminator loss = 0.3296
+2024-03-16 15:49:22,345 - 15400/20000, perceptual loss = 0.0753, discriminator loss = 0.2803
+2024-03-16 15:49:25,846 - 15450/20000, perceptual loss = 0.0767, discriminator loss = 0.2976
+2024-03-16 15:49:29,344 - 15500/20000, perceptual loss = 0.0789, discriminator loss = 0.2741
+2024-03-16 15:49:32,889 - 15550/20000, perceptual loss = 0.0735, discriminator loss = 0.2384
+2024-03-16 15:49:36,376 - 15600/20000, perceptual loss = 0.0810, discriminator loss = 0.3157
+2024-03-16 15:49:39,895 - 15650/20000, perceptual loss = 0.0776, discriminator loss = 0.6613
+2024-03-16 15:49:43,428 - 15700/20000, perceptual loss = 0.0787, discriminator loss = 0.1593
+2024-03-16 15:49:46,925 - 15750/20000, perceptual loss = 0.0808, discriminator loss = 0.2189
+2024-03-16 15:49:50,427 - 15800/20000, perceptual loss = 0.0708, discriminator loss = 0.2993
+2024-03-16 15:49:53,979 - 15850/20000, perceptual loss = 0.0786, discriminator loss = 0.4092
+2024-03-16 15:49:57,481 - 15900/20000, perceptual loss = 0.0805, discriminator loss = 0.3405
+2024-03-16 15:50:01,052 - 15950/20000, perceptual loss = 0.0677, discriminator loss = 0.3298
+2024-03-16 15:50:04,547 - 16000/20000, perceptual loss = 0.0759, discriminator loss = 0.4501
+2024-03-16 15:50:08,074 - 16050/20000, perceptual loss = 0.0771, discriminator loss = 0.4364
+2024-03-16 15:50:11,615 - 16100/20000, perceptual loss = 0.0700, discriminator loss = 0.3221
+2024-03-16 15:50:15,127 - 16150/20000, perceptual loss = 0.0723, discriminator loss = 0.3443
+2024-03-16 15:50:18,631 - 16200/20000, perceptual loss = 0.0806, discriminator loss = 0.2040
+2024-03-16 15:50:22,197 - 16250/20000, perceptual loss = 0.0811, discriminator loss = 0.5214
+2024-03-16 15:50:25,697 - 16300/20000, perceptual loss = 0.0719, discriminator loss = 0.4487
+2024-03-16 15:50:29,216 - 16350/20000, perceptual loss = 0.0720, discriminator loss = 0.2449
+2024-03-16 15:50:32,714 - 16400/20000, perceptual loss = 0.0733, discriminator loss = 0.4922
+2024-03-16 15:50:36,248 - 16450/20000, perceptual loss = 0.0716, discriminator loss = 0.2545
+2024-03-16 15:50:39,806 - 16500/20000, perceptual loss = 0.0775, discriminator loss = 0.1255
+2024-03-16 15:50:43,317 - 16550/20000, perceptual loss = 0.0717, discriminator loss = 0.8283
+2024-03-16 15:50:46,809 - 16600/20000, perceptual loss = 0.0767, discriminator loss = 0.1395
+2024-03-16 15:50:50,340 - 16650/20000, perceptual loss = 0.0848, discriminator loss = 0.3252
+2024-03-16 15:50:53,888 - 16700/20000, perceptual loss = 0.0757, discriminator loss = 0.0966
+2024-03-16 15:50:57,411 - 16750/20000, perceptual loss = 0.0800, discriminator loss = 0.2660
+2024-03-16 15:51:00,906 - 16800/20000, perceptual loss = 0.0822, discriminator loss = 0.3168
+2024-03-16 15:51:04,438 - 16850/20000, perceptual loss = 0.0816, discriminator loss = 0.3448
+2024-03-16 15:51:07,950 - 16900/20000, perceptual loss = 0.0754, discriminator loss = 0.3324
+2024-03-16 15:51:11,518 - 16950/20000, perceptual loss = 0.0761, discriminator loss = 0.2404
+2024-03-16 15:51:15,007 - 17000/20000, perceptual loss = 0.0832, discriminator loss = 0.4207
+2024-03-16 15:51:18,521 - 17050/20000, perceptual loss = 0.0762, discriminator loss = 0.3249
+2024-03-16 15:51:22,052 - 17100/20000, perceptual loss = 0.0771, discriminator loss = 0.3607
+2024-03-16 15:51:25,596 - 17150/20000, perceptual loss = 0.0732, discriminator loss = 0.3792
+2024-03-16 15:51:29,099 - 17200/20000, perceptual loss = 0.0793, discriminator loss = 0.2016
+2024-03-16 15:51:32,730 - 17250/20000, perceptual loss = 0.0893, discriminator loss = 0.3597
+2024-03-16 15:51:36,330 - 17300/20000, perceptual loss = 0.0793, discriminator loss = 0.3769
+2024-03-16 15:51:39,849 - 17350/20000, perceptual loss = 0.0754, discriminator loss = 0.2428
+2024-03-16 15:51:43,372 - 17400/20000, perceptual loss = 0.0802, discriminator loss = 0.5002
+2024-03-16 15:51:47,042 - 17450/20000, perceptual loss = 0.0808, discriminator loss = 0.1121
+2024-03-16 15:51:50,608 - 17500/20000, perceptual loss = 0.0804, discriminator loss = 0.4485
+2024-03-16 15:51:54,236 - 17550/20000, perceptual loss = 0.0736, discriminator loss = 0.3804
+2024-03-16 15:51:57,851 - 17600/20000, perceptual loss = 0.0756, discriminator loss = 0.2627
+2024-03-16 15:52:01,473 - 17650/20000, perceptual loss = 0.0807, discriminator loss = 0.2790
+2024-03-16 15:52:05,066 - 17700/20000, perceptual loss = 0.0717, discriminator loss = 0.4390
+2024-03-16 15:52:08,730 - 17750/20000, perceptual loss = 0.0797, discriminator loss = 0.3051
+2024-03-16 15:52:12,309 - 17800/20000, perceptual loss = 0.0773, discriminator loss = 0.4710
+2024-03-16 15:52:15,824 - 17850/20000, perceptual loss = 0.0786, discriminator loss = 0.2168
+2024-03-16 15:52:19,315 - 17900/20000, perceptual loss = 0.0759, discriminator loss = 0.2459
+2024-03-16 15:52:22,849 - 17950/20000, perceptual loss = 0.0851, discriminator loss = 0.1432
+2024-03-16 15:52:26,414 - 18000/20000, perceptual loss = 0.0848, discriminator loss = 0.1892
+2024-03-16 15:52:29,926 - 18050/20000, perceptual loss = 0.0815, discriminator loss = 0.6479
+2024-03-16 15:52:33,435 - 18100/20000, perceptual loss = 0.0741, discriminator loss = 0.2539
+2024-03-16 15:52:37,082 - 18150/20000, perceptual loss = 0.0781, discriminator loss = 0.2742
+2024-03-16 15:52:40,683 - 18200/20000, perceptual loss = 0.0812, discriminator loss = 0.2852
+2024-03-16 15:52:44,200 - 18250/20000, perceptual loss = 0.0784, discriminator loss = 0.2564
+2024-03-16 15:52:47,696 - 18300/20000, perceptual loss = 0.0789, discriminator loss = 0.3397
+2024-03-16 15:52:51,208 - 18350/20000, perceptual loss = 0.0801, discriminator loss = 0.2600
+2024-03-16 15:52:54,727 - 18400/20000, perceptual loss = 0.0741, discriminator loss = 0.4297
+2024-03-16 15:52:58,302 - 18450/20000, perceptual loss = 0.0798, discriminator loss = 0.3011
+2024-03-16 15:53:01,794 - 18500/20000, perceptual loss = 0.0737, discriminator loss = 0.3480
+2024-03-16 15:53:05,311 - 18550/20000, perceptual loss = 0.0766, discriminator loss = 0.2049
+2024-03-16 15:53:08,828 - 18600/20000, perceptual loss = 0.0747, discriminator loss = 0.3346
+2024-03-16 15:53:12,407 - 18650/20000, perceptual loss = 0.0783, discriminator loss = 0.5200
+2024-03-16 15:53:15,894 - 18700/20000, perceptual loss = 0.0848, discriminator loss = 0.5669
+2024-03-16 15:53:19,407 - 18750/20000, perceptual loss = 0.0733, discriminator loss = 0.5983
+2024-03-16 15:53:22,904 - 18800/20000, perceptual loss = 0.0705, discriminator loss = 0.3064
+2024-03-16 15:53:26,436 - 18850/20000, perceptual loss = 0.0742, discriminator loss = 0.3202
+2024-03-16 15:53:29,995 - 18900/20000, perceptual loss = 0.0753, discriminator loss = 0.2875
+2024-03-16 15:53:33,521 - 18950/20000, perceptual loss = 0.0746, discriminator loss = 0.5091
+2024-03-16 15:53:37,029 - 19000/20000, perceptual loss = 0.0677, discriminator loss = 0.3206
+2024-03-16 15:53:40,561 - 19050/20000, perceptual loss = 0.0694, discriminator loss = 0.2328
+2024-03-16 15:53:44,114 - 19100/20000, perceptual loss = 0.0738, discriminator loss = 0.5136
+2024-03-16 15:53:47,631 - 19150/20000, perceptual loss = 0.0674, discriminator loss = 0.5090
+2024-03-16 15:53:51,121 - 19200/20000, perceptual loss = 0.0747, discriminator loss = 0.2243
+2024-03-16 15:53:54,630 - 19250/20000, perceptual loss = 0.0722, discriminator loss = 0.4572
+2024-03-16 15:53:58,149 - 19300/20000, perceptual loss = 0.0760, discriminator loss = 0.2585
+2024-03-16 15:54:01,723 - 19350/20000, perceptual loss = 0.0825, discriminator loss = 0.4746
+2024-03-16 15:54:05,215 - 19400/20000, perceptual loss = 0.0791, discriminator loss = 0.5908
+2024-03-16 15:54:08,723 - 19450/20000, perceptual loss = 0.0761, discriminator loss = 0.2740
+2024-03-16 15:54:12,232 - 19500/20000, perceptual loss = 0.0791, discriminator loss = 0.1071
+2024-03-16 15:54:15,803 - 19550/20000, perceptual loss = 0.0732, discriminator loss = 0.3627
+2024-03-16 15:54:19,285 - 19600/20000, perceptual loss = 0.0762, discriminator loss = 0.1928
+2024-03-16 15:54:22,799 - 19650/20000, perceptual loss = 0.0803, discriminator loss = 0.2902
+2024-03-16 15:54:26,287 - 19700/20000, perceptual loss = 0.0718, discriminator loss = 0.2611
+2024-03-16 15:54:29,817 - 19750/20000, perceptual loss = 0.0738, discriminator loss = 0.5234
+2024-03-16 15:54:33,371 - 19800/20000, perceptual loss = 0.0666, discriminator loss = 0.4058
+2024-03-16 15:54:36,886 - 19850/20000, perceptual loss = 0.0712, discriminator loss = 0.2339
+2024-03-16 15:54:40,393 - 19900/20000, perceptual loss = 0.0755, discriminator loss = 0.5279
+2024-03-16 15:54:43,930 - 19950/20000, perceptual loss = 0.0728, discriminator loss = 0.2222
+2024-03-16 15:54:47,495 - 20000/20000, perceptual loss = 0.0711, discriminator loss = 0.6896
+2024-03-16 15:54:47,929 - Training finished
+2024-03-16 15:58:48,318 - Start pre-training
+2024-03-16 15:58:50,469 - Start training GAN

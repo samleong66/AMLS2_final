@@ -1,4 +1,4 @@
-DOWNSCALE = 2
+DOWNSCALE = 4
 # DOWNSCALE_WAY = 'bicubic'
 DOWNSCALE_WAY = 'unknown'
 
@@ -14,5 +14,5 @@ elif DOWNSCALE == 4:
 
 WEIGHT_DIR = 'models/weights/srgan'
 COMPARISON_DIR = 'results/comparison'
-LOG_DIR = f'results/training_x{DOWNSCALE}.log'
+LOG_DIR = f'results/training_{DOWNSCALE_WAY}_x{DOWNSCALE}.log'
 
