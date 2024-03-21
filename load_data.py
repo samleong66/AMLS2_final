@@ -1,6 +1,6 @@
 import os
 
-import numpy.random
+import requests, zipfile, tqdm
 import tensorflow as tf
 
 from tensorflow.python.data.experimental import AUTOTUNE
@@ -155,6 +155,7 @@ class DIV2K:
         print(f'Cached decoded images in {cache_file}.')
 
 
+
 def download_archive(file, target_dir, extract=True):
     source_url = f'http://data.vision.ee.ethz.ch/cvl/DIV2K/{file}'
     target_dir = os.path.abspath(target_dir)
@@ -228,3 +229,46 @@ def compare_and_plot(downscale: int, downscale_way: str, pre_generator, gan_gene
     plt.tight_layout()
 
     return fig
+
+    
+def download_set14():
+    url = 'https://uofi.box.com/shared/static/igsnfieh4lz68l926l8xbklwsnnk8we9.zip'
+    target_dir = 'dataset/images'
+
+    # Create target directory if it doesn't exist
+    if not os.path.exists(target_dir):
+        os.makedirs(target_dir)
+
+    # Download the zip file with progress bar
+    response = requests.get(url, stream=True)
+    total_size_in_bytes = int(response.headers.get('content-length', 0))
+    block_size = 1024  # 1 Kibibyte
+    progress_bar = tqdm.tqdm(total=total_size_in_bytes, unit='iB', unit_scale=True)
+    with open(os.path.join(target_dir, 'temp.zip'), 'wb') as f:
+        for data in response.iter_content(block_size):
+            progress_bar.update(len(data))
+            f.write(data)
+    progress_bar.close()
+
+    # Extract the zip file
+    with zipfile.ZipFile(os.path.join(target_dir, 'temp.zip'), 'r') as zip_ref:
+        zip_ref.extractall(target_dir)
+
+    # Delete the zip file
+    os.remove(os.path.join(target_dir, 'temp.zip'))
+    print("Downloaded and extracted successfully!")
+
+def load_set14(scale):
+    images_dir = f'dataset/images/Set14/image_SRF_{scale}'
+    lr_image_files = [os.path.join(images_dir, f'img_0{str(id).zfill(2)}_SRF_{scale}_LR.png') for id in range(1, 15)]
+    hr_image_files = [os.path.join(images_dir, f'img_0{str(id).zfill(2)}_SRF_{scale}_HR.png') for id in range(1, 15)]
+    lr_ds = tf.data.Dataset.from_tensor_slices(lr_image_files)
+    hr_ds = tf.data.Dataset.from_tensor_slices(hr_image_files)
+    lr_ds = lr_ds.map(tf.io.read_file)
+    lr_ds = lr_ds.map(lambda x: tf.image.decode_png(x, channels=3), num_parallel_calls=AUTOTUNE)
+    hr_ds = hr_ds.map(tf.io.read_file)
+    hr_ds = hr_ds.map(lambda x: tf.image.decode_png(x, channels=3), num_parallel_calls=AUTOTUNE)
+    ds = tf.data.Dataset.zip((lr_ds, hr_ds))
+    ds = ds.batch(1)
+    ds = ds.prefetch(buffer_size=AUTOTUNE)
+    return ds

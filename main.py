@@ -10,7 +10,7 @@ from config import DOWNSCALE, DOWNSCALE_WAY, WEIGHT_DIR, COMPARISON_DIR, LOG_DIR
 import matplotlib.pyplot as plt
 from PIL import Image
 import numpy as np
-from load_data import compare_and_plot
+from load_data import compare_and_plot, load_set14
 import cv2 as cv
 
 # Location of model weights (needed for demo)
@@ -28,29 +28,28 @@ comparison_file = lambda filename: os.path.join(comparison_dir, filename)
 os.makedirs(comparison_dir, exist_ok=True)
 
 if __name__ == "__main__":
-    # logging.basicConfig(filename=LOG_DIR, level=logging.INFO, format='%(asctime)s - %(message)s')
+    logging.basicConfig(filename=LOG_DIR, level=logging.INFO, format='%(asctime)s - %(message)s')
 
-    bicubic_img = np.array(Image.open('dataset/images/DIV2K_valid_LR_bicubic/X4/0807x4.png'))
-    unknown_img = np.array(Image.open('dataset/images/DIV2K_valid_LR_unknown/X4/0807x4.png'))
+    '''''''''
+    plot bicubic and unknown images comparison
+    '''''''''   
 
-    fig = plt.figure(figsize=(12,4))
-    ax = fig.add_subplot(1,2,1)
-    ax.imshow(bicubic_img)
-    ax.set_title('LR (x4) downsampled by bicubic')
-    ax.set_xticks([])
-    ax.set_yticks([])        
-    ax = fig.add_subplot(1,2,2)
-    ax.imshow(unknown_img)
-    ax.set_title('LR (x4) downsampled by unknown')
-    ax.set_xticks([])
-    ax.set_yticks([])    
-    plt.tight_layout()
-    fig.savefig('results/comparison/bicubic_unknown.png')
+    # bicubic_img = np.array(Image.open('dataset/images/DIV2K_valid_LR_bicubic/X4/0807x4.png'))
+    # unknown_img = np.array(Image.open('dataset/images/DIV2K_valid_LR_unknown/X4/0807x4.png'))
 
-
-
-
-
+    # fig = plt.figure(figsize=(12,4))
+    # ax = fig.add_subplot(1,2,1)
+    # ax.imshow(bicubic_img)
+    # ax.set_title('LR (x4) downsampled by bicubic')
+    # ax.set_xticks([])
+    # ax.set_yticks([])        
+    # ax = fig.add_subplot(1,2,2)
+    # ax.imshow(unknown_img)
+    # ax.set_title('LR (x4) downsampled by unknown')
+    # ax.set_xticks([])
+    # ax.set_yticks([])    
+    # plt.tight_layout()
+    # fig.savefig('results/comparison/bicubic_unknown.png')
 
     '''''''''
     plot raw images comparison
@@ -114,19 +113,18 @@ if __name__ == "__main__":
     '''''''''
     Evaluation
     '''''''''
-    # valid = load_data.DIV2K(scale=DOWNSCALE, downgrade=DOWNSCALE_WAY, subset='valid')
-    # valid_dataset = valid.dataset(batch_size=1, random_transform=False, repeat_count=1)
-    #
-    # gan_generator = generator()
-    # gan_generator.load_weights(weights_file(f'gan_generator_x{DOWNSCALE}.h5'))
-    #
-    # psnr_valid = evaluate(gan_generator, valid_dataset, 'psnr')
-    # print(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {psnr_valid}")
-    # logging.info(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {psnr_valid}")
-    #
-    # ssim_valid = evaluate(gan_generator, valid_dataset, 'ssim')
-    # print(f"SSIM in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {ssim_valid}")
-    # logging.info(f"SSIM in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {ssim_valid}")
+    valid_dataset = load_set14(DOWNSCALE)
+    
+    gan_generator = generator()
+    gan_generator.load_weights(weights_file(f'gan_generator_{DOWNSCALE_WAY}_x{DOWNSCALE}.h5'))
+    
+    psnr_valid = evaluate(gan_generator, valid_dataset, 'psnr')
+    print(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {psnr_valid}")
+    logging.info(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {psnr_valid}")
+    
+    ssim_valid = evaluate(gan_generator, valid_dataset, 'ssim')
+    print(f"SSIM in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {ssim_valid}")
+    logging.info(f"SSIM in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {ssim_valid}")
 
     '''''''''
     plot SR comparison

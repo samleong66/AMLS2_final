@@ -1,6 +1,6 @@
-DOWNSCALE = 4
-# DOWNSCALE_WAY = 'bicubic'
-DOWNSCALE_WAY = 'unknown'
+DOWNSCALE = 2
+DOWNSCALE_WAY = 'bicubic'
+# DOWNSCALE_WAY = 'unknown'
 
 if DOWNSCALE == 2:
     LR_SIZE = 48

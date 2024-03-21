@@ -921,3 +921,546 @@
 2024-03-12 21:53:29,714 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
 2024-03-12 21:54:08,984 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
 2024-03-12 21:54:57,903 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2024-03-19 11:28:47,052 - Start pre-training
+2024-03-19 11:31:00,507 - 1/10, PSNR: 29.828393936157227
+2024-03-19 11:31:00,819 - 2/10, PSNR: 30.02033233642578
+2024-03-19 11:31:04,065 - 3/10, PSNR: 31.091419219970703
+2024-03-19 11:31:06,601 - 4/10, PSNR: 26.582210540771484
+2024-03-19 11:31:06,953 - 5/10, PSNR: 28.943748474121094
+2024-03-19 11:31:07,264 - 6/10, PSNR: 27.380895614624023
+2024-03-19 11:31:09,662 - 7/10, PSNR: 20.53724479675293
+2024-03-19 11:31:09,975 - 8/10, PSNR: 26.199905395507812
+2024-03-19 11:31:10,288 - 9/10, PSNR: 32.029640197753906
+2024-03-19 11:31:10,640 - 10/10, PSNR: 28.53472900390625
+2024-03-19 11:31:10,647 - 1000/10000: loss = 404.250, PSNR = 28.114853 (142.80s)
+2024-03-19 11:32:53,254 - 1/10, PSNR: 31.268260955810547
+2024-03-19 11:32:53,566 - 2/10, PSNR: 31.686203002929688
+2024-03-19 11:32:53,925 - 3/10, PSNR: 32.09483337402344
+2024-03-19 11:32:54,197 - 4/10, PSNR: 27.91035270690918
+2024-03-19 11:32:54,549 - 5/10, PSNR: 30.044513702392578
+2024-03-19 11:32:54,860 - 6/10, PSNR: 29.018646240234375
+2024-03-19 11:32:55,114 - 7/10, PSNR: 21.40329360961914
+2024-03-19 11:32:55,426 - 8/10, PSNR: 27.377723693847656
+2024-03-19 11:32:55,738 - 9/10, PSNR: 33.08401870727539
+2024-03-19 11:32:56,089 - 10/10, PSNR: 29.743961334228516
+2024-03-19 11:32:56,094 - 2000/10000: loss = 174.546, PSNR = 29.363180 (105.05s)
+2024-03-19 11:34:38,283 - 1/10, PSNR: 32.55479049682617
+2024-03-19 11:34:38,596 - 2/10, PSNR: 33.579933166503906
+2024-03-19 11:34:38,949 - 3/10, PSNR: 33.6326789855957
+2024-03-19 11:34:39,221 - 4/10, PSNR: 28.785768508911133
+2024-03-19 11:34:39,572 - 5/10, PSNR: 31.007219314575195
+2024-03-19 11:34:39,885 - 6/10, PSNR: 29.850547790527344
+2024-03-19 11:34:40,141 - 7/10, PSNR: 21.704917907714844
+2024-03-19 11:34:40,467 - 8/10, PSNR: 28.250579833984375
+2024-03-19 11:34:40,779 - 9/10, PSNR: 34.6811637878418
+2024-03-19 11:34:41,130 - 10/10, PSNR: 30.541282653808594
+2024-03-19 11:34:41,135 - 3000/10000: loss = 133.625, PSNR = 30.458887 (104.72s)
+2024-03-19 11:36:22,220 - 1/10, PSNR: 32.74196243286133
+2024-03-19 11:36:22,533 - 2/10, PSNR: 34.219783782958984
+2024-03-19 11:36:22,885 - 3/10, PSNR: 34.623985290527344
+2024-03-19 11:36:23,156 - 4/10, PSNR: 29.04863929748535
+2024-03-19 11:36:23,508 - 5/10, PSNR: 31.096277236938477
+2024-03-19 11:36:23,821 - 6/10, PSNR: 29.876054763793945
+2024-03-19 11:36:24,077 - 7/10, PSNR: 21.944177627563477
+2024-03-19 11:36:24,389 - 8/10, PSNR: 27.128456115722656
+2024-03-19 11:36:24,701 - 9/10, PSNR: 34.934486389160156
+2024-03-19 11:36:25,054 - 10/10, PSNR: 30.93693733215332
+2024-03-19 11:36:25,059 - 4000/10000: loss = 120.551, PSNR = 30.655075 (103.62s)
+2024-03-19 11:38:05,373 - 1/10, PSNR: 32.37775802612305
+2024-03-19 11:38:05,686 - 2/10, PSNR: 35.021236419677734
+2024-03-19 11:38:06,038 - 3/10, PSNR: 34.682044982910156
+2024-03-19 11:38:06,310 - 4/10, PSNR: 28.817428588867188
+2024-03-19 11:38:06,662 - 5/10, PSNR: 30.61215591430664
+2024-03-19 11:38:06,974 - 6/10, PSNR: 30.156845092773438
+2024-03-19 11:38:07,230 - 7/10, PSNR: 22.116867065429688
+2024-03-19 11:38:07,542 - 8/10, PSNR: 28.737823486328125
+2024-03-19 11:38:07,854 - 9/10, PSNR: 34.81775665283203
+2024-03-19 11:38:08,206 - 10/10, PSNR: 30.72418975830078
+2024-03-19 11:38:08,211 - 5000/10000: loss = 109.351, PSNR = 30.806408 (102.83s)
+2024-03-19 11:39:48,411 - 1/10, PSNR: 32.60268020629883
+2024-03-19 11:39:48,724 - 2/10, PSNR: 33.44398880004883
+2024-03-19 11:39:49,077 - 3/10, PSNR: 33.83073806762695
+2024-03-19 11:39:49,349 - 4/10, PSNR: 29.121379852294922
+2024-03-19 11:39:49,701 - 5/10, PSNR: 30.671669006347656
+2024-03-19 11:39:50,014 - 6/10, PSNR: 30.44102668762207
+2024-03-19 11:39:50,269 - 7/10, PSNR: 22.23535919189453
+2024-03-19 11:39:50,582 - 8/10, PSNR: 28.582015991210938
+2024-03-19 11:39:50,895 - 9/10, PSNR: 34.403255462646484
+2024-03-19 11:39:51,247 - 10/10, PSNR: 30.488887786865234
+2024-03-19 11:39:51,253 - 6000/10000: loss = 100.747, PSNR = 30.582098 (102.70s)
+2024-03-19 11:41:31,887 - 1/10, PSNR: 32.607662200927734
+2024-03-19 11:41:32,200 - 2/10, PSNR: 33.11190414428711
+2024-03-19 11:41:32,552 - 3/10, PSNR: 35.120792388916016
+2024-03-19 11:41:32,824 - 4/10, PSNR: 29.39662742614746
+2024-03-19 11:41:33,177 - 5/10, PSNR: 31.048797607421875
+2024-03-19 11:41:33,488 - 6/10, PSNR: 30.264934539794922
+2024-03-19 11:41:33,744 - 7/10, PSNR: 22.243621826171875
+2024-03-19 11:41:34,057 - 8/10, PSNR: 28.525094985961914
+2024-03-19 11:41:34,369 - 9/10, PSNR: 34.952938079833984
+2024-03-19 11:41:34,721 - 10/10, PSNR: 30.862646102905273
+2024-03-19 11:41:34,727 - 7000/10000: loss = 99.447, PSNR = 30.813501 (103.14s)
+2024-03-19 11:43:15,815 - 1/10, PSNR: 33.63276672363281
+2024-03-19 11:43:16,128 - 2/10, PSNR: 35.28715515136719
+2024-03-19 11:43:16,480 - 3/10, PSNR: 36.864051818847656
+2024-03-19 11:43:16,752 - 4/10, PSNR: 30.130598068237305
+2024-03-19 11:43:17,104 - 5/10, PSNR: 31.902502059936523
+2024-03-19 11:43:17,416 - 6/10, PSNR: 31.083297729492188
+2024-03-19 11:43:17,672 - 7/10, PSNR: 22.3608455657959
+2024-03-19 11:43:17,985 - 8/10, PSNR: 28.948505401611328
+2024-03-19 11:43:18,298 - 9/10, PSNR: 36.361968994140625
+2024-03-19 11:43:18,651 - 10/10, PSNR: 31.02047348022461
+2024-03-19 11:43:18,656 - 8000/10000: loss = 102.296, PSNR = 31.759216 (103.62s)
+2024-03-19 11:44:59,618 - 1/10, PSNR: 32.44485092163086
+2024-03-19 11:44:59,931 - 2/10, PSNR: 34.21297073364258
+2024-03-19 11:45:00,282 - 3/10, PSNR: 36.081478118896484
+2024-03-19 11:45:00,554 - 4/10, PSNR: 29.097129821777344
+2024-03-19 11:45:00,906 - 5/10, PSNR: 30.800521850585938
+2024-03-19 11:45:01,219 - 6/10, PSNR: 30.21685028076172
+2024-03-19 11:45:01,475 - 7/10, PSNR: 22.398847579956055
+2024-03-19 11:45:01,786 - 8/10, PSNR: 28.62255859375
+2024-03-19 11:45:02,099 - 9/10, PSNR: 35.4610595703125
+2024-03-19 11:45:02,451 - 10/10, PSNR: 31.198726654052734
+2024-03-19 11:45:02,457 - 9000/10000: loss = 92.338, PSNR = 31.053501 (103.48s)
+2024-03-19 11:46:43,311 - 1/10, PSNR: 33.72809982299805
+2024-03-19 11:46:43,623 - 2/10, PSNR: 36.250797271728516
+2024-03-19 11:46:43,975 - 3/10, PSNR: 37.82041549682617
+2024-03-19 11:46:44,246 - 4/10, PSNR: 30.01377296447754
+2024-03-19 11:46:44,598 - 5/10, PSNR: 31.656238555908203
+2024-03-19 11:46:44,909 - 6/10, PSNR: 31.271133422851562
+2024-03-19 11:46:45,165 - 7/10, PSNR: 22.53067970275879
+2024-03-19 11:46:45,476 - 8/10, PSNR: 28.591415405273438
+2024-03-19 11:46:45,787 - 9/10, PSNR: 36.93288803100586
+2024-03-19 11:46:46,138 - 10/10, PSNR: 31.29365348815918
+2024-03-19 11:46:46,144 - 10000/10000: loss = 90.334, PSNR = 32.008907 (103.15s)
+2024-03-19 11:46:47,535 - Start training GAN
+2024-03-19 11:47:26,405 - 50/20000, perceptual loss = 0.0408, discriminator loss = 1.8154
+2024-03-19 11:47:34,866 - 100/20000, perceptual loss = 0.0335, discriminator loss = 1.3999
+2024-03-19 11:47:43,308 - 150/20000, perceptual loss = 0.0343, discriminator loss = 1.3365
+2024-03-19 11:47:51,780 - 200/20000, perceptual loss = 0.0349, discriminator loss = 1.2618
+2024-03-19 11:48:00,286 - 250/20000, perceptual loss = 0.0336, discriminator loss = 0.9078
+2024-03-19 11:48:08,771 - 300/20000, perceptual loss = 0.0357, discriminator loss = 0.9487
+2024-03-19 11:48:17,225 - 350/20000, perceptual loss = 0.0373, discriminator loss = 0.3256
+2024-03-19 11:48:25,697 - 400/20000, perceptual loss = 0.0413, discriminator loss = 0.4221
+2024-03-19 11:48:34,149 - 450/20000, perceptual loss = 0.0386, discriminator loss = 0.3864
+2024-03-19 11:48:42,616 - 500/20000, perceptual loss = 0.0383, discriminator loss = 0.4911
+2024-03-19 11:48:51,062 - 550/20000, perceptual loss = 0.0406, discriminator loss = 0.7147
+2024-03-19 11:48:59,532 - 600/20000, perceptual loss = 0.0388, discriminator loss = 0.3139
+2024-03-19 11:49:07,984 - 650/20000, perceptual loss = 0.0361, discriminator loss = 0.4086
+2024-03-19 11:49:16,443 - 700/20000, perceptual loss = 0.0401, discriminator loss = 0.2233
+2024-03-19 11:49:24,891 - 750/20000, perceptual loss = 0.0426, discriminator loss = 0.6371
+2024-03-19 11:49:33,352 - 800/20000, perceptual loss = 0.0394, discriminator loss = 0.4716
+2024-03-19 11:49:41,796 - 850/20000, perceptual loss = 0.0402, discriminator loss = 0.3300
+2024-03-19 11:49:50,277 - 900/20000, perceptual loss = 0.0405, discriminator loss = 0.4767
+2024-03-19 11:49:58,731 - 950/20000, perceptual loss = 0.0397, discriminator loss = 0.3732
+2024-03-19 11:50:07,197 - 1000/20000, perceptual loss = 0.0399, discriminator loss = 0.3360
+2024-03-19 11:50:15,639 - 1050/20000, perceptual loss = 0.0368, discriminator loss = 0.6200
+2024-03-19 11:50:24,100 - 1100/20000, perceptual loss = 0.0430, discriminator loss = 0.3479
+2024-03-19 11:50:32,549 - 1150/20000, perceptual loss = 0.0403, discriminator loss = 0.6963
+2024-03-19 11:50:41,013 - 1200/20000, perceptual loss = 0.0409, discriminator loss = 0.5020
+2024-03-19 11:50:49,457 - 1250/20000, perceptual loss = 0.0403, discriminator loss = 0.4696
+2024-03-19 11:50:57,920 - 1300/20000, perceptual loss = 0.0388, discriminator loss = 0.7782
+2024-03-19 11:51:06,362 - 1350/20000, perceptual loss = 0.0413, discriminator loss = 0.5553
+2024-03-19 11:51:14,825 - 1400/20000, perceptual loss = 0.0400, discriminator loss = 0.7189
+2024-03-19 11:51:23,278 - 1450/20000, perceptual loss = 0.0388, discriminator loss = 0.3720
+2024-03-19 11:51:31,747 - 1500/20000, perceptual loss = 0.0393, discriminator loss = 0.6503
+2024-03-19 11:51:40,195 - 1550/20000, perceptual loss = 0.0366, discriminator loss = 0.7382
+2024-03-19 11:51:48,662 - 1600/20000, perceptual loss = 0.0357, discriminator loss = 0.8102
+2024-03-19 11:51:57,108 - 1650/20000, perceptual loss = 0.0374, discriminator loss = 0.8772
+2024-03-19 11:52:05,572 - 1700/20000, perceptual loss = 0.0327, discriminator loss = 0.4490
+2024-03-19 11:52:14,021 - 1750/20000, perceptual loss = 0.0376, discriminator loss = 0.7012
+2024-03-19 11:52:22,486 - 1800/20000, perceptual loss = 0.0367, discriminator loss = 0.8714
+2024-03-19 11:52:30,933 - 1850/20000, perceptual loss = 0.0374, discriminator loss = 0.8785
+2024-03-19 11:52:39,403 - 1900/20000, perceptual loss = 0.0343, discriminator loss = 0.8400
+2024-03-19 11:52:47,862 - 1950/20000, perceptual loss = 0.0359, discriminator loss = 0.7766
+2024-03-19 11:52:56,328 - 2000/20000, perceptual loss = 0.0341, discriminator loss = 0.4790
+2024-03-19 11:53:04,787 - 2050/20000, perceptual loss = 0.0369, discriminator loss = 0.5506
+2024-03-19 11:53:13,257 - 2100/20000, perceptual loss = 0.0344, discriminator loss = 0.7841
+2024-03-19 11:53:21,708 - 2150/20000, perceptual loss = 0.0328, discriminator loss = 0.7368
+2024-03-19 11:53:30,171 - 2200/20000, perceptual loss = 0.0364, discriminator loss = 0.4466
+2024-03-19 11:53:38,599 - 2250/20000, perceptual loss = 0.0338, discriminator loss = 0.8545
+2024-03-19 11:53:47,075 - 2300/20000, perceptual loss = 0.0386, discriminator loss = 0.4790
+2024-03-19 11:53:55,525 - 2350/20000, perceptual loss = 0.0384, discriminator loss = 0.5087
+2024-03-19 11:54:04,006 - 2400/20000, perceptual loss = 0.0362, discriminator loss = 0.7116
+2024-03-19 11:54:12,461 - 2450/20000, perceptual loss = 0.0372, discriminator loss = 0.6509
+2024-03-19 11:54:20,933 - 2500/20000, perceptual loss = 0.0349, discriminator loss = 0.6143
+2024-03-19 11:54:29,388 - 2550/20000, perceptual loss = 0.0368, discriminator loss = 0.4882
+2024-03-19 11:54:37,869 - 2600/20000, perceptual loss = 0.0356, discriminator loss = 0.8080
+2024-03-19 11:54:46,321 - 2650/20000, perceptual loss = 0.0341, discriminator loss = 0.6537
+2024-03-19 11:54:54,790 - 2700/20000, perceptual loss = 0.0370, discriminator loss = 0.7440
+2024-03-19 11:55:03,237 - 2750/20000, perceptual loss = 0.0327, discriminator loss = 0.6037
+2024-03-19 11:55:11,703 - 2800/20000, perceptual loss = 0.0362, discriminator loss = 0.5110
+2024-03-19 11:55:20,144 - 2850/20000, perceptual loss = 0.0363, discriminator loss = 0.4337
+2024-03-19 11:55:28,607 - 2900/20000, perceptual loss = 0.0325, discriminator loss = 0.7764
+2024-03-19 11:55:37,049 - 2950/20000, perceptual loss = 0.0337, discriminator loss = 0.6885
+2024-03-19 11:55:45,513 - 3000/20000, perceptual loss = 0.0329, discriminator loss = 0.5190
+2024-03-19 11:55:53,955 - 3050/20000, perceptual loss = 0.0349, discriminator loss = 0.6058
+2024-03-19 11:56:02,402 - 3100/20000, perceptual loss = 0.0333, discriminator loss = 0.7324
+2024-03-19 11:56:10,849 - 3150/20000, perceptual loss = 0.0355, discriminator loss = 0.5358
+2024-03-19 11:56:19,312 - 3200/20000, perceptual loss = 0.0329, discriminator loss = 1.0122
+2024-03-19 11:56:27,759 - 3250/20000, perceptual loss = 0.0329, discriminator loss = 0.6371
+2024-03-19 11:56:36,224 - 3300/20000, perceptual loss = 0.0325, discriminator loss = 0.5953
+2024-03-19 11:56:44,671 - 3350/20000, perceptual loss = 0.0349, discriminator loss = 0.5633
+2024-03-19 11:56:53,143 - 3400/20000, perceptual loss = 0.0334, discriminator loss = 0.5790
+2024-03-19 11:57:01,610 - 3450/20000, perceptual loss = 0.0332, discriminator loss = 0.6646
+2024-03-19 11:57:10,076 - 3500/20000, perceptual loss = 0.0332, discriminator loss = 0.6343
+2024-03-19 11:57:18,535 - 3550/20000, perceptual loss = 0.0331, discriminator loss = 0.7229
+2024-03-19 11:57:27,008 - 3600/20000, perceptual loss = 0.0325, discriminator loss = 0.9118
+2024-03-19 11:57:35,463 - 3650/20000, perceptual loss = 0.0315, discriminator loss = 0.4886
+2024-03-19 11:57:43,928 - 3700/20000, perceptual loss = 0.0354, discriminator loss = 0.4480
+2024-03-19 11:57:52,381 - 3750/20000, perceptual loss = 0.0339, discriminator loss = 0.5002
+2024-03-19 11:58:00,847 - 3800/20000, perceptual loss = 0.0336, discriminator loss = 0.5880
+2024-03-19 11:58:09,289 - 3850/20000, perceptual loss = 0.0343, discriminator loss = 0.4456
+2024-03-19 11:58:17,745 - 3900/20000, perceptual loss = 0.0338, discriminator loss = 0.7926
+2024-03-19 11:58:26,189 - 3950/20000, perceptual loss = 0.0324, discriminator loss = 0.6920
+2024-03-19 11:58:34,655 - 4000/20000, perceptual loss = 0.0340, discriminator loss = 0.7732
+2024-03-19 11:58:43,107 - 4050/20000, perceptual loss = 0.0316, discriminator loss = 0.8817
+2024-03-19 11:58:51,568 - 4100/20000, perceptual loss = 0.0311, discriminator loss = 0.5484
+2024-03-19 11:59:00,016 - 4150/20000, perceptual loss = 0.0316, discriminator loss = 0.7620
+2024-03-19 11:59:08,479 - 4200/20000, perceptual loss = 0.0337, discriminator loss = 0.7102
+2024-03-19 11:59:16,926 - 4250/20000, perceptual loss = 0.0330, discriminator loss = 0.6272
+2024-03-19 11:59:25,373 - 4300/20000, perceptual loss = 0.0336, discriminator loss = 0.7983
+2024-03-19 11:59:33,815 - 4350/20000, perceptual loss = 0.0335, discriminator loss = 0.5690
+2024-03-19 11:59:42,275 - 4400/20000, perceptual loss = 0.0308, discriminator loss = 0.9176
+2024-03-19 11:59:50,718 - 4450/20000, perceptual loss = 0.0322, discriminator loss = 0.6291
+2024-03-19 11:59:59,185 - 4500/20000, perceptual loss = 0.0314, discriminator loss = 0.5525
+2024-03-19 12:00:07,634 - 4550/20000, perceptual loss = 0.0347, discriminator loss = 0.7048
+2024-03-19 12:00:16,097 - 4600/20000, perceptual loss = 0.0321, discriminator loss = 0.6278
+2024-03-19 12:00:24,542 - 4650/20000, perceptual loss = 0.0319, discriminator loss = 0.6627
+2024-03-19 12:00:33,019 - 4700/20000, perceptual loss = 0.0325, discriminator loss = 0.6901
+2024-03-19 12:00:41,468 - 4750/20000, perceptual loss = 0.0303, discriminator loss = 0.7224
+2024-03-19 12:00:49,934 - 4800/20000, perceptual loss = 0.0318, discriminator loss = 0.8618
+2024-03-19 12:00:58,381 - 4850/20000, perceptual loss = 0.0317, discriminator loss = 0.5545
+2024-03-19 12:01:06,840 - 4900/20000, perceptual loss = 0.0310, discriminator loss = 0.6127
+2024-03-19 12:01:15,279 - 4950/20000, perceptual loss = 0.0313, discriminator loss = 0.6961
+2024-03-19 12:01:23,734 - 5000/20000, perceptual loss = 0.0312, discriminator loss = 0.8111
+2024-03-19 12:01:32,174 - 5050/20000, perceptual loss = 0.0311, discriminator loss = 0.6572
+2024-03-19 12:01:40,636 - 5100/20000, perceptual loss = 0.0321, discriminator loss = 0.6022
+2024-03-19 12:01:49,081 - 5150/20000, perceptual loss = 0.0307, discriminator loss = 0.8512
+2024-03-19 12:01:57,542 - 5200/20000, perceptual loss = 0.0311, discriminator loss = 0.7773
+2024-03-19 12:02:05,989 - 5250/20000, perceptual loss = 0.0299, discriminator loss = 0.6556
+2024-03-19 12:02:14,452 - 5300/20000, perceptual loss = 0.0309, discriminator loss = 0.4285
+2024-03-19 12:02:22,900 - 5350/20000, perceptual loss = 0.0304, discriminator loss = 0.8632
+2024-03-19 12:02:31,367 - 5400/20000, perceptual loss = 0.0305, discriminator loss = 0.8550
+2024-03-19 12:02:39,811 - 5450/20000, perceptual loss = 0.0291, discriminator loss = 0.5692
+2024-03-19 12:02:48,270 - 5500/20000, perceptual loss = 0.0310, discriminator loss = 0.4664
+2024-03-19 12:02:56,711 - 5550/20000, perceptual loss = 0.0313, discriminator loss = 0.7554
+2024-03-19 12:03:05,173 - 5600/20000, perceptual loss = 0.0304, discriminator loss = 0.8690
+2024-03-19 12:03:13,614 - 5650/20000, perceptual loss = 0.0297, discriminator loss = 0.6430
+2024-03-19 12:03:22,072 - 5700/20000, perceptual loss = 0.0302, discriminator loss = 0.8491
+2024-03-19 12:03:30,512 - 5750/20000, perceptual loss = 0.0307, discriminator loss = 0.8314
+2024-03-19 12:03:38,975 - 5800/20000, perceptual loss = 0.0294, discriminator loss = 0.7171
+2024-03-19 12:03:47,416 - 5850/20000, perceptual loss = 0.0288, discriminator loss = 0.5639
+2024-03-19 12:03:55,876 - 5900/20000, perceptual loss = 0.0288, discriminator loss = 0.6218
+2024-03-19 12:04:04,318 - 5950/20000, perceptual loss = 0.0302, discriminator loss = 0.8576
+2024-03-19 12:04:12,774 - 6000/20000, perceptual loss = 0.0324, discriminator loss = 0.8131
+2024-03-19 12:04:21,223 - 6050/20000, perceptual loss = 0.0292, discriminator loss = 0.7464
+2024-03-19 12:04:29,688 - 6100/20000, perceptual loss = 0.0291, discriminator loss = 0.5212
+2024-03-19 12:04:38,136 - 6150/20000, perceptual loss = 0.0313, discriminator loss = 0.6013
+2024-03-19 12:04:46,597 - 6200/20000, perceptual loss = 0.0304, discriminator loss = 0.8317
+2024-03-19 12:04:55,040 - 6250/20000, perceptual loss = 0.0307, discriminator loss = 0.7706
+2024-03-19 12:05:03,502 - 6300/20000, perceptual loss = 0.0293, discriminator loss = 0.5433
+2024-03-19 12:05:11,945 - 6350/20000, perceptual loss = 0.0295, discriminator loss = 0.8557
+2024-03-19 12:05:20,414 - 6400/20000, perceptual loss = 0.0284, discriminator loss = 0.7174
+2024-03-19 12:05:28,857 - 6450/20000, perceptual loss = 0.0294, discriminator loss = 0.6124
+2024-03-19 12:05:37,315 - 6500/20000, perceptual loss = 0.0290, discriminator loss = 0.7124
+2024-03-19 12:05:45,757 - 6550/20000, perceptual loss = 0.0285, discriminator loss = 0.6742
+2024-03-19 12:05:54,197 - 6600/20000, perceptual loss = 0.0280, discriminator loss = 0.7944
+2024-03-19 12:06:02,641 - 6650/20000, perceptual loss = 0.0301, discriminator loss = 0.6740
+2024-03-19 12:06:11,104 - 6700/20000, perceptual loss = 0.0303, discriminator loss = 0.7184
+2024-03-19 12:06:19,548 - 6750/20000, perceptual loss = 0.0288, discriminator loss = 0.7941
+2024-03-19 12:06:28,011 - 6800/20000, perceptual loss = 0.0319, discriminator loss = 0.4664
+2024-03-19 12:06:36,459 - 6850/20000, perceptual loss = 0.0329, discriminator loss = 0.7404
+2024-03-19 12:06:44,917 - 6900/20000, perceptual loss = 0.0300, discriminator loss = 0.6060
+2024-03-19 12:06:53,358 - 6950/20000, perceptual loss = 0.0292, discriminator loss = 0.9067
+2024-03-19 12:07:01,803 - 7000/20000, perceptual loss = 0.0288, discriminator loss = 0.7210
+2024-03-19 12:07:10,251 - 7050/20000, perceptual loss = 0.0282, discriminator loss = 0.8630
+2024-03-19 12:07:18,711 - 7100/20000, perceptual loss = 0.0297, discriminator loss = 0.7135
+2024-03-19 12:07:27,133 - 7150/20000, perceptual loss = 0.0286, discriminator loss = 0.5278
+2024-03-19 12:07:35,562 - 7200/20000, perceptual loss = 0.0300, discriminator loss = 1.0147
+2024-03-19 12:07:43,981 - 7250/20000, perceptual loss = 0.0285, discriminator loss = 0.7102
+2024-03-19 12:07:52,423 - 7300/20000, perceptual loss = 0.0285, discriminator loss = 0.5689
+2024-03-19 12:08:00,867 - 7350/20000, perceptual loss = 0.0267, discriminator loss = 1.0471
+2024-03-19 12:08:09,326 - 7400/20000, perceptual loss = 0.0278, discriminator loss = 0.7670
+2024-03-19 12:08:17,763 - 7450/20000, perceptual loss = 0.0284, discriminator loss = 0.5115
+2024-03-19 12:08:26,220 - 7500/20000, perceptual loss = 0.0276, discriminator loss = 0.7096
+2024-03-19 12:08:34,660 - 7550/20000, perceptual loss = 0.0275, discriminator loss = 0.7022
+2024-03-19 12:08:43,122 - 7600/20000, perceptual loss = 0.0281, discriminator loss = 0.5456
+2024-03-19 12:08:51,544 - 7650/20000, perceptual loss = 0.0304, discriminator loss = 0.5640
+2024-03-19 12:09:00,004 - 7700/20000, perceptual loss = 0.0297, discriminator loss = 0.8201
+2024-03-19 12:09:08,447 - 7750/20000, perceptual loss = 0.0288, discriminator loss = 0.6764
+2024-03-19 12:09:16,900 - 7800/20000, perceptual loss = 0.0287, discriminator loss = 0.5706
+2024-03-19 12:09:25,318 - 7850/20000, perceptual loss = 0.0279, discriminator loss = 0.8869
+2024-03-19 12:09:33,761 - 7900/20000, perceptual loss = 0.0270, discriminator loss = 0.7884
+2024-03-19 12:09:42,204 - 7950/20000, perceptual loss = 0.0286, discriminator loss = 0.7405
+2024-03-19 12:09:50,665 - 8000/20000, perceptual loss = 0.0257, discriminator loss = 0.5426
+2024-03-19 12:09:59,103 - 8050/20000, perceptual loss = 0.0280, discriminator loss = 0.7902
+2024-03-19 12:10:07,561 - 8100/20000, perceptual loss = 0.0283, discriminator loss = 0.7310
+2024-03-19 12:10:16,000 - 8150/20000, perceptual loss = 0.0257, discriminator loss = 0.6023
+2024-03-19 12:10:24,462 - 8200/20000, perceptual loss = 0.0291, discriminator loss = 0.8899
+2024-03-19 12:10:32,904 - 8250/20000, perceptual loss = 0.0273, discriminator loss = 0.8309
+2024-03-19 12:10:41,362 - 8300/20000, perceptual loss = 0.0265, discriminator loss = 0.7620
+2024-03-19 12:10:49,801 - 8350/20000, perceptual loss = 0.0261, discriminator loss = 0.7760
+2024-03-19 12:10:58,258 - 8400/20000, perceptual loss = 0.0274, discriminator loss = 0.5592
+2024-03-19 12:11:06,695 - 8450/20000, perceptual loss = 0.0272, discriminator loss = 0.7928
+2024-03-19 12:11:15,147 - 8500/20000, perceptual loss = 0.0259, discriminator loss = 0.7123
+2024-03-19 12:11:23,584 - 8550/20000, perceptual loss = 0.0265, discriminator loss = 0.6392
+2024-03-19 12:11:32,039 - 8600/20000, perceptual loss = 0.0274, discriminator loss = 0.5450
+2024-03-19 12:11:40,477 - 8650/20000, perceptual loss = 0.0298, discriminator loss = 0.8804
+2024-03-19 12:11:48,934 - 8700/20000, perceptual loss = 0.0269, discriminator loss = 0.7817
+2024-03-19 12:11:57,374 - 8750/20000, perceptual loss = 0.0265, discriminator loss = 0.5395
+2024-03-19 12:12:05,830 - 8800/20000, perceptual loss = 0.0262, discriminator loss = 0.8910
+2024-03-19 12:12:14,276 - 8850/20000, perceptual loss = 0.0264, discriminator loss = 0.5901
+2024-03-19 12:12:22,733 - 8900/20000, perceptual loss = 0.0254, discriminator loss = 0.6116
+2024-03-19 12:12:31,159 - 8950/20000, perceptual loss = 0.0283, discriminator loss = 0.7163
+2024-03-19 12:12:39,616 - 9000/20000, perceptual loss = 0.0286, discriminator loss = 0.7166
+2024-03-19 12:12:48,057 - 9050/20000, perceptual loss = 0.0290, discriminator loss = 0.4677
+2024-03-19 12:12:56,486 - 9100/20000, perceptual loss = 0.0276, discriminator loss = 0.7200
+2024-03-19 12:13:04,989 - 9150/20000, perceptual loss = 0.0264, discriminator loss = 0.6430
+2024-03-19 12:13:13,415 - 9200/20000, perceptual loss = 0.0277, discriminator loss = 0.6000
+2024-03-19 12:13:21,877 - 9250/20000, perceptual loss = 0.0274, discriminator loss = 0.7800
+2024-03-19 12:13:30,319 - 9300/20000, perceptual loss = 0.0269, discriminator loss = 0.4879
+2024-03-19 12:13:38,781 - 9350/20000, perceptual loss = 0.0282, discriminator loss = 0.6167
+2024-03-19 12:13:47,207 - 9400/20000, perceptual loss = 0.0281, discriminator loss = 0.5539
+2024-03-19 12:13:55,667 - 9450/20000, perceptual loss = 0.0278, discriminator loss = 0.6123
+2024-03-19 12:14:04,110 - 9500/20000, perceptual loss = 0.0275, discriminator loss = 0.6373
+2024-03-19 12:14:12,572 - 9550/20000, perceptual loss = 0.0258, discriminator loss = 0.8499
+2024-03-19 12:14:21,007 - 9600/20000, perceptual loss = 0.0268, discriminator loss = 0.7296
+2024-03-19 12:14:29,452 - 9650/20000, perceptual loss = 0.0260, discriminator loss = 0.5832
+2024-03-19 12:14:37,876 - 9700/20000, perceptual loss = 0.0272, discriminator loss = 0.4396
+2024-03-19 12:14:46,337 - 9750/20000, perceptual loss = 0.0290, discriminator loss = 0.6333
+2024-03-19 12:14:54,777 - 9800/20000, perceptual loss = 0.0251, discriminator loss = 0.5395
+2024-03-19 12:15:03,241 - 9850/20000, perceptual loss = 0.0263, discriminator loss = 0.5469
+2024-03-19 12:15:11,683 - 9900/20000, perceptual loss = 0.0306, discriminator loss = 0.5483
+2024-03-19 12:15:20,139 - 9950/20000, perceptual loss = 0.0278, discriminator loss = 0.5988
+2024-03-19 12:15:28,577 - 10000/20000, perceptual loss = 0.0260, discriminator loss = 0.8680
+2024-03-19 12:15:37,034 - 10050/20000, perceptual loss = 0.0254, discriminator loss = 0.8399
+2024-03-19 12:15:45,471 - 10100/20000, perceptual loss = 0.0267, discriminator loss = 0.6346
+2024-03-19 12:15:53,890 - 10150/20000, perceptual loss = 0.0273, discriminator loss = 0.4065
+2024-03-19 12:16:02,295 - 10200/20000, perceptual loss = 0.0278, discriminator loss = 0.6542
+2024-03-19 12:16:10,714 - 10250/20000, perceptual loss = 0.0275, discriminator loss = 0.3617
+2024-03-19 12:16:19,113 - 10300/20000, perceptual loss = 0.0264, discriminator loss = 0.5011
+2024-03-19 12:16:27,532 - 10350/20000, perceptual loss = 0.0282, discriminator loss = 0.6502
+2024-03-19 12:16:35,933 - 10400/20000, perceptual loss = 0.0268, discriminator loss = 0.8258
+2024-03-19 12:16:44,351 - 10450/20000, perceptual loss = 0.0257, discriminator loss = 0.7102
+2024-03-19 12:16:52,753 - 10500/20000, perceptual loss = 0.0271, discriminator loss = 0.5820
+2024-03-19 12:17:01,173 - 10550/20000, perceptual loss = 0.0260, discriminator loss = 0.5633
+2024-03-19 12:17:09,578 - 10600/20000, perceptual loss = 0.0260, discriminator loss = 0.5562
+2024-03-19 12:17:18,002 - 10650/20000, perceptual loss = 0.0259, discriminator loss = 0.4251
+2024-03-19 12:17:26,404 - 10700/20000, perceptual loss = 0.0275, discriminator loss = 0.5139
+2024-03-19 12:17:34,823 - 10750/20000, perceptual loss = 0.0274, discriminator loss = 0.3750
+2024-03-19 12:17:43,237 - 10800/20000, perceptual loss = 0.0268, discriminator loss = 0.6351
+2024-03-19 12:17:51,684 - 10850/20000, perceptual loss = 0.0268, discriminator loss = 0.4554
+2024-03-19 12:18:00,101 - 10900/20000, perceptual loss = 0.0274, discriminator loss = 0.6593
+2024-03-19 12:18:08,532 - 10950/20000, perceptual loss = 0.0273, discriminator loss = 0.5671
+2024-03-19 12:18:16,945 - 11000/20000, perceptual loss = 0.0268, discriminator loss = 0.3589
+2024-03-19 12:18:25,407 - 11050/20000, perceptual loss = 0.0263, discriminator loss = 0.6946
+2024-03-19 12:18:33,840 - 11100/20000, perceptual loss = 0.0260, discriminator loss = 0.4441
+2024-03-19 12:18:42,301 - 11150/20000, perceptual loss = 0.0264, discriminator loss = 0.5094
+2024-03-19 12:18:50,720 - 11200/20000, perceptual loss = 0.0271, discriminator loss = 0.7302
+2024-03-19 12:18:59,190 - 11250/20000, perceptual loss = 0.0257, discriminator loss = 0.7095
+2024-03-19 12:19:07,630 - 11300/20000, perceptual loss = 0.0250, discriminator loss = 0.5850
+2024-03-19 12:19:16,093 - 11350/20000, perceptual loss = 0.0250, discriminator loss = 0.5641
+2024-03-19 12:19:24,536 - 11400/20000, perceptual loss = 0.0241, discriminator loss = 0.6238
+2024-03-19 12:19:33,001 - 11450/20000, perceptual loss = 0.0264, discriminator loss = 0.6581
+2024-03-19 12:19:41,447 - 11500/20000, perceptual loss = 0.0263, discriminator loss = 0.5547
+2024-03-19 12:19:49,911 - 11550/20000, perceptual loss = 0.0245, discriminator loss = 0.5537
+2024-03-19 12:19:58,359 - 11600/20000, perceptual loss = 0.0261, discriminator loss = 0.2861
+2024-03-19 12:20:06,817 - 11650/20000, perceptual loss = 0.0264, discriminator loss = 0.8283
+2024-03-19 12:20:15,227 - 11700/20000, perceptual loss = 0.0267, discriminator loss = 0.6051
+2024-03-19 12:20:23,669 - 11750/20000, perceptual loss = 0.0267, discriminator loss = 0.6055
+2024-03-19 12:20:32,088 - 11800/20000, perceptual loss = 0.0261, discriminator loss = 0.6203
+2024-03-19 12:20:40,526 - 11850/20000, perceptual loss = 0.0250, discriminator loss = 0.4777
+2024-03-19 12:20:48,947 - 11900/20000, perceptual loss = 0.0253, discriminator loss = 0.6898
+2024-03-19 12:20:57,405 - 11950/20000, perceptual loss = 0.0258, discriminator loss = 0.3941
+2024-03-19 12:21:05,845 - 12000/20000, perceptual loss = 0.0258, discriminator loss = 0.4809
+2024-03-19 12:21:14,303 - 12050/20000, perceptual loss = 0.0270, discriminator loss = 0.6213
+2024-03-19 12:21:22,745 - 12100/20000, perceptual loss = 0.0263, discriminator loss = 0.5779
+2024-03-19 12:21:31,205 - 12150/20000, perceptual loss = 0.0249, discriminator loss = 0.6528
+2024-03-19 12:21:39,647 - 12200/20000, perceptual loss = 0.0261, discriminator loss = 0.4918
+2024-03-19 12:21:48,107 - 12250/20000, perceptual loss = 0.0260, discriminator loss = 0.5920
+2024-03-19 12:21:56,550 - 12300/20000, perceptual loss = 0.0252, discriminator loss = 0.8723
+2024-03-19 12:22:05,011 - 12350/20000, perceptual loss = 0.0258, discriminator loss = 0.4262
+2024-03-19 12:22:13,448 - 12400/20000, perceptual loss = 0.0268, discriminator loss = 0.4821
+2024-03-19 12:22:21,906 - 12450/20000, perceptual loss = 0.0257, discriminator loss = 0.3687
+2024-03-19 12:22:30,347 - 12500/20000, perceptual loss = 0.0260, discriminator loss = 0.6809
+2024-03-19 12:22:38,808 - 12550/20000, perceptual loss = 0.0249, discriminator loss = 0.4982
+2024-03-19 12:22:47,249 - 12600/20000, perceptual loss = 0.0260, discriminator loss = 0.3971
+2024-03-19 12:22:55,708 - 12650/20000, perceptual loss = 0.0263, discriminator loss = 0.6386
+2024-03-19 12:23:04,146 - 12700/20000, perceptual loss = 0.0262, discriminator loss = 0.6646
+2024-03-19 12:23:12,600 - 12750/20000, perceptual loss = 0.0244, discriminator loss = 0.5506
+2024-03-19 12:23:21,019 - 12800/20000, perceptual loss = 0.0252, discriminator loss = 0.5023
+2024-03-19 12:23:29,480 - 12850/20000, perceptual loss = 0.0253, discriminator loss = 0.4745
+2024-03-19 12:23:37,922 - 12900/20000, perceptual loss = 0.0254, discriminator loss = 0.5377
+2024-03-19 12:23:46,384 - 12950/20000, perceptual loss = 0.0278, discriminator loss = 0.8836
+2024-03-19 12:23:54,825 - 13000/20000, perceptual loss = 0.0248, discriminator loss = 0.6218
+2024-03-19 12:24:03,282 - 13050/20000, perceptual loss = 0.0263, discriminator loss = 0.5119
+2024-03-19 12:24:11,723 - 13100/20000, perceptual loss = 0.0246, discriminator loss = 0.5421
+2024-03-19 12:24:20,181 - 13150/20000, perceptual loss = 0.0255, discriminator loss = 0.5307
+2024-03-19 12:24:28,618 - 13200/20000, perceptual loss = 0.0256, discriminator loss = 0.3935
+2024-03-19 12:24:37,073 - 13250/20000, perceptual loss = 0.0249, discriminator loss = 0.4060
+2024-03-19 12:24:45,510 - 13300/20000, perceptual loss = 0.0268, discriminator loss = 0.5804
+2024-03-19 12:24:53,969 - 13350/20000, perceptual loss = 0.0258, discriminator loss = 1.0033
+2024-03-19 12:25:02,407 - 13400/20000, perceptual loss = 0.0243, discriminator loss = 0.7630
+2024-03-19 12:25:10,864 - 13450/20000, perceptual loss = 0.0261, discriminator loss = 0.5814
+2024-03-19 12:25:19,299 - 13500/20000, perceptual loss = 0.0256, discriminator loss = 0.5259
+2024-03-19 12:25:27,752 - 13550/20000, perceptual loss = 0.0251, discriminator loss = 0.5212
+2024-03-19 12:25:36,192 - 13600/20000, perceptual loss = 0.0266, discriminator loss = 0.6056
+2024-03-19 12:25:44,650 - 13650/20000, perceptual loss = 0.0265, discriminator loss = 0.4806
+2024-03-19 12:25:53,091 - 13700/20000, perceptual loss = 0.0268, discriminator loss = 0.3384
+2024-03-19 12:26:01,546 - 13750/20000, perceptual loss = 0.0256, discriminator loss = 0.4498
+2024-03-19 12:26:09,989 - 13800/20000, perceptual loss = 0.0258, discriminator loss = 0.5757
+2024-03-19 12:26:18,449 - 13850/20000, perceptual loss = 0.0248, discriminator loss = 0.5982
+2024-03-19 12:26:26,892 - 13900/20000, perceptual loss = 0.0259, discriminator loss = 0.4255
+2024-03-19 12:26:35,352 - 13950/20000, perceptual loss = 0.0266, discriminator loss = 0.7566
+2024-03-19 12:26:43,791 - 14000/20000, perceptual loss = 0.0237, discriminator loss = 1.0806
+2024-03-19 12:26:52,265 - 14050/20000, perceptual loss = 0.0241, discriminator loss = 0.4400
+2024-03-19 12:27:00,716 - 14100/20000, perceptual loss = 0.0241, discriminator loss = 0.5539
+2024-03-19 12:27:09,178 - 14150/20000, perceptual loss = 0.0229, discriminator loss = 0.4583
+2024-03-19 12:27:17,627 - 14200/20000, perceptual loss = 0.0247, discriminator loss = 0.5503
+2024-03-19 12:27:26,094 - 14250/20000, perceptual loss = 0.0253, discriminator loss = 0.8145
+2024-03-19 12:27:34,539 - 14300/20000, perceptual loss = 0.0259, discriminator loss = 0.7715
+2024-03-19 12:27:42,999 - 14350/20000, perceptual loss = 0.0238, discriminator loss = 0.5116
+2024-03-19 12:27:51,449 - 14400/20000, perceptual loss = 0.0248, discriminator loss = 0.5190
+2024-03-19 12:27:59,911 - 14450/20000, perceptual loss = 0.0241, discriminator loss = 0.6122
+2024-03-19 12:28:08,350 - 14500/20000, perceptual loss = 0.0245, discriminator loss = 0.5544
+2024-03-19 12:28:16,785 - 14550/20000, perceptual loss = 0.0248, discriminator loss = 0.6607
+2024-03-19 12:28:25,228 - 14600/20000, perceptual loss = 0.0244, discriminator loss = 0.4146
+2024-03-19 12:28:33,687 - 14650/20000, perceptual loss = 0.0247, discriminator loss = 0.7180
+2024-03-19 12:28:42,129 - 14700/20000, perceptual loss = 0.0242, discriminator loss = 0.7724
+2024-03-19 12:28:50,577 - 14750/20000, perceptual loss = 0.0232, discriminator loss = 0.4785
+2024-03-19 12:28:59,017 - 14800/20000, perceptual loss = 0.0255, discriminator loss = 0.5509
+2024-03-19 12:29:07,478 - 14850/20000, perceptual loss = 0.0254, discriminator loss = 0.4445
+2024-03-19 12:29:15,918 - 14900/20000, perceptual loss = 0.0253, discriminator loss = 0.3305
+2024-03-19 12:29:24,357 - 14950/20000, perceptual loss = 0.0248, discriminator loss = 0.7968
+2024-03-19 12:29:32,800 - 15000/20000, perceptual loss = 0.0249, discriminator loss = 0.5521
+2024-03-19 12:29:41,237 - 15050/20000, perceptual loss = 0.0250, discriminator loss = 0.5396
+2024-03-19 12:29:49,656 - 15100/20000, perceptual loss = 0.0240, discriminator loss = 0.6180
+2024-03-19 12:29:58,117 - 15150/20000, perceptual loss = 0.0237, discriminator loss = 0.5563
+2024-03-19 12:30:06,547 - 15200/20000, perceptual loss = 0.0262, discriminator loss = 0.4691
+2024-03-19 12:30:14,983 - 15250/20000, perceptual loss = 0.0258, discriminator loss = 0.7140
+2024-03-19 12:30:23,410 - 15300/20000, perceptual loss = 0.0254, discriminator loss = 0.5342
+2024-03-19 12:30:31,872 - 15350/20000, perceptual loss = 0.0236, discriminator loss = 0.6200
+2024-03-19 12:30:40,330 - 15400/20000, perceptual loss = 0.0246, discriminator loss = 0.6526
+2024-03-19 12:30:48,832 - 15450/20000, perceptual loss = 0.0241, discriminator loss = 0.4634
+2024-03-19 12:30:57,266 - 15500/20000, perceptual loss = 0.0245, discriminator loss = 0.8172
+2024-03-19 12:31:05,708 - 15550/20000, perceptual loss = 0.0237, discriminator loss = 0.5671
+2024-03-19 12:31:14,141 - 15600/20000, perceptual loss = 0.0249, discriminator loss = 0.6298
+2024-03-19 12:31:22,586 - 15650/20000, perceptual loss = 0.0243, discriminator loss = 0.6237
+2024-03-19 12:31:31,028 - 15700/20000, perceptual loss = 0.0239, discriminator loss = 0.5964
+2024-03-19 12:31:39,484 - 15750/20000, perceptual loss = 0.0292, discriminator loss = 0.7114
+2024-03-19 12:31:47,908 - 15800/20000, perceptual loss = 0.0243, discriminator loss = 0.5715
+2024-03-19 12:31:56,365 - 15850/20000, perceptual loss = 0.0248, discriminator loss = 0.6576
+2024-03-19 12:32:04,804 - 15900/20000, perceptual loss = 0.0242, discriminator loss = 0.3042
+2024-03-19 12:32:13,266 - 15950/20000, perceptual loss = 0.0257, discriminator loss = 0.5333
+2024-03-19 12:32:21,705 - 16000/20000, perceptual loss = 0.0257, discriminator loss = 0.6082
+2024-03-19 12:32:30,159 - 16050/20000, perceptual loss = 0.0249, discriminator loss = 0.8259
+2024-03-19 12:32:38,578 - 16100/20000, perceptual loss = 0.0241, discriminator loss = 0.5390
+2024-03-19 12:32:47,041 - 16150/20000, perceptual loss = 0.0245, discriminator loss = 0.5373
+2024-03-19 12:32:55,481 - 16200/20000, perceptual loss = 0.0243, discriminator loss = 0.4568
+2024-03-19 12:33:03,941 - 16250/20000, perceptual loss = 0.0250, discriminator loss = 0.8729
+2024-03-19 12:33:12,377 - 16300/20000, perceptual loss = 0.0244, discriminator loss = 0.4747
+2024-03-19 12:33:20,819 - 16350/20000, perceptual loss = 0.0236, discriminator loss = 0.5196
+2024-03-19 12:33:29,245 - 16400/20000, perceptual loss = 0.0229, discriminator loss = 0.5097
+2024-03-19 12:33:37,705 - 16450/20000, perceptual loss = 0.0249, discriminator loss = 0.6038
+2024-03-19 12:33:46,141 - 16500/20000, perceptual loss = 0.0257, discriminator loss = 0.7147
+2024-03-19 12:33:54,583 - 16550/20000, perceptual loss = 0.0238, discriminator loss = 0.4657
+2024-03-19 12:34:03,022 - 16600/20000, perceptual loss = 0.0253, discriminator loss = 0.6493
+2024-03-19 12:34:11,481 - 16650/20000, perceptual loss = 0.0243, discriminator loss = 0.6213
+2024-03-19 12:34:19,921 - 16700/20000, perceptual loss = 0.0235, discriminator loss = 0.7457
+2024-03-19 12:34:28,386 - 16750/20000, perceptual loss = 0.0241, discriminator loss = 0.5553
+2024-03-19 12:34:36,827 - 16800/20000, perceptual loss = 0.0244, discriminator loss = 0.4551
+2024-03-19 12:34:45,285 - 16850/20000, perceptual loss = 0.0229, discriminator loss = 0.5948
+2024-03-19 12:34:53,727 - 16900/20000, perceptual loss = 0.0241, discriminator loss = 0.6193
+2024-03-19 12:35:02,187 - 16950/20000, perceptual loss = 0.0240, discriminator loss = 0.5706
+2024-03-19 12:35:10,630 - 17000/20000, perceptual loss = 0.0229, discriminator loss = 0.9382
+2024-03-19 12:35:19,066 - 17050/20000, perceptual loss = 0.0242, discriminator loss = 0.7640
+2024-03-19 12:35:27,488 - 17100/20000, perceptual loss = 0.0242, discriminator loss = 0.7731
+2024-03-19 12:35:35,929 - 17150/20000, perceptual loss = 0.0237, discriminator loss = 0.6798
+2024-03-19 12:35:44,331 - 17200/20000, perceptual loss = 0.0237, discriminator loss = 0.7544
+2024-03-19 12:35:52,795 - 17250/20000, perceptual loss = 0.0228, discriminator loss = 0.7174
+2024-03-19 12:36:01,240 - 17300/20000, perceptual loss = 0.0234, discriminator loss = 0.6224
+2024-03-19 12:36:09,702 - 17350/20000, perceptual loss = 0.0230, discriminator loss = 0.6484
+2024-03-19 12:36:18,117 - 17400/20000, perceptual loss = 0.0237, discriminator loss = 0.5715
+2024-03-19 12:36:26,577 - 17450/20000, perceptual loss = 0.0238, discriminator loss = 0.7379
+2024-03-19 12:36:35,021 - 17500/20000, perceptual loss = 0.0228, discriminator loss = 0.7918
+2024-03-19 12:36:43,481 - 17550/20000, perceptual loss = 0.0218, discriminator loss = 0.6783
+2024-03-19 12:36:51,898 - 17600/20000, perceptual loss = 0.0243, discriminator loss = 0.4381
+2024-03-19 12:37:00,313 - 17650/20000, perceptual loss = 0.0237, discriminator loss = 0.6545
+2024-03-19 12:37:08,715 - 17700/20000, perceptual loss = 0.0236, discriminator loss = 0.7028
+2024-03-19 12:37:17,133 - 17750/20000, perceptual loss = 0.0224, discriminator loss = 0.4335
+2024-03-19 12:37:25,572 - 17800/20000, perceptual loss = 0.0246, discriminator loss = 0.4405
+2024-03-19 12:37:34,018 - 17850/20000, perceptual loss = 0.0246, discriminator loss = 0.6125
+2024-03-19 12:37:42,423 - 17900/20000, perceptual loss = 0.0273, discriminator loss = 0.5304
+2024-03-19 12:37:50,842 - 17950/20000, perceptual loss = 0.0244, discriminator loss = 0.7236
+2024-03-19 12:37:59,243 - 18000/20000, perceptual loss = 0.0252, discriminator loss = 0.4827
+2024-03-19 12:38:07,668 - 18050/20000, perceptual loss = 0.0246, discriminator loss = 0.6069
+2024-03-19 12:38:16,101 - 18100/20000, perceptual loss = 0.0248, discriminator loss = 0.7548
+2024-03-19 12:38:24,524 - 18150/20000, perceptual loss = 0.0239, discriminator loss = 0.4102
+2024-03-19 12:38:32,922 - 18200/20000, perceptual loss = 0.0247, discriminator loss = 0.4427
+2024-03-19 12:38:41,371 - 18250/20000, perceptual loss = 0.0230, discriminator loss = 0.6386
+2024-03-19 12:38:49,776 - 18300/20000, perceptual loss = 0.0234, discriminator loss = 0.6038
+2024-03-19 12:38:58,192 - 18350/20000, perceptual loss = 0.0230, discriminator loss = 0.5788
+2024-03-19 12:39:06,590 - 18400/20000, perceptual loss = 0.0245, discriminator loss = 0.5692
+2024-03-19 12:39:15,007 - 18450/20000, perceptual loss = 0.0246, discriminator loss = 0.5948
+2024-03-19 12:39:23,400 - 18500/20000, perceptual loss = 0.0230, discriminator loss = 0.6341
+2024-03-19 12:39:31,810 - 18550/20000, perceptual loss = 0.0245, discriminator loss = 0.4659
+2024-03-19 12:39:40,208 - 18600/20000, perceptual loss = 0.0248, discriminator loss = 0.4403
+2024-03-19 12:39:48,649 - 18650/20000, perceptual loss = 0.0250, discriminator loss = 0.5540
+2024-03-19 12:39:57,090 - 18700/20000, perceptual loss = 0.0229, discriminator loss = 0.5491
+2024-03-19 12:40:05,545 - 18750/20000, perceptual loss = 0.0238, discriminator loss = 0.7424
+2024-03-19 12:40:13,957 - 18800/20000, perceptual loss = 0.0230, discriminator loss = 0.5348
+2024-03-19 12:40:22,393 - 18850/20000, perceptual loss = 0.0237, discriminator loss = 0.5532
+2024-03-19 12:40:30,791 - 18900/20000, perceptual loss = 0.0231, discriminator loss = 0.7420
+2024-03-19 12:40:39,204 - 18950/20000, perceptual loss = 0.0215, discriminator loss = 0.5009
+2024-03-19 12:40:47,597 - 19000/20000, perceptual loss = 0.0235, discriminator loss = 0.6357
+2024-03-19 12:40:56,013 - 19050/20000, perceptual loss = 0.0234, discriminator loss = 0.6317
+2024-03-19 12:41:04,406 - 19100/20000, perceptual loss = 0.0227, discriminator loss = 0.5100
+2024-03-19 12:41:12,819 - 19150/20000, perceptual loss = 0.0243, discriminator loss = 0.4017
+2024-03-19 12:41:21,212 - 19200/20000, perceptual loss = 0.0259, discriminator loss = 0.8113
+2024-03-19 12:41:29,626 - 19250/20000, perceptual loss = 0.0228, discriminator loss = 0.8198
+2024-03-19 12:41:38,020 - 19300/20000, perceptual loss = 0.0236, discriminator loss = 0.7241
+2024-03-19 12:41:46,430 - 19350/20000, perceptual loss = 0.0226, discriminator loss = 0.4796
+2024-03-19 12:41:54,825 - 19400/20000, perceptual loss = 0.0236, discriminator loss = 0.6592
+2024-03-19 12:42:03,241 - 19450/20000, perceptual loss = 0.0243, discriminator loss = 0.4905
+2024-03-19 12:42:11,633 - 19500/20000, perceptual loss = 0.0240, discriminator loss = 0.5319
+2024-03-19 12:42:20,045 - 19550/20000, perceptual loss = 0.0231, discriminator loss = 0.5783
+2024-03-19 12:42:28,438 - 19600/20000, perceptual loss = 0.0234, discriminator loss = 1.0692
+2024-03-19 12:42:36,855 - 19650/20000, perceptual loss = 0.0231, discriminator loss = 0.7099
+2024-03-19 12:42:45,253 - 19700/20000, perceptual loss = 0.0239, discriminator loss = 0.4578
+2024-03-19 12:42:53,667 - 19750/20000, perceptual loss = 0.0258, discriminator loss = 0.4595
+2024-03-19 12:43:02,063 - 19800/20000, perceptual loss = 0.0240, discriminator loss = 0.6512
+2024-03-19 12:43:10,475 - 19850/20000, perceptual loss = 0.0233, discriminator loss = 0.5165
+2024-03-19 12:43:18,869 - 19900/20000, perceptual loss = 0.0234, discriminator loss = 0.4717
+2024-03-19 12:43:27,284 - 19950/20000, perceptual loss = 0.0237, discriminator loss = 1.0199
+2024-03-19 12:43:35,683 - 20000/20000, perceptual loss = 0.0242, discriminator loss = 0.4549
+2024-03-19 12:43:36,083 - Training finished
+2024-03-21 15:22:09,681 - 1/14, PSNR: 22.001060485839844
+2024-03-21 15:22:10,218 - 2/14, PSNR: 25.267818450927734
+2024-03-21 15:22:10,630 - 3/14, PSNR: 26.035364151000977
+2024-03-21 15:22:10,876 - 4/14, PSNR: 25.851625442504883
+2024-03-21 15:22:11,113 - 5/14, PSNR: 24.501951217651367
+2024-03-21 15:22:11,330 - 6/14, PSNR: 29.929555892944336
+2024-03-21 15:22:11,681 - 7/14, PSNR: 28.469966888427734
+2024-03-21 15:22:11,740 - 8/14, PSNR: 25.925832748413086
+2024-03-21 15:22:11,801 - 9/14, PSNR: 30.75048065185547
+2024-03-21 15:22:11,862 - 10/14, PSNR: 28.10663604736328
+2024-03-21 15:22:12,433 - 11/14, PSNR: 32.08293151855469
+2024-03-21 15:22:12,496 - 12/14, PSNR: 29.299833297729492
+2024-03-21 15:22:13,005 - 13/14, PSNR: 19.204696655273438
+2024-03-21 15:22:13,402 - 14/14, PSNR: 29.031017303466797
+2024-03-21 15:22:13,412 - PSNR in bicubic_x2_valid_dataset: 26.889911651611328
+2024-03-21 15:22:13,619 - 1/14, SSIM: 0.7627709165939089
+2024-03-21 15:22:13,857 - 2/14, SSIM: 0.8565982799139823
+2024-03-21 15:22:14,050 - 3/14, SSIM: 0.7015703554468703
+2024-03-21 15:22:14,154 - 4/14, SSIM: 0.6470313929795368
+2024-03-21 15:22:14,249 - 5/14, SSIM: 0.8390743029508537
+2024-03-21 15:22:14,340 - 6/14, SSIM: 0.8903312400694811
+2024-03-21 15:22:14,472 - 7/14, SSIM: 0.9200408891430247
+2024-03-21 15:22:14,576 - 8/14, SSIM: 0.9211247255747884
+2024-03-21 15:22:14,768 - 9/14, SSIM: 0.9809002776033575
+2024-03-21 15:22:14,961 - 10/14, SSIM: 0.7420556192476309
+2024-03-21 15:22:15,206 - 11/14, SSIM: 0.9803897867813308
+2024-03-21 15:22:15,400 - 12/14, SSIM: 0.976218046343038
+2024-03-21 15:22:15,609 - 13/14, SSIM: 0.846792740874585
+2024-03-21 15:22:15,766 - 14/14, SSIM: 0.9379664474017158
+2024-03-21 15:22:15,779 - SSIM in bicubic_x2_valid_dataset: 0.857347501494579
