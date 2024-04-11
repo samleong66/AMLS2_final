@@ -31,11 +31,29 @@ if __name__ == "__main__":
     logging.basicConfig(filename=LOG_DIR, level=logging.INFO, format='%(asctime)s - %(message)s')
 
     '''''''''
+    Evaluation
+    '''''''''
+
+    valid_dataset = load_set14(DOWNSCALE)
+    
+    gan_generator = generator()
+    gan_generator.load_weights(weights_file(f'gan_generator_{DOWNSCALE_WAY}_x{DOWNSCALE}.h5'))
+    
+    psnr_valid = evaluate(gan_generator, valid_dataset, 'psnr')
+    print(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {psnr_valid}")
+    logging.info(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {psnr_valid}")
+    
+    ssim_valid = evaluate(gan_generator, valid_dataset, 'ssim')
+    print(f"SSIM in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {ssim_valid}")
+    logging.info(f"SSIM in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {ssim_valid}")
+
+
+    '''''''''
     plot bicubic and unknown images comparison
     '''''''''   
 
-    # bicubic_img = np.array(Image.open('dataset/images/DIV2K_valid_LR_bicubic/X4/0807x4.png'))
-    # unknown_img = np.array(Image.open('dataset/images/DIV2K_valid_LR_unknown/X4/0807x4.png'))
+    # bicubic_img = np.array(Image.open('Dataset/images/DIV2K_valid_LR_bicubic/X4/0807x4.png'))
+    # unknown_img = np.array(Image.open('Dataset/images/DIV2K_valid_LR_unknown/X4/0807x4.png'))
 
     # fig = plt.figure(figsize=(12,4))
     # ax = fig.add_subplot(1,2,1)
@@ -111,24 +129,9 @@ if __name__ == "__main__":
 
 
     '''''''''
-    Evaluation
-    '''''''''
-    valid_dataset = load_set14(DOWNSCALE)
-    
-    gan_generator = generator()
-    gan_generator.load_weights(weights_file(f'gan_generator_{DOWNSCALE_WAY}_x{DOWNSCALE}.h5'))
-    
-    psnr_valid = evaluate(gan_generator, valid_dataset, 'psnr')
-    print(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {psnr_valid}")
-    logging.info(f"PSNR in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {psnr_valid}")
-    
-    ssim_valid = evaluate(gan_generator, valid_dataset, 'ssim')
-    print(f"SSIM in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {ssim_valid}")
-    logging.info(f"SSIM in {DOWNSCALE_WAY}_x{DOWNSCALE}_valid_dataset: {ssim_valid}")
-
-    '''''''''
     plot SR comparison
     '''''''''
+
     # try:
     #     fig = compare_and_plot(DOWNSCALE, DOWNSCALE_WAY, generator(), generator())
     #     fig.savefig(comparison_file(f'comparison_{DOWNSCALE_WAY}_x{DOWNSCALE}.png'))

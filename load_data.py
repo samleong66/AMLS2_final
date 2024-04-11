@@ -18,8 +18,8 @@ class DIV2K:
                  scale=2,
                  subset='train',
                  downgrade='bicubic',
-                 images_dir='dataset/images',
-                 caches_dir='dataset/caches'):
+                 images_dir='Dataset/images',
+                 caches_dir='Dataset/caches'):
 
         self._ntire_2018 = False
 
@@ -166,16 +166,15 @@ def download_archive(file, target_dir, extract=True):
 def compare_and_plot(downscale: int, downscale_way: str, pre_generator, gan_generator):
     weights_dir = 'models/weights/srgan'
     weights_file = lambda filename: os.path.join(weights_dir, filename)
-    lr_image_path = f'dataset/images/DIV2K_valid_LR_{downscale_way}/X{downscale}'
-    hr_image_path = r'dataset/images/DIV2K_valid_HR'
+    lr_image_path = f'Dataset/images/DIV2K_valid_LR_{downscale_way}/X{downscale}'
+    hr_image_path = r'Dataset/images/DIV2K_valid_HR'
 
-    # num = numpy.random.randint(801, 900)
     num = 897
     lr_img = np.array(Image.open(lr_image_path + '/0' + str(num) + f'x{downscale}.png'))
     hr_img = np.array(Image.open(hr_image_path + '/0' + str(num) + '.png'))
 
-    pre_generator.load_weights(weights_file(f'pre_generator_x{downscale}.h5'))
-    gan_generator.load_weights(weights_file(f'gan_generator_x{downscale}.h5'))
+    pre_generator.load_weights(weights_file(f'pre_generator_bicubic_x{downscale}.h5'))
+    gan_generator.load_weights(weights_file(f'gan_generator_bicubic_x{downscale}.h5'))
 
     gan_sr = resolve_single(gan_generator, lr_img)
     pre_sr = resolve_single(pre_generator, lr_img)
@@ -185,6 +184,7 @@ def compare_and_plot(downscale: int, downscale_way: str, pre_generator, gan_gene
     images = [lr_img, pre_sr, gan_sr, hr_img]
     titles = ['LR', 'SR (PRE)', 'SR (GAN)', 'HR']
     positions = [1, 2, 3, 4]
+
 
     for i, (img, title, pos) in enumerate(zip(images, titles, positions)):
         ogsize = 30
@@ -233,7 +233,7 @@ def compare_and_plot(downscale: int, downscale_way: str, pre_generator, gan_gene
     
 def download_set14():
     url = 'https://uofi.box.com/shared/static/igsnfieh4lz68l926l8xbklwsnnk8we9.zip'
-    target_dir = 'dataset/images'
+    target_dir = 'Dataset/images'
 
     # Create target directory if it doesn't exist
     if not os.path.exists(target_dir):
@@ -259,7 +259,7 @@ def download_set14():
     print("Downloaded and extracted successfully!")
 
 def load_set14(scale):
-    images_dir = f'dataset/images/Set14/image_SRF_{scale}'
+    images_dir = f'Dataset/images/Set14/image_SRF_{scale}'
     lr_image_files = [os.path.join(images_dir, f'img_0{str(id).zfill(2)}_SRF_{scale}_LR.png') for id in range(1, 15)]
     hr_image_files = [os.path.join(images_dir, f'img_0{str(id).zfill(2)}_SRF_{scale}_HR.png') for id in range(1, 15)]
     lr_ds = tf.data.Dataset.from_tensor_slices(lr_image_files)
