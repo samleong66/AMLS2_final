@@ -10,7 +10,7 @@ from config import DOWNSCALE, DOWNSCALE_WAY, WEIGHT_DIR, COMPARISON_DIR, LOG_DIR
 import matplotlib.pyplot as plt
 from PIL import Image
 import numpy as np
-from load_data import compare_and_plot, load_set14
+from load_data import compare_and_plot, load_set14, download_set14
 import cv2 as cv
 
 # Location of model weights (needed for demo)
@@ -33,7 +33,8 @@ if __name__ == "__main__":
     '''''''''
     Evaluation
     '''''''''
-
+    
+    # download_set14()
     valid_dataset = load_set14(DOWNSCALE)
     
     gan_generator = generator()
